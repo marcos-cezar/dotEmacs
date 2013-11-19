@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- package-install
  find-grep
+ package-install
  package-list-packages
  grep
  shell-command-on-region
  shell-command
- js2r-extract-function
+ compile
 )
 
 ;; ----- smex-data -----
@@ -15,7 +15,7 @@
  (package-install . 66)
  (package-list-packages . 48)
  (paredit-mode . 8)
- (find-grep . 40)
+ (find-grep . 41)
  (textmate-mode . 8)
  (imenu . 1)
  (find-file-in-project . 1)
