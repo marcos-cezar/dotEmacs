@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: title
+# key: doc_title
+# --
+#+TITLE: ${1:This is the title of the document}

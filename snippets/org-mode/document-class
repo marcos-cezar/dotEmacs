@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: document-class
+# key: ltx_class
+# --
+#+LaTeX_CLASS: ${1:koma-article}
