@@ -2,12 +2,12 @@
 ;; ----- smex-history -----
 (
  find-grep
- package-install
- package-list-packages
- grep
- shell-command-on-region
- shell-command
- compile
+ esk-eval-and-replace
+ eval-expression
+ eval-print-last-sexp
+ eval-region
+ magit-push
+ magit-commit
 )
 
 ;; ----- smex-data -----
@@ -15,7 +15,7 @@
  (package-install . 66)
  (package-list-packages . 48)
  (paredit-mode . 8)
- (find-grep . 41)
+ (find-grep . 42)
  (textmate-mode . 8)
  (imenu . 1)
  (find-file-in-project . 1)
@@ -130,11 +130,16 @@
  (magit-git-command . 2)
  (magit-fetch . 3)
  (transpose-sexps . 2)
- (esk-eval-and-replace . 2)
+ (esk-eval-and-replace . 4)
  (smart-up . 1)
  (js2-mode . 2)
  (js2r-extract-function . 1)
  (shell-command . 1)
  (shell-command-on-region . 1)
  (grep . 1)
+ (magit-commit . 1)
+ (magit-push . 2)
+ (eval-region . 2)
+ (eval-print-last-sexp . 1)
+ (eval-expression . 1)
 )

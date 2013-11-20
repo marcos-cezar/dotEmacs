@@ -202,3 +202,5 @@
 (require 'js2-refactor)
 (require 'wgrep)
 (put 'set-goal-column 'disabled nil)
+
+(require 'keybindings)
