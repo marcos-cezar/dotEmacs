@@ -33,40 +33,6 @@
 (autoload 'flycheck-mode "setup-flycheck" nil t)
 (autoload 'auto-complete-mode "auto-complete" nil t)
 
-;; Install extensions if they're missing
-;; (defun init--install-packages ()
-;;   (packages-install
-;;    '(magit
-;;      paredit
-;;      move-text
-;;      god-mode
-;;      gist
-;;      htmlize
-;;      visual-regexp
-;;      flycheck
-;;      flx
-;;      flx-ido
-;;      smartparens
-;;      ido-vertical-mode
-;;      ido-at-point
-;;      simple-httpd
-;;      guide-key
-;;      nodejs-repl
-;;      restclient
-;;      highlight-escape-sequences
-;;      elisp-slime-nav
-;;      git-commit-mode
-;;      gitconfig-mode
-;;      gitignore-mode
-;;      clojure-mode
-;;      nrepl)))
-
-;; (condition-case nil
-;;     (init--install-packages)
-;;   (error
-;;    (package-refresh-contents)
-;;    (init--install-packages)))
-
 (add-to-list 'load-path emacs-home)
 
 (eval-after-load 'ido '(require 'setup-ido))
@@ -105,6 +71,8 @@
 (define-key global-map (kbd "M-/") 'vr/replace)
 
 (require 'expand-region)
+(global-set-key (kbd "C-@") 'er/expand-region)
+
 (require 'multiple-cursors)
 (require 'jump-char)
 (require 'eproject)
@@ -151,11 +119,14 @@
 (add-to-list 'load-path (concat vendor-path "delsel"))
 (require 'delsel)
 
+
 (autoload
   'ace-jump-mode
   "ace-jump-mode"
   "Emacs quick move minor mode"
   t)
+;; you can select the key you prefer to
+(define-key global-map (kbd "C-c SPC") 'ace-jump-mode)
 
 
 (require 'auto-complete-config)
@@ -204,3 +175,25 @@
 (put 'set-goal-column 'disabled nil)
 
 (require 'keybindings)
+
+
+(custom-set-variables
+  '(ac-etags-requires 1))
+
+(eval-after-load "etags"
+  '(progn
+      (ac-etags-setup)))
+
+(add-hook 'c-mode-common-hook 'ac-etags-ac-setup)
+(add-hook 'ruby-mode-common-hook 'ac-etags-ac-setup)
+
+(defadvice find-tag (before c-tag-file activate) 
+  "Automatically create tags file."
+  (let ((tag-file (concat default-directory "TAGS")))
+    (unless (file-exists-p tag-file)
+      (shell-command "etags *.[ch] *.java -o TAGS 2>/dev/null"))
+    (visit-tags-table tag-file)))
+
+;; (require 'ahg)
+
+(setq c-default-style "k&r" c-basic-offset 4)

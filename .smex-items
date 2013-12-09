@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
+ c-set-style
  find-grep
- esk-eval-and-replace
- eval-expression
- eval-print-last-sexp
- eval-region
- magit-push
- magit-commit
+ package-list-packages
+ regexp-builder
+ mc/mark-next-like-this
+ wgrep-exit
+ mc/mark-all-like-this
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 66)
- (package-list-packages . 48)
+ (package-install . 67)
+ (package-list-packages . 50)
  (paredit-mode . 8)
- (find-grep . 42)
+ (find-grep . 57)
  (textmate-mode . 8)
  (imenu . 1)
  (find-file-in-project . 1)
@@ -39,7 +39,7 @@
  (inf-ruby-mode . 9)
  (version . 1)
  (eshell . 20)
- (list-packages . 2)
+ (list-packages . 3)
  (align . 1)
  (align-regexp . 4)
  (load-theme . 14)
@@ -68,7 +68,7 @@
  (kill-word . 4)
  (ace-jump-done . 1)
  (ace-jump-move . 1)
- (ace-jump-mode . 5)
+ (ace-jump-mode . 6)
  (move-text-up . 2)
  (replace-string . 2)
  (key-chord-mode . 3)
@@ -81,12 +81,12 @@
  (gud-break . 1)
  (gud-step . 1)
  (gud-run . 1)
- (gtags-mode . 1)
+ (gtags-mode . 2)
  (projectile-mode . 1)
  (projectile-regenerate-tags . 1)
  (ctags-create-tags-table . 4)
  (ctags-update-tags-table . 1)
- (regexp-builder . 5)
+ (regexp-builder . 6)
  (menu-bar-mode . 1)
  (join-line . 5)
  (ruby-electric-mode . 1)
@@ -101,7 +101,7 @@
  (pretty-print-xml-region . 7)
  (nxml-finish-element . 2)
  (rainbow-mode . 9)
- (c-set-style . 4)
+ (c-set-style . 7)
  (google-set-c-style . 2)
  (exec-path-from-shell-copy-env . 5)
  (top . 3)
@@ -142,4 +142,13 @@
  (eval-region . 2)
  (eval-print-last-sexp . 1)
  (eval-expression . 1)
+ (customize-group . 1)
+ (ruby-end-mode . 2)
+ (comment-box . 1)
+ (comment-dwim . 1)
+ (sp-comment . 1)
+ (find-tag . 1)
+ (mc/mark-all-like-this . 1)
+ (wgrep-exit . 1)
+ (mc/mark-next-like-this . 4)
 )

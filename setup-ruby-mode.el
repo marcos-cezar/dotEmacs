@@ -25,4 +25,10 @@
 
 (define-key ruby-mode-map (kbd "C-c t") 'ruby-jump-to-other)
 
+(add-hook 'ruby-mode-hook (lambda (ruby-end-mode -1)))
+
+(require 'ruby-block)
+
+(add-hook 'ruby-mode-hook (lambda (ruby-block-mode t)))
+
 (provide 'setup-ruby-mode)
