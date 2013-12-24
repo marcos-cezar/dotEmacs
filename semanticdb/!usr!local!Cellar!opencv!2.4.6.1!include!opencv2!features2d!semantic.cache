@@ -1,0 +1,665 @@
+;; Object features2d/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "features2d/"
+  :tables (list 
+   (semanticdb-table "features2d.hpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("__OPENCV_FEATURES_2D_HPP__" variable (:constant-flag t) nil [2201 2227])
+            ("opencv2/core/core.hpp" include nil nil [2229 2261])
+            ("opencv2/flann/miniflann.hpp" include nil nil [2262 2300])
+            ("limits" include (:system-flag t) nil [2321 2338])
+            ("cv" type
+               (:members 
+                  ( ("initModule_features2d" function
+                       (:prototype-flag t
+                        :type "bool")
+                        (reparse-symbol namespacesubparts) [2367 2396])
+                    ("KeyPoint" variable (:type ("CV_EXPORTS_W_SIMPLE" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [3077 5467])
+                    ("write" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("fs" variable
+                               (:reference 1
+                                :type ("FileStorage" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5542 5558])
+                            ("name" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5559 5578])
+                            ("keypoints" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("KeyPoint" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [5579 5613]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [5531 5614])
+                    ("read" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("node" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("FileNode" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [5703 5724])
+                            ("vector" variable (:type ("CV_OUT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5725 5749])
+                            ("" variable (:type ("keypoints" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5750 5760]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [5693 5761])
+                    ("KeyPointsFilter" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [5985 6889])
+                    ("Algorithm" variable
+                       (:typemodifiers ("virtual")
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [7088 8607])
+                    ("Algorithm" variable
+                       (:typemodifiers ("virtual")
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [9105 10720])
+                    ("DescriptorExtractor" variable (:type "int") (reparse-symbol namespacesubparts) [10877 11804])
+                    ("Feature2D" variable
+                       (:dereference 1
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [11870 15838])
+                    ("Feature2D" variable (:type "int") (reparse-symbol namespacesubparts) [15901 17244])
+                    ("OrbFeatureDetector" type
+                       (:typedef ("ORB" type (:type "class") nil nil)
+                        :superclasses "ORB"
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [17246 17277])
+                    ("OrbDescriptorExtractor" type
+                       (:typedef ("ORB" type (:type "class") nil nil)
+                        :superclasses "ORB"
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [17278 17313])
+                    ("DescriptorExtractor" variable (:type "int") (reparse-symbol namespacesubparts) [17377 20548])
+                    ("FeatureDetector" variable (:type "int") (reparse-symbol namespacesubparts) [20879 21795])
+                    ("MserFeatureDetector" type
+                       (:typedef ("MSER" type (:type "class") nil nil)
+                        :superclasses "MSER"
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [21797 21830])
+                    ("FeatureDetector" variable (:type "int") (reparse-symbol namespacesubparts) [21974 22682])
+                    ("FAST" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("image" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22760 22777])
+                            ("vector" variable (:type ("CV_OUT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22778 22802])
+                            ("" variable (:type ("keypoints" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22803 22813])
+                            ("threshold" variable (:type "int") (reparse-symbol arg-sub-list) [22836 22850])
+                            ("nonmaxSupression" variable (:type "bool") (reparse-symbol arg-sub-list) [22851 22873])
+                            ("" variable (:type ("true" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22873 22879]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [22749 22880])
+                    ("FASTX" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("image" variable (:type ("InputArray" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22905 22922])
+                            ("vector" variable (:type ("CV_OUT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22923 22947])
+                            ("" variable (:type ("keypoints" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [22948 22958])
+                            ("threshold" variable (:type "int") (reparse-symbol arg-sub-list) [22981 22995])
+                            ("nonmaxSupression" variable (:type "bool") (reparse-symbol arg-sub-list) [22996 23018])
+                            ("type" variable (:type "int") (reparse-symbol arg-sub-list) [23019 23029]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [22893 23030])
+                    ("FeatureDetector" variable (:type "int") (reparse-symbol namespacesubparts) [23080 23518])
+                    ("FeatureDetector" variable (:type "int") (reparse-symbol namespacesubparts) [23562 24057])
+                    ("GoodFeaturesToTrackDetector" type
+                       (:typedef ("GFTTDetector" type (:type "class") nil nil)
+                        :superclasses "GFTTDetector"
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [24059 24108])
+                    ("StarFeatureDetector" type
+                       (:typedef ("StarDetector" type (:type "class") nil nil)
+                        :superclasses "StarDetector"
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [24109 24150])
+                    ("FeatureDetector" variable (:type "int") (reparse-symbol namespacesubparts) [24199 25587])
+                    ("FeatureDetector" variable (:type "int") (reparse-symbol namespacesubparts) [25637 26371])
+                    ("FeatureDetector" variable (:type "int") (reparse-symbol namespacesubparts) [26533 27414])
+                    ("FeatureDetector" variable (:type "int") (reparse-symbol namespacesubparts) [27619 28047])
+                    ("FeatureDetector" variable (:type "int") (reparse-symbol namespacesubparts) [28284 29179])
+                    ("FeatureDetector" variable (:type "int") (reparse-symbol namespacesubparts) [29835 30853])
+                    ("AdjusterAdapter" variable (:type "int") (reparse-symbol namespacesubparts) [31005 31676])
+                    ("AdjusterAdapter" variable (:type "int") (reparse-symbol namespacesubparts) [31898 32382])
+                    ("AdjusterAdapter" variable (:type "int") (reparse-symbol namespacesubparts) [32422 32908])
+                    ("windowedMatchingMask" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("keypoints1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("KeyPoint" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [32947 32982])
+                            ("keypoints2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("KeyPoint" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [32983 33018])
+                            ("maxDeltaX" variable (:type "float") (reparse-symbol arg-sub-list) [33056 33072])
+                            ("maxDeltaY" variable (:type "float") (reparse-symbol arg-sub-list) [33073 33090]))                          
+                        :type ("Mat" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [32921 33091])
+                    ("DescriptorExtractor" variable (:type "int") (reparse-symbol namespacesubparts) [33602 34096])
+                    ("DescriptorExtractor" variable (:type "int") (reparse-symbol namespacesubparts) [34176 34894])
+                    ("Accumulator" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol namespacesubparts) [35171 35246])
+                    ("Accumulator" type
+                       (:type "struct"
+                        :members 
+                          ( ("Type" type
+                               (:typedef ("float")
+                                :superclasses "float"
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [35296 35315]))                          
+                        :template-specifier 
+                          ( ("unsigned char" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [35248 35318])
+                    ("Accumulator" type
+                       (:type "struct"
+                        :members 
+                          ( ("Type" type
+                               (:typedef ("float")
+                                :superclasses "float"
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [35367 35386]))                          
+                        :template-specifier 
+                          ( ("unsigned short" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [35319 35389])
+                    ("Accumulator" type
+                       (:type "struct"
+                        :members 
+                          ( ("Type" type
+                               (:typedef ("float")
+                                :superclasses "float"
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [35430 35449]))                          
+                        :template-specifier 
+                          ( ("char" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [35390 35452])
+                    ("Accumulator" type
+                       (:type "struct"
+                        :members 
+                          ( ("Type" type
+                               (:typedef ("float")
+                                :superclasses "float"
+                                :type "typedef")
+                                (reparse-symbol classsubparts) [35493 35512]))                          
+                        :template-specifier 
+                          ( ("short" type nil nil nil))                          )
+                        (reparse-symbol namespacesubparts) [35453 35515])
+                    ("SL2" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol namespacesubparts) [35562 35863])
+                    ("L2" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol namespacesubparts) [35902 36225])
+                    ("L1" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol namespacesubparts) [36286 36580])
+                    ("Hamming" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol namespacesubparts) [36742 37070])
+                    ("HammingLUT" type
+                       (:typedef ("Hamming" type (:type "class") nil nil)
+                        :superclasses "Hamming"
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [37072 37099])
+                    ("HammingMultilevel" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol namespacesubparts) [37101 37437])
+                    ("DMatch" variable (:type ("CV_EXPORTS_W_SIMPLE" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol namespacesubparts) [37843 38611])
+                    ("Algorithm" variable (:type "int") (reparse-symbol namespacesubparts) [39000 44949])
+                    ("DescriptorMatcher" variable (:type "int") (reparse-symbol namespacesubparts) [45301 46026])
+                    ("DescriptorMatcher" variable (:type "int") (reparse-symbol namespacesubparts) [46105 47598])
+                    ("GenericDescriptorMatcher" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [47942 47973])
+                    ("GenericDescriptorMatch" type
+                       (:typedef ("GenericDescriptorMatcher" type (:type "class") nil nil)
+                        :superclasses "GenericDescriptorMatcher"
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [47974 48030])
+                    ("GenericDescriptorMatcher" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [48032 55401])
+                    ("VectorDescriptorMatcher" type
+                       (:prototype t
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [55790 55820])
+                    ("VectorDescriptorMatch" type
+                       (:typedef ("VectorDescriptorMatcher" type (:type "class") nil nil)
+                        :superclasses "VectorDescriptorMatcher"
+                        :type "typedef")
+                        (reparse-symbol namespacesubparts) [55821 55875])
+                    ("GenericDescriptorMatcher" variable (:type "int") (reparse-symbol namespacesubparts) [55927 57133])
+                    ("DrawMatchesFlags" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "struct")
+                          nil nil)) (reparse-symbol namespacesubparts) [57408 58310])
+                    ("drawKeypoints" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("image" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [58364 58381])
+                            ("keypoints" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("KeyPoint" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [58382 58416])
+                            ("Mat" variable (:type ("CV_OUT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [58417 58428])
+                            ("" variable (:type ("outImage" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [58429 58438])
+                            ("color" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Scalar" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [58470 58490])
+                            ("" variable (:type ("Scalar::all" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [58490 58505])
+                            ("flags" variable (:type "int") (reparse-symbol arg-sub-list) [58507 58517])
+                            ("" variable (:type ("DrawMatchesFlags::DEFAULT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [58517 58544]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [58344 58545])
+                    ("drawMatches" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("img1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [58638 58654])
+                            ("keypoints1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("KeyPoint" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [58655 58690])
+                            ("img2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [58720 58736])
+                            ("keypoints2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("KeyPoint" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [58737 58772])
+                            ("matches1to2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("DMatch" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [58802 58836])
+                            ("outImg" variable
+                               (:reference 1
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [58837 58849])
+                            ("matchColor" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Scalar" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [58879 58904])
+                            ("" variable (:type ("Scalar::all" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [58904 58919])
+                            ("singlePointColor" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Scalar" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [58921 58952])
+                            ("" variable (:type ("Scalar::all" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [58952 58967])
+                            ("matchesMask" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("char" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [58998 59030])
+                            ("" variable (:type ("vector" type
+                                 (:template-specifier 
+                                    ( ("char" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [59030 59044])
+                            ("flags" variable (:type "int") (reparse-symbol arg-sub-list) [59046 59056])
+                            ("" variable (:type ("DrawMatchesFlags::DEFAULT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [59056 59083]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [58620 59084])
+                    ("drawMatches" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("img1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [59115 59131])
+                            ("keypoints1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("KeyPoint" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [59132 59167])
+                            ("img2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [59197 59213])
+                            ("keypoints2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("KeyPoint" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [59214 59249])
+                            ("matches1to2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("vector" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [59279 59322])
+                            ("outImg" variable
+                               (:reference 1
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [59323 59335])
+                            ("matchColor" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Scalar" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [59365 59390])
+                            ("" variable (:type ("Scalar::all" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [59390 59405])
+                            ("singlePointColor" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Scalar" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [59407 59438])
+                            ("" variable (:type ("Scalar::all" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [59438 59453])
+                            ("matchesMask" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("vector" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [59484 59525])
+                            ("" variable (:type ("vector" type
+                                 (:template-specifier 
+                                    ( ("vector" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [59525 59548])
+                            ("flags" variable (:type "int") (reparse-symbol arg-sub-list) [59550 59560])
+                            ("" variable (:type ("DrawMatchesFlags::DEFAULT" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [59560 59587]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [59097 59588])
+                    ("evaluateFeatureDetector" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("img1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [59905 59921])
+                            ("img2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [59922 59938])
+                            ("H1to2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [59939 59956])
+                            ("keypoints1" variable
+                               (:pointer 1
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("KeyPoint" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [59998 60027])
+                            ("keypoints2" variable
+                               (:pointer 1
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("KeyPoint" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [60028 60057])
+                            ("repeatability" variable
+                               (:reference 1
+                                :type "float")
+                                (reparse-symbol arg-sub-list) [60099 60120])
+                            ("correspCount" variable
+                               (:reference 1
+                                :type "int")
+                                (reparse-symbol arg-sub-list) [60121 60139])
+                            ("fdetector" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Ptr" type
+                                     (:template-specifier 
+                                        ( ("FeatureDetector" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [60181 60219])
+                            ("" variable (:type ("Ptr" type
+                                 (:template-specifier 
+                                    ( ("FeatureDetector" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [60219 60241]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [59875 60244])
+                    ("computeRecallPrecisionCurve" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("matches1to2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("vector" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [60291 60334])
+                            ("correctMatches1to2Mask" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("vector" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [60380 60433])
+                            ("recallPrecisionCurve" variable
+                               (:reference 1
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("Point2f" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [60479 60518]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [60257 60519])
+                    ("getRecall" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("recallPrecisionCurve" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("Point2f" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [60549 60593])
+                            ("l_precision" variable (:type "float") (reparse-symbol arg-sub-list) [60594 60613]))                          
+                        :type "float")
+                        (reparse-symbol namespacesubparts) [60532 60614])
+                    ("getNearestPoint" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("recallPrecisionCurve" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("Point2f" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [60647 60691])
+                            ("l_precision" variable (:type "float") (reparse-symbol arg-sub-list) [60692 60711]))                          
+                        :type "int")
+                        (reparse-symbol namespacesubparts) [60626 60712])
+                    ("evaluateGenericDescriptorMatcher" function
+                       (:prototype-flag t
+                        :arguments 
+                          ( ("img1" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [60764 60780])
+                            ("img2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [60781 60797])
+                            ("H1to2" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Mat" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [60798 60815])
+                            ("keypoints1" variable
+                               (:reference 1
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("KeyPoint" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [60866 60895])
+                            ("keypoints2" variable
+                               (:reference 1
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("KeyPoint" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [60896 60925])
+                            ("matches1to2" variable
+                               (:pointer 1
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("vector" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [60976 61013])
+                            ("correctMatches1to2Mask" variable
+                               (:pointer 1
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("vector" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [61014 61061])
+                            ("recallPrecisionCurve" variable
+                               (:reference 1
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("Point2f" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [61112 61150])
+                            ("dmatch" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("Ptr" type
+                                     (:template-specifier 
+                                        ( ("GenericDescriptorMatcher" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [61201 61245])
+                            ("" variable (:type ("Ptr" type
+                                 (:template-specifier 
+                                    ( ("GenericDescriptorMatcher" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [61245 61276]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [60725 61279])
+                    ("BOWTrainer" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [61662 62291])
+                    ("BOWTrainer" variable (:type "int") (reparse-symbol namespacesubparts) [62401 62855])
+                    ("BOWImgDescriptorExtractor" variable (:type ("CV_EXPORTS" type
+                         (:prototype t
+                          :type "class")
+                          nil nil)) (reparse-symbol namespacesubparts) [62928 63688]))                  
+                :type "namespace")
+                nil [2340 63691]))          
+    :file "features2d.hpp"
+    :pointmax 63765
+    :fsize 63764
+    :lastmodtime '(20957 18988 0 0)
+    :unmatched-syntax '((PUBLIC 62394 . 62400) (punctuation 62392 . 62393) (symbol 62375 . 62391) (symbol 62364 . 62374) (CLASS 62358 . 62363) (semantic-list 61274 . 61276) (punctuation 61244 . 61245) (symbol 60714 . 60724) (symbol 60615 . 60625) (symbol 60521 . 60531) (symbol 60246 . 60256) (semantic-list 60239 . 60241) (punctuation 60218 . 60219) (symbol 59864 . 59874) (punctuation 59559 . 59560) (semantic-list 59546 . 59548) (punctuation 59524 . 59525) (semantic-list 59449 . 59453) (punctuation 59437 . 59438) (semantic-list 59401 . 59405) (punctuation 59389 . 59390) (symbol 59086 . 59096) (punctuation 59055 . 59056) (semantic-list 59042 . 59044) (punctuation 59029 . 59030) (semantic-list 58963 . 58967) (punctuation 58951 . 58952) (semantic-list 58915 . 58919) (punctuation 58903 . 58904) (symbol 58609 . 58619) (punctuation 58516 . 58517) (semantic-list 58501 . 58505) (punctuation 58489 . 58490) (punctuation 58427 . 58428) (symbol 58331 . 58343) (PUBLIC 55920 . 55926) (punctuation 55918 . 55919) (symbol 55894 . 55917) (symbol 55883 . 55893) (CLASS 55877 . 55882) (PUBLIC 46098 . 46104) (punctuation 46096 . 46097) (symbol 46078 . 46095) (symbol 46065 . 46077) (CLASS 46059 . 46064) (PUBLIC 45294 . 45300) (punctuation 45292 . 45293) (symbol 45282 . 45291) (symbol 45269 . 45281) (CLASS 45263 . 45268) (PUBLIC 38993 . 38999) (punctuation 38991 . 38992) (symbol 38973 . 38990) (symbol 38960 . 38972) (CLASS 38954 . 38959) (PUBLIC 34169 . 34175) (punctuation 34167 . 34168) (symbol 34142 . 34166) (symbol 34131 . 34141) (CLASS 34125 . 34130) (PUBLIC 33595 . 33601) (punctuation 33593 . 33594) (symbol 33560 . 33592) (symbol 33549 . 33559) (CLASS 33543 . 33548) (symbol 32910 . 32920) (PUBLIC 32415 . 32421) (punctuation 32413 . 32414) (symbol 32401 . 32413) (symbol 32390 . 32400) (CLASS 32384 . 32389) (PUBLIC 31891 . 31897) (punctuation 31889 . 31890) (symbol 31877 . 31889) (symbol 31866 . 31876) (CLASS 31860 . 31865) (PUBLIC 30998 . 31004) (punctuation 30996 . 30997) (symbol 30984 . 30996) (symbol 30973 . 30983) (CLASS 30967 . 30972) (PUBLIC 29828 . 29834) (punctuation 29826 . 29827) (symbol 29797 . 29826) (symbol 29786 . 29796) (CLASS 29780 . 29785) (PUBLIC 28277 . 28283) (punctuation 28275 . 28276) (symbol 28260 . 28275) (symbol 28249 . 28259) (CLASS 28243 . 28248) (PUBLIC 27612 . 27618) (punctuation 27610 . 27611) (symbol 27580 . 27609) (symbol 27567 . 27579) (CLASS 27561 . 27566) (PUBLIC 26526 . 26532) (punctuation 26524 . 26525) (symbol 26497 . 26523) (symbol 26484 . 26496) (CLASS 26478 . 26483) (PUBLIC 25630 . 25636) (punctuation 25628 . 25629) (symbol 25607 . 25627) (symbol 25596 . 25606) (CLASS 25590 . 25595) (PUBLIC 24192 . 24198) (punctuation 24190 . 24191) (symbol 24171 . 24189) (symbol 24158 . 24170) (CLASS 24152 . 24157) (PUBLIC 23555 . 23561) (punctuation 23553 . 23554) (symbol 23540 . 23552) (symbol 23527 . 23539) (CLASS 23521 . 23526) (PUBLIC 23073 . 23079) (punctuation 23071 . 23072) (symbol 23051 . 23070) (symbol 23038 . 23050) (CLASS 23032 . 23037) (punctuation 22946 . 22947) (symbol 22882 . 22892) (punctuation 22872 . 22873) (punctuation 22801 . 22802) (symbol 22738 . 22748) (PUBLIC 21967 . 21973) (punctuation 21965 . 21966) (symbol 21952 . 21964) (symbol 21939 . 21951) (CLASS 21933 . 21938) (PUBLIC 20872 . 20878) (punctuation 20870 . 20871) (symbol 20865 . 20869) (symbol 20852 . 20864) (CLASS 20846 . 20851) (PUBLIC 17370 . 17376) (punctuation 17368 . 17369) (symbol 17362 . 17367) (symbol 17351 . 17361) (CLASS 17345 . 17350) (PUBLIC 15894 . 15900) (punctuation 15892 . 15893) (symbol 15888 . 15891) (symbol 15875 . 15887) (CLASS 15869 . 15874) (PUBLIC 11863 . 11869) (punctuation 11861 . 11862) (symbol 11855 . 11860) (symbol 11842 . 11854) (CLASS 11836 . 11841) (PUBLIC 10870 . 10876) (punctuation 10868 . 10869) (symbol 10853 . 10868) (PUBLIC 10846 . 10852) (punctuation 10844 . 10845) (symbol 10834 . 10843) (symbol 10821 . 10833) (CLASS 10815 . 10820) (PUBLIC 9098 . 9104) (punctuation 9096 . 9097) (symbol 9076 . 9095) (symbol 9063 . 9075) (CLASS 9057 . 9062) (PUBLIC 7081 . 7087) (punctuation 7079 . 7080) (symbol 7063 . 7078) (symbol 7050 . 7062) (CLASS 7044 . 7049) (punctuation 5748 . 5749) (symbol 5682 . 5692) (symbol 5520 . 5530) (symbol 2356 . 2366))
+    :lexical-table 
+        '(("__OPENCV_FEATURES_2D_HPP__")
+          )
+
+    )
+   )
+  :file "!usr!local!Cellar!opencv!2.4.6.1!include!opencv2!features2d!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

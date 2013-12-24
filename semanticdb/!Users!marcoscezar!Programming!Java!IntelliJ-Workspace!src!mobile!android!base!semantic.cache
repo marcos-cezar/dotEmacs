@@ -1,0 +1,54 @@
+;; Object base/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "base/"
+  :tables (list 
+   (semanticdb-table "moz.build"
+    :major-mode 'python-mode
+    :tags 
+        '( ("DIRS" variable nil nil [309 328])
+            ("include" code nil nil [330 366])
+            ("thirdparty_source_dir" code nil nil [368 433])
+            ("mgjar" variable nil nil [435 472])
+            ("mgjar" variable nil nil [473 991])
+            ("mgjar" variable nil nil [992 1072])
+            ("mgjar" variable nil nil [1073 1108])
+            ("wsjar" variable nil nil [1110 1144])
+            ("wsjar" variable nil nil [1145 1323])
+            ("wsjar" variable nil nil [1324 1367])
+            ("gujar" variable nil nil [1369 1403])
+            ("gujar" variable nil nil [1404 2004])
+            ("gujar" variable nil nil [2005 2051])
+            ("gujar" variable nil nil [2052 2100])
+            ("stjar" variable nil nil [2102 2141])
+            ("stjar" variable nil nil [2142 2224])
+            ("stjar" variable nil nil [2225 2260])
+            ("if" code nil nil [2262 3053])
+            ("gbjar" variable nil nil [3054 3091])
+            ("gbjar" variable nil nil [11080 11355])
+            ("android_package_dir" variable nil nil [11356 11426])
+            ("gbjar" variable nil nil [11551 11676])
+            ("gbjar" variable nil nil [11677 12195])
+            ("if" code nil nil [12196 12332])
+            ("gbjar" variable nil nil [12333 12365])
+            ("gbjar" variable nil nil [12366 12418])
+            ("gbjar" variable nil nil [12419 12537])
+            ("gbjar" variable nil nil [12538 12599])
+            ("ANDROID_RES_DIRS" variable nil nil [12601 12737])
+            ("ANDROID_GENERATED_RESFILES" variable nil nil [12739 12802])
+            ("for" code nil nil [12804 12912])
+            ("for" code nil nil [12913 13015])
+            ("for" code nil nil [13016 13441])
+            ("DEFINES" variable nil nil [13489 13589])
+            ("DEFINES" variable nil nil [13590 13641])
+            ("if" code nil nil [13643 13769]))          
+    :file "moz.build"
+    :pointmax 13767
+    :fsize 13768
+    :lastmodtime '(21170 51849 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!marcoscezar!Programming!Java!IntelliJ-Workspace!src!mobile!android!base!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
