@@ -13,11 +13,13 @@
 (package-initialize)
 
 
+
 (require 'cl)
 (require 'exec-path-from-shell)
 (exec-path-from-shell-initialize)
 
-;;(when is-mac (require 'mac))
+
+(when is-mac (require 'mac))
 
 (autoload 'elisp-slime-nav-mode "elisp-slime-nav")
 (add-hook 'emacs-lisp-mode-hook (lambda () (elisp-slime-nav-mode t) (eldoc-mode 1)))
@@ -63,7 +65,6 @@
 (set-face-attribute 'default nil :family "Menlo")
 (set-face-attribute 'default nil :height 140)
 
-(autoload 'auto-complete-mode "auto-complete" nil t)
 
 ;; Visual regexp
 (require 'visual-regexp)
@@ -144,8 +145,8 @@
 
 (require 'ido-yes-or-no)
 
-(require 'auto-complete-clang)
-(global-set-key (kbd "C-x a") 'ac-complete-clang)
+;; (require 'auto-complete-clang)
+;; (global-set-key (kbd "C-x a") 'ac-complete-clang)
 
 
 (require 'org-latex)
@@ -171,7 +172,6 @@
 (setq guide-key/popup-window-position 'bottom)
 
 (require 'js2-refactor)
-(require 'wgrep)
 (put 'set-goal-column 'disabled nil)
 
 (require 'keybindings)
@@ -197,3 +197,16 @@
 ;; (require 'ahg)
 
 (setq c-default-style "k&r" c-basic-offset 4)
+
+;; (require 'ascope)
+
+(require 'setup-el-get)
+
+(require 'member-function)
+(setq mf--source-file-extension "cpp")
+
+(add-to-list 'load-path (concat vendor-path "includeme"))
+(require 'includeme)
+(define-key c-mode-base-map (kbd "C-c o") 'includeme)
+
+(add-hook 'after-init-hook 'global-company-mode)

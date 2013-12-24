@@ -13,4 +13,6 @@
 (setq mc/cmds-to-run-once
       '(
         paredit-forward-delete
+        read-only-mode
+        undefined
         ))
