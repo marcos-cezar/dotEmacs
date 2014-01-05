@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
- find-grep
- package-list-packages
- package-install
- wdired-change-to-wdired-mode
  compile
- eshell
- gdb
+ customize-variable
+ customize
+ semantic-mode
+ magit-git-command
+ package-install
+ find-grep
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 79)
- (package-list-packages . 56)
+ (package-install . 87)
+ (package-list-packages . 61)
  (paredit-mode . 8)
- (find-grep . 70)
+ (find-grep . 73)
  (textmate-mode . 8)
  (imenu . 1)
  (find-file-in-project . 1)
@@ -60,7 +60,7 @@
  (nxml-mode . 2)
  (nxml-complete . 4)
  (info . 1)
- (compile . 96)
+ (compile . 101)
  (helm-projectile . 2)
  (goto-line . 1)
  (rename-file . 1)
@@ -81,7 +81,7 @@
  (gud-break . 1)
  (gud-step . 1)
  (gud-run . 1)
- (gtags-mode . 2)
+ (gtags-mode . 3)
  (projectile-mode . 1)
  (projectile-regenerate-tags . 1)
  (ctags-create-tags-table . 4)
@@ -110,10 +110,10 @@
  (org-list-insert-radio-list . 1)
  (magit-status . 2)
  (doctor . 1)
- (jde-import-all . 12)
- (jde-complete . 2)
+ (jde-import-all . 14)
+ (jde-complete . 4)
  (jde-create-new-project . 2)
- (jde-compile . 1)
+ (jde-compile . 4)
  (jde-build . 1)
  (eval-buffer . 2)
  (nlinum-mode . 2)
@@ -127,8 +127,8 @@
  (package-refresh-contents . 1)
  (indent-region . 1)
  (magit-pull . 2)
- (magit-git-command . 2)
- (magit-fetch . 3)
+ (magit-git-command . 4)
+ (magit-fetch . 6)
  (transpose-sexps . 2)
  (esk-eval-and-replace . 4)
  (smart-up . 1)
@@ -147,16 +147,16 @@
  (comment-box . 1)
  (comment-dwim . 1)
  (sp-comment . 1)
- (find-tag . 1)
+ (find-tag . 2)
  (mc/mark-all-like-this . 1)
  (wgrep-exit . 2)
  (mc/mark-next-like-this . 4)
  (ascope-init . 1)
  (el-get-init . 1)
- (el-get-install . 4)
+ (el-get-install . 7)
  (irony-restart-process . 3)
- (irony-mode . 5)
- (irony-reload-flags . 1)
+ (irony-mode . 9)
+ (irony-reload-flags . 2)
  (auto-complete-mode . 2)
  (ac-clang-syntax-check . 1)
  (semantic-ia-show-variants . 7)
@@ -170,10 +170,33 @@
  (ac-complete . 10)
  (cedet-build-in-this-emacs . 1)
  (wgrep-change-to-wgrep-mode . 11)
- (wgrep-save-all-buffers . 1)
+ (wgrep-save-all-buffers . 2)
  (wdired-change-to-wdired-mode . 2)
  (semantic-c-describe-environment . 1)
  (semanticdb-find-test-translate-path . 1)
  (ac-complete-abbrev . 2)
  (ac-help . 1)
+ (el-get-remove . 1)
+ (eclim-mode . 3)
+ (eclim-java-import . 4)
+ (eclim-complete . 5)
+ (start-eclimd . 4)
+ (eclim-file-locate . 1)
+ (eclim-project-info . 1)
+ (eclim-project-open . 5)
+ (eclim-project-goto . 2)
+ (ajoke-resolve . 1)
+ (customize-variable . 9)
+ (gtags-find-tag . 1)
+ (create-tags . 2)
+ (ctags-auto-update-mode . 1)
+ (ctags-update . 1)
+ (visit-tags-table . 2)
+ (clang-completion-mode . 4)
+ (helm-company . 5)
+ (semantic-mode . 1)
+ (company-mode . 2)
+ (clang-complete-self-insert . 2)
+ (irony-compile-check . 1)
+ (customize . 1)
 )

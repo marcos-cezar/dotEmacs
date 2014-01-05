@@ -1,0 +1,1317 @@
+;; Object db/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "db/"
+  :tables (list 
+    (semanticdb-table "BrowserContract.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("org.mozilla.gecko.db" package nil nil [287 316])
+            ("org.mozilla.gecko.AppConstants" include nil nil [318 356])
+            ("android.net.Uri" include nil nil [358 381])
+            ("org.mozilla.gecko.mozglue.RobocopTarget" include nil nil [382 429])
+            ("BrowserContract" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("AUTHORITY" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [481 570])
+                    ("AUTHORITY_URI" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "Uri")
+                        (reparse-symbol class_member_declaration) [575 651])
+                    ("PASSWORDS_AUTHORITY" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [657 758])
+                    ("PASSWORDS_AUTHORITY_URI" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "Uri")
+                        (reparse-symbol class_member_declaration) [763 859])
+                    ("FORM_HISTORY_AUTHORITY" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [865 971])
+                    ("FORM_HISTORY_AUTHORITY_URI" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "Uri")
+                        (reparse-symbol class_member_declaration) [976 1078])
+                    ("TABS_AUTHORITY" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1084 1175])
+                    ("TABS_AUTHORITY_URI" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "Uri")
+                        (reparse-symbol class_member_declaration) [1180 1266])
+                    ("HOME_LISTS_AUTHORITY" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1272 1374])
+                    ("HOME_LISTS_AUTHORITY_URI" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "Uri")
+                        (reparse-symbol class_member_declaration) [1379 1477])
+                    ("PARAM_PROFILE" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1483 1536])
+                    ("PARAM_PROFILE_PATH" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1541 1603])
+                    ("PARAM_LIMIT" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1608 1657])
+                    ("PARAM_IS_SYNC" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1662 1712])
+                    ("PARAM_SHOW_DELETED" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1717 1780])
+                    ("PARAM_IS_TEST" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1785 1835])
+                    ("PARAM_INSERT_IF_NEEDED" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1840 1911])
+                    ("PARAM_INCREMENT_VISITS" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1916 1987])
+                    ("PARAM_EXPIRE_PRIORITY" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1992 2054])
+                    ("getFrecencySortOrder" function
+                       (:typemodifiers ("static" "public")
+                        :arguments 
+                          ( ("includesBookmarks" variable (:type "boolean") (reparse-symbol formal_parameters) [2184 2209])
+                            ("asc" variable (:type "boolean") (reparse-symbol formal_parameters) [2211 2222]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2142 2698])
+                    ("CommonColumns" type
+                       (:typemodifiers ("public")
+                        :members 
+                          ( ("_ID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [2764 2803]))                          
+                        :type "interface")
+                        (reparse-symbol class_member_declaration) [2723 2809])
+                    ("DateSyncColumns" type
+                       (:typemodifiers ("public")
+                        :members 
+                          ( ("DATE_CREATED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [2877 2929])
+                            ("DATE_MODIFIED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [2938 2992]))                          
+                        :type "interface")
+                        (reparse-symbol class_member_declaration) [2834 2998])
+                    ("SyncColumns" type
+                       (:typemodifiers ("public")
+                        :interfaces ("DateSyncColumns")
+                        :members 
+                          ( ("GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [3086 3127])
+                            ("IS_DELETED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [3136 3186]))                          
+                        :type "interface")
+                        (reparse-symbol class_member_declaration) [3023 3192])
+                    ("URLColumns" type
+                       (:typemodifiers ("public")
+                        :members 
+                          ( ("URL" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [3255 3294])
+                            ("TITLE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [3303 3346]))                          
+                        :type "interface")
+                        (reparse-symbol class_member_declaration) [3217 3352])
+                    ("FaviconColumns" type
+                       (:typemodifiers ("public")
+                        :members 
+                          ( ("FAVICON" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [3419 3466])
+                            ("FAVICON_ID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [3475 3528])
+                            ("FAVICON_URL" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [3537 3592]))                          
+                        :type "interface")
+                        (reparse-symbol class_member_declaration) [3377 3598])
+                    ("HistoryColumns" type
+                       (:typemodifiers ("public")
+                        :members 
+                          ( ("DATE_LAST_VISITED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [3665 3719])
+                            ("VISITS" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [3728 3773]))                          
+                        :type "interface")
+                        (reparse-symbol class_member_declaration) [3623 3779])
+                    ("DeletedColumns" type
+                       (:typemodifiers ("public")
+                        :members 
+                          ( ("ID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [3827 3864])
+                            ("GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [3873 3914])
+                            ("TIME_DELETED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol interface_member_declaration) [3923 3979]))                          
+                        :type "interface")
+                        (reparse-symbol class_member_declaration) [3785 3985])
+                    ("Favicons" type
+                       (:typemodifiers ("public" "static" "final")
+                        :interfaces ("CommonColumns" "DateSyncColumns")
+                        :members 
+                          ( ("Favicons" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [4097 4118])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [4128 4214])
+                            ("URL" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [4224 4263])
+                            ("DATA" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [4272 4313])
+                            ("PAGE_URL" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [4322 4371]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [4010 4377])
+                    ("Thumbnails" type
+                       (:typemodifiers ("public" "static" "final")
+                        :interfaces ("CommonColumns")
+                        :members 
+                          ( ("Thumbnails" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [4474 4497])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [4507 4595])
+                            ("URL" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [4605 4644])
+                            ("DATA" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [4653 4694]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [4402 4700])
+                    ("Bookmarks" type
+                       (:typemodifiers ("public" "static" "final")
+                        :interfaces ("CommonColumns" "URLColumns" "FaviconColumns" "SyncColumns")
+                        :members 
+                          ( ("Bookmarks" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [4837 4859])
+                            ("FIXED_ROOT_ID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [4869 4911])
+                            ("FAKE_DESKTOP_FOLDER_ID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [4920 4972])
+                            ("FIXED_READING_LIST_ID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [4981 5032])
+                            ("FIXED_PINNED_LIST_ID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [5041 5091])
+                            ("MOBILE_FOLDER_GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5101 5158])
+                            ("PLACES_FOLDER_GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5167 5224])
+                            ("MENU_FOLDER_GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5233 5286])
+                            ("TAGS_FOLDER_GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5295 5348])
+                            ("TOOLBAR_FOLDER_GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5357 5416])
+                            ("UNFILED_FOLDER_GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5425 5484])
+                            ("READING_LIST_FOLDER_GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5493 5561])
+                            ("FAKE_DESKTOP_FOLDER_GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5570 5634])
+                            ("PINNED_FOLDER_GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5643 5700])
+                            ("TYPE_FOLDER" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [5710 5750])
+                            ("TYPE_BOOKMARK" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [5759 5801])
+                            ("TYPE_SEPARATOR" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [5810 5853])
+                            ("TYPE_LIVEMARK" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [5862 5904])
+                            ("TYPE_QUERY" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [5913 5952])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [5962 6049])
+                            ("PARENTS_CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [6058 6149])
+                            ("POSITIONS_CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [6220 6315])
+                            ("DEFAULT_POSITION" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "long")
+                                (reparse-symbol class_member_declaration) [6324 6383])
+                            ("CONTENT_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [6393 6469])
+                            ("CONTENT_ITEM_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [6478 6560])
+                            ("TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [6569 6610])
+                            ("PARENT" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [6619 6664])
+                            ("POSITION" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [6673 6722])
+                            ("TAGS" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [6731 6772])
+                            ("DESCRIPTION" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [6781 6836])
+                            ("KEYWORD" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [6845 6892]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [4725 6898])
+                    ("History" type
+                       (:typemodifiers ("public" "static" "final")
+                        :interfaces ("CommonColumns" "URLColumns" "HistoryColumns" "FaviconColumns" "SyncColumns")
+                        :members 
+                          ( ("History" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [7049 7069])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [7078 7163])
+                            ("CONTENT_OLD_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [7172 7265])
+                            ("CONTENT_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [7274 7357])
+                            ("CONTENT_ITEM_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [7366 7455]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [6923 7461])
+                    ("Combined" type
+                       (:typemodifiers ("public" "static" "final")
+                        :interfaces ("CommonColumns" "URLColumns" "HistoryColumns" "FaviconColumns")
+                        :members 
+                          ( ("Combined" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [7639 7660])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [7669 7755])
+                            ("DISPLAY_NORMAL" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [7765 7808])
+                            ("DISPLAY_READER" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [7817 7860])
+                            ("BOOKMARK_ID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [7870 7925])
+                            ("HISTORY_ID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [7934 7987])
+                            ("DISPLAY" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [7996 8043]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [7524 8049])
+                    ("Schema" type
+                       (:typemodifiers ("public" "static" "final")
+                        :members 
+                          ( ("Schema" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [8098 8117])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [8126 8210])
+                            ("VERSION" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [8220 8267]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [8055 8273])
+                    ("Passwords" type
+                       (:typemodifiers ("public" "static" "final")
+                        :members 
+                          ( ("Passwords" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [8325 8347])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [8356 8453])
+                            ("CONTENT_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [8462 8539])
+                            ("ID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [8549 8586])
+                            ("HOSTNAME" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [8595 8644])
+                            ("HTTP_REALM" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [8653 8705])
+                            ("FORM_SUBMIT_URL" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [8714 8775])
+                            ("USERNAME_FIELD" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [8784 8844])
+                            ("PASSWORD_FIELD" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [8853 8913])
+                            ("ENCRYPTED_USERNAME" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [8922 8990])
+                            ("ENCRYPTED_PASSWORD" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [8999 9067])
+                            ("ENC_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [9076 9124])
+                            ("TIME_CREATED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [9133 9189])
+                            ("TIME_LAST_USED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [9198 9257])
+                            ("TIME_PASSWORD_CHANGED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [9266 9339])
+                            ("TIMES_USED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [9348 9400])
+                            ("GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [9409 9450])
+                            ("ENCTYPE_SDR" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [9587 9627]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [8279 9633])
+                    ("DeletedPasswords" type
+                       (:typemodifiers ("public" "static" "final")
+                        :interfaces ("DeletedColumns")
+                        :members 
+                          ( ("DeletedPasswords" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [9718 9747])
+                            ("CONTENT_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [9756 9841])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [9850 9955]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [9639 9961])
+                    ("FormHistory" type
+                       (:typemodifiers ("public" "static" "final")
+                        :members 
+                          ( ("FormHistory" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [10015 10039])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [10048 10150])
+                            ("CONTENT_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [10159 10238])
+                            ("ID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [10248 10285])
+                            ("FIELD_NAME" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [10294 10346])
+                            ("VALUE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [10355 10398])
+                            ("TIMES_USED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [10407 10459])
+                            ("FIRST_USED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [10468 10520])
+                            ("LAST_USED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [10529 10579])
+                            ("GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [10588 10629]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [9967 10635])
+                    ("DeletedFormHistory" type
+                       (:typemodifiers ("public" "static" "final")
+                        :interfaces ("DeletedColumns")
+                        :members 
+                          ( ("DeletedFormHistory" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [10722 10753])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [10762 10872])
+                            ("CONTENT_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [10881 10968]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [10641 10974])
+                    ("Tabs" type
+                       (:typemodifiers ("public" "static" "final")
+                        :interfaces ("CommonColumns")
+                        :members 
+                          ( ("Tabs" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [11046 11063])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [11072 11159])
+                            ("CONTENT_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [11168 11239])
+                            ("CONTENT_ITEM_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [11248 11325])
+                            ("TITLE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [11364 11407])
+                            ("URL" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [11533 11572])
+                            ("CLIENT_GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [11652 11707])
+                            ("HISTORY" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [11805 11852])
+                            ("FAVICON" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [11922 11969])
+                            ("LAST_USED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [12017 12068])
+                            ("POSITION" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [12135 12184]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [10980 12190])
+                    ("Clients" type
+                       (:typemodifiers ("public" "static" "final")
+                        :members 
+                          ( ("Clients" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [12240 12260])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [12269 12359])
+                            ("CONTENT_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [12368 12442])
+                            ("CONTENT_ITEM_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [12451 12531])
+                            ("ROWID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [12581 12624])
+                            ("NAME" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [12701 12742])
+                            ("GUID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [12822 12863])
+                            ("LAST_MODIFIED" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [13017 13076]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [12196 13082])
+                    ("HomeListItems" type
+                       (:typemodifiers ("public" "static" "final")
+                        :interfaces ("CommonColumns" "URLColumns")
+                        :members 
+                          ( ("HomeListItems" function
+                               (:constructor-flag t
+                                :typemodifiers ("private"))
+                                (reparse-symbol class_member_declaration) [13245 13271])
+                            ("CONTENT_FAKE_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [13280 13384])
+                            ("CONTENT_URI" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "Uri")
+                                (reparse-symbol class_member_declaration) [13393 13487])
+                            ("CONTENT_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [13497 13577])
+                            ("CONTENT_ITEM_TYPE" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [13586 13672])
+                            ("PROVIDER_ID" variable
+                               (:typemodifiers ("public" "static" "final")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [13682 13737]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [13158 13743]))                  
+                :type "class")
+                nil [446 13745]))          
+    :file "BrowserContract.java"
+    :pointmax 13746
+    :fsize 13745
+    :lastmodtime '(21192 42474 0 0)
+    :unmatched-syntax '((IDENTIFIER 431 . 445))
+    )
+   (semanticdb-table "FormHistoryProvider.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("org.mozilla.gecko.db" package nil nil [207 236])
+            ("java.lang.IllegalArgumentException" include nil nil [238 280])
+            ("java.util.HashMap" include nil nil [281 306])
+            ("org.mozilla.gecko.GeckoAppShell" include nil nil [307 346])
+            ("org.mozilla.gecko.GeckoEvent" include nil nil [347 383])
+            ("org.mozilla.gecko.db.BrowserContract.FormHistory" include nil nil [384 440])
+            ("org.mozilla.gecko.db.BrowserContract.DeletedFormHistory" include nil nil [441 504])
+            ("org.mozilla.gecko.db.BrowserContract" include nil nil [505 549])
+            ("org.mozilla.gecko.sqlite.SQLiteBridge" include nil nil [550 595])
+            ("org.mozilla.gecko.sync.Utils" include nil nil [596 632])
+            ("android.content.ContentValues" include nil nil [634 671])
+            ("android.content.UriMatcher" include nil nil [672 706])
+            ("android.database.Cursor" include nil nil [707 738])
+            ("android.net.Uri" include nil nil [739 762])
+            ("android.text.TextUtils" include nil nil [763 793])
+            ("FormHistoryProvider" type
+               (:typemodifiers ("public")
+                :superclasses "SQLiteBridgeContentProvider"
+                :members 
+                  ( ("TABLE_FORM_HISTORY" variable
+                       (:typemodifiers ("static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [870 929])
+                    ("TABLE_DELETED_FORM_HISTORY" variable
+                       (:typemodifiers ("static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [934 1009])
+                    ("FORM_HISTORY" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1015 1059])
+                    ("DELETED_FORM_HISTORY" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1064 1116])
+                    ("URI_MATCHER" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "UriMatcher")
+                        (reparse-symbol class_member_declaration) [1122 1166])
+                    ("DB_VERSION" variable
+                       (:typemodifiers ("private" "static")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1275 1309])
+                    ("DB_FILENAME" variable
+                       (:typemodifiers ("private" "static")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1314 1371])
+                    ("WHERE_GUID_IS_NULL" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1377 1479])
+                    ("WHERE_GUID_IS_VALUE" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1484 1583])
+                    ("LOG_TAG" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1589 1649])
+                    ("FormHistoryProvider" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [1944 2004])
+                    ("getType" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [2047 2054]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2025 2427])
+                    ("getTable" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [2470 2477]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2447 2938])
+                    ("getSortOrder" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [2985 2992])
+                            ("aRequested" variable (:type "String") (reparse-symbol formal_parameters) [2994 3011]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2958 3129])
+                    ("setupDefaults" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [3175 3182])
+                            ("values" variable (:type "ContentValues") (reparse-symbol formal_parameters) [3184 3204]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3149 4143])
+                    ("initGecko" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4163 4293])
+                    ("onPreInsert" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("values" variable (:type "ContentValues") (reparse-symbol formal_parameters) [4337 4357])
+                            ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [4359 4366])
+                            ("db" variable (:type "SQLiteBridge") (reparse-symbol formal_parameters) [4368 4383]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4313 4793])
+                    ("onPreUpdate" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("values" variable (:type "ContentValues") (reparse-symbol formal_parameters) [4837 4857])
+                            ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [4859 4866])
+                            ("db" variable (:type "SQLiteBridge") (reparse-symbol formal_parameters) [4868 4883]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4813 4888])
+                    ("onPostQuery" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("cursor" variable (:type "Cursor") (reparse-symbol formal_parameters) [4932 4945])
+                            ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [4947 4954])
+                            ("db" variable (:type "SQLiteBridge") (reparse-symbol formal_parameters) [4956 4971]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [4908 4976])
+                    ("getDBName" function
+                       (:typemodifiers ("protected")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4996 5059])
+                    ("getDBVersion" function
+                       (:typemodifiers ("protected")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [5079 5141]))                  
+                :type "class")
+                nil [795 5143]))          
+    :file "FormHistoryProvider.java"
+    :pointmax 5144
+    :fsize 5141
+    :lastmodtime '(21192 42474 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "PasswordsProvider.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("org.mozilla.gecko.db" package nil nil [207 236])
+            ("java.lang.IllegalArgumentException" include nil nil [238 280])
+            ("java.util.HashMap" include nil nil [281 306])
+            ("org.mozilla.gecko.GeckoApp" include nil nil [307 341])
+            ("org.mozilla.gecko.GeckoAppShell" include nil nil [342 381])
+            ("org.mozilla.gecko.GeckoEvent" include nil nil [382 418])
+            ("org.mozilla.gecko.NSSBridge" include nil nil [419 454])
+            ("org.mozilla.gecko.db.DBUtils" include nil nil [455 491])
+            ("org.mozilla.gecko.db.BrowserContract.Passwords" include nil nil [492 546])
+            ("org.mozilla.gecko.db.BrowserContract.DeletedPasswords" include nil nil [547 608])
+            ("org.mozilla.gecko.db.BrowserContract" include nil nil [609 653])
+            ("org.mozilla.gecko.sqlite.MatrixBlobCursor" include nil nil [654 703])
+            ("org.mozilla.gecko.sqlite.SQLiteBridge" include nil nil [704 749])
+            ("org.mozilla.gecko.sync.Utils" include nil nil [750 786])
+            ("android.content.ContentValues" include nil nil [787 824])
+            ("android.content.Intent" include nil nil [825 855])
+            ("android.content.UriMatcher" include nil nil [856 890])
+            ("android.database.Cursor" include nil nil [891 922])
+            ("android.net.Uri" include nil nil [923 946])
+            ("android.text.TextUtils" include nil nil [947 977])
+            ("android.util.Log" include nil nil [978 1002])
+            ("PasswordsProvider" type
+               (:typemodifiers ("public")
+                :superclasses "SQLiteBridgeContentProvider"
+                :members 
+                  ( ("TABLE_PASSWORDS" variable
+                       (:typemodifiers ("static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1077 1128])
+                    ("TABLE_DELETED_PASSWORDS" variable
+                       (:typemodifiers ("static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1133 1200])
+                    ("PASSWORDS" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1206 1247])
+                    ("DELETED_PASSWORDS" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1252 1301])
+                    ("DEFAULT_PASSWORDS_SORT_ORDER" variable
+                       (:typemodifiers ("static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1307 1386])
+                    ("DEFAULT_DELETED_PASSWORDS_SORT_ORDER" variable
+                       (:typemodifiers ("static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1391 1489])
+                    ("URI_MATCHER" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "UriMatcher")
+                        (reparse-symbol class_member_declaration) [1495 1539])
+                    ("DB_VERSION" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1800 1840])
+                    ("DB_FILENAME" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1845 1904])
+                    ("WHERE_GUID_IS_NULL" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1909 2009])
+                    ("WHERE_GUID_IS_VALUE" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2014 2111])
+                    ("LOG_TAG" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2117 2179])
+                    ("PasswordsProvider" function
+                       (:constructor-flag t
+                        :typemodifiers ("public"))
+                        (reparse-symbol class_member_declaration) [4202 4260])
+                    ("getDBName" function
+                       (:typemodifiers ("protected")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4280 4343])
+                    ("getDBVersion" function
+                       (:typemodifiers ("protected")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4363 4425])
+                    ("getType" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [4467 4474]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4445 4837])
+                    ("getTable" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [4880 4887]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4857 5237])
+                    ("getSortOrder" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [5284 5291])
+                            ("aRequested" variable (:type "String") (reparse-symbol formal_parameters) [5293 5310]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [5257 5772])
+                    ("setupDefaults" function
+                       (:throws ("IllegalArgumentException")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [5818 5825])
+                            ("values" variable (:type "ContentValues") (reparse-symbol formal_parameters) [5827 5847]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [5792 7820])
+                    ("initGecko" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [7840 8077])
+                    ("doCrypto" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("initialValue" variable (:type "String") (reparse-symbol formal_parameters) [8107 8126])
+                            ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [8128 8135])
+                            ("encrypt" variable (:type "Boolean") (reparse-symbol formal_parameters) [8137 8152]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [8083 9069])
+                    ("onPreInsert" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("values" variable (:type "ContentValues") (reparse-symbol formal_parameters) [9113 9133])
+                            ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [9135 9142])
+                            ("db" variable (:type "SQLiteBridge") (reparse-symbol formal_parameters) [9144 9159]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [9089 10158])
+                    ("onPreUpdate" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("values" variable (:type "ContentValues") (reparse-symbol formal_parameters) [10202 10222])
+                            ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [10224 10231])
+                            ("db" variable (:type "SQLiteBridge") (reparse-symbol formal_parameters) [10233 10248]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [10178 10850])
+                    ("onPostQuery" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("cursor" variable (:type "Cursor") (reparse-symbol formal_parameters) [10894 10907])
+                            ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [10909 10916])
+                            ("db" variable (:type "SQLiteBridge") (reparse-symbol formal_parameters) [10918 10933]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [10870 12009]))                  
+                :type "class")
+                nil [1004 12011]))          
+    :file "PasswordsProvider.java"
+    :pointmax 12012
+    :fsize 12009
+    :lastmodtime '(21192 42474 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "DBUtils.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("org.mozilla.gecko.db" package nil nil [207 236])
+            ("org.mozilla.gecko.GeckoAppShell" include nil nil [238 277])
+            ("android.content.ContentValues" include nil nil [279 316])
+            ("android.database.sqlite.SQLiteOpenHelper" include nil nil [317 365])
+            ("android.text.TextUtils" include nil nil [366 396])
+            ("android.util.Log" include nil nil [397 421])
+            ("DBUtils" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("LOGTAG" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [450 502])
+                    ("qualifyColumn" function
+                       (:typemodifiers ("public" "static" "final")
+                        :arguments 
+                          ( ("table" variable (:type "String") (reparse-symbol formal_parameters) [549 561])
+                            ("column" variable (:type "String") (reparse-symbol formal_parameters) [563 576]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [508 622])
+                    ("concatenateWhere" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("a" variable (:type "String") (reparse-symbol formal_parameters) [774 782])
+                            ("b" variable (:type "String") (reparse-symbol formal_parameters) [784 792]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [736 985])
+                    ("appendSelectionArgs" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("originalValues" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [1142 1165])
+                            ("newValues" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [1167 1185]))                          
+                        :type "String[]")
+                        (reparse-symbol class_member_declaration) [1099 1679])
+                    ("replaceKey" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("aValues" variable (:type "ContentValues") (reparse-symbol formal_parameters) [1715 1736])
+                            ("aOriginalKey" variable (:type "String") (reparse-symbol formal_parameters) [1738 1757])
+                            ("aNewKey" variable (:type "String") (reparse-symbol formal_parameters) [1793 1807])
+                            ("aDefault" variable (:type "String") (reparse-symbol formal_parameters) [1809 1824]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1685 2146])
+                    ("ensureDatabaseIsNotLocked" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("dbHelper" variable (:type "SQLiteOpenHelper") (reparse-symbol formal_parameters) [2197 2222])
+                            ("databasePath" variable (:type "String") (reparse-symbol formal_parameters) [2224 2243]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2152 2971]))                  
+                :type "class")
+                nil [423 2973]))          
+    :file "DBUtils.java"
+    :pointmax 2974
+    :fsize 2973
+    :lastmodtime '(21192 42474 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "PerProfileContentProvider.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("org.mozilla.gecko.db" package nil nil [207 236])
+            ("java.io.File" include nil nil [238 258])
+            ("java.util.HashMap" include nil nil [259 284])
+            ("java.util.Collection" include nil nil [285 313])
+            ("java.util.Iterator" include nil nil [314 340])
+            ("org.mozilla.gecko.GeckoProfile" include nil nil [341 379])
+            ("org.mozilla.gecko.GeckoThread" include nil nil [380 417])
+            ("org.mozilla.gecko.db.BrowserContract" include nil nil [418 462])
+            ("org.mozilla.gecko.mozglue.GeckoLoader" include nil nil [463 508])
+            ("org.mozilla.gecko.sqlite.SQLiteBridge" include nil nil [509 554])
+            ("org.mozilla.gecko.sqlite.SQLiteBridgeException" include nil nil [555 609])
+            ("android.content.ContentProvider" include nil nil [610 649])
+            ("android.content.ContentUris" include nil nil [650 685])
+            ("android.content.ContentValues" include nil nil [686 723])
+            ("android.content.Context" include nil nil [724 755])
+            ("android.database.Cursor" include nil nil [756 787])
+            ("android.net.Uri" include nil nil [788 811])
+            ("android.text.TextUtils" include nil nil [812 842])
+            ("android.util.Log" include nil nil [843 867])
+            ("SQLiteBridgeContentProvider" type
+               (:typemodifiers ("public" "abstract")
+                :superclasses "ContentProvider"
+                :members 
+                  ( ("mContext" variable
+                       (:typemodifiers ("protected")
+                        :type "Context")
+                        (reparse-symbol class_member_declaration) [1484 1518])
+                    ("mLogTag" variable
+                       (:typemodifiers ("private" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1523 1552])
+                    ("SQLiteBridgeContentProvider" function
+                       (:constructor-flag t
+                        :typemodifiers ("protected")
+                        :arguments 
+                          ( ("logTag" variable (:type "String") (reparse-symbol formal_parameters) [1596 1609]))                          )
+                        (reparse-symbol class_member_declaration) [1558 1644])
+                    ("shutdown" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1664 2101])
+                    ("finalize" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2121 2171])
+                    ("getDB" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("context" variable (:type "Context") (reparse-symbol formal_parameters) [2205 2220])
+                            ("databasePath" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [2222 2247]))                          
+                        :type "SQLiteBridge")
+                        (reparse-symbol class_member_declaration) [2178 3791])
+                    ("getDatabasePathForProfile" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("profile" variable (:type "String") (reparse-symbol formal_parameters) [4259 4273])
+                            ("dbName" variable (:type "String") (reparse-symbol formal_parameters) [4275 4288]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4218 4628])
+                    ("getDatabaseForProfile" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("profile" variable (:type "String") (reparse-symbol formal_parameters) [5121 5135]))                          
+                        :type "SQLiteBridge")
+                        (reparse-symbol class_member_declaration) [5078 6054])
+                    ("getDatabaseForProfilePath" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("profilePath" variable (:type "String") (reparse-symbol formal_parameters) [6565 6583]))                          
+                        :type "SQLiteBridge")
+                        (reparse-symbol class_member_declaration) [6518 6751])
+                    ("getDatabaseForDBPath" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("dbPath" variable (:type "String") (reparse-symbol formal_parameters) [7190 7203]))                          
+                        :type "SQLiteBridge")
+                        (reparse-symbol class_member_declaration) [7148 7563])
+                    ("getDatabase" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [8013 8020]))                          
+                        :type "SQLiteBridge")
+                        (reparse-symbol class_member_declaration) [7980 8459])
+                    ("onCreate" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [8479 8677])
+                    ("getType" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [8719 8726]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [8697 8756])
+                    ("delete" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [8794 8801])
+                            ("selection" variable (:type "String") (reparse-symbol formal_parameters) [8803 8819])
+                            ("selectionArgs" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [8821 8843]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [8776 9239])
+                    ("insert" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [9277 9284])
+                            ("values" variable (:type "ContentValues") (reparse-symbol formal_parameters) [9286 9306]))                          
+                        :type "Uri")
+                        (reparse-symbol class_member_declaration) [9259 10474])
+                    ("bulkInsert" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [10516 10523])
+                            ("allValues" variable
+                               (:dereference 1
+                                :type "ContentValues")
+                                (reparse-symbol formal_parameters) [10525 10550]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [10494 11690])
+                    ("update" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [11728 11735])
+                            ("values" variable (:type "ContentValues") (reparse-symbol formal_parameters) [11737 11757])
+                            ("selection" variable (:type "String") (reparse-symbol formal_parameters) [11759 11775])
+                            ("selectionArgs" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [11789 11811]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [11710 12458])
+                    ("query" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [12498 12505])
+                            ("projection" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [12507 12526])
+                            ("selection" variable (:type "String") (reparse-symbol formal_parameters) [12528 12544])
+                            ("selectionArgs" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [12558 12580])
+                            ("sortOrder" variable (:type "String") (reparse-symbol formal_parameters) [12582 12598]))                          
+                        :type "Cursor")
+                        (reparse-symbol class_member_declaration) [12478 13336])
+                    ("getDBName" function
+                       (:typemodifiers ("protected" "abstract")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [13342 13380])
+                    ("getDBVersion" function
+                       (:typemodifiers ("protected" "abstract")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [13386 13424])
+                    ("getTable" function
+                       (:typemodifiers ("protected" "abstract")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [13465 13472]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [13430 13474])
+                    ("getSortOrder" function
+                       (:typemodifiers ("protected" "abstract")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [13519 13526])
+                            ("aRequested" variable (:type "String") (reparse-symbol formal_parameters) [13528 13545]))                          
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [13480 13547])
+                    ("setupDefaults" function
+                       (:typemodifiers ("protected" "abstract")
+                        :arguments 
+                          ( ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [13591 13598])
+                            ("values" variable (:type "ContentValues") (reparse-symbol formal_parameters) [13600 13620]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [13553 13622])
+                    ("initGecko" function
+                       (:typemodifiers ("protected" "abstract")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [13628 13664])
+                    ("onPreInsert" function
+                       (:typemodifiers ("protected" "abstract")
+                        :arguments 
+                          ( ("values" variable (:type "ContentValues") (reparse-symbol formal_parameters) [13706 13726])
+                            ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [13728 13735])
+                            ("db" variable (:type "SQLiteBridge") (reparse-symbol formal_parameters) [13737 13752]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [13670 13754])
+                    ("onPreUpdate" function
+                       (:typemodifiers ("protected" "abstract")
+                        :arguments 
+                          ( ("values" variable (:type "ContentValues") (reparse-symbol formal_parameters) [13796 13816])
+                            ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [13818 13825])
+                            ("db" variable (:type "SQLiteBridge") (reparse-symbol formal_parameters) [13827 13842]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [13760 13844])
+                    ("onPostQuery" function
+                       (:typemodifiers ("protected" "abstract")
+                        :arguments 
+                          ( ("cursor" variable (:type "Cursor") (reparse-symbol formal_parameters) [13886 13899])
+                            ("uri" variable (:type "Uri") (reparse-symbol formal_parameters) [13901 13908])
+                            ("db" variable (:type "SQLiteBridge") (reparse-symbol formal_parameters) [13910 13925]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [13850 13927]))                  
+                :type "class")
+                nil [1341 13929]))          
+    :file "PerProfileContentProvider.java"
+    :pointmax 13930
+    :fsize 13925
+    :lastmodtime '(21192 42474 0 0)
+    :unmatched-syntax '((SEMICOLON 1478 . 1479) (GT 1457 . 1458) (COMMA 1443 . 1444) (PRIVATE 1421 . 1428) (LT 1436 . 1437))
+    )
+   )
+  :file "!Users!marcoscezar!Programming!Java!fennec!src!mobile!android!base!db!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

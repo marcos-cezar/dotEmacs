@@ -1,0 +1,44 @@
+;; Object marcos/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "marcos/"
+  :tables (list 
+   (semanticdb-table "Main.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("com.marcos" package nil nil [1 20])
+            ("Main" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [73 86]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [49 565])
+                    ("sum" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("a" variable (:type "int") (reparse-symbol formal_parameters) [597 602])
+                            ("b" variable (:type "int") (reparse-symbol formal_parameters) [604 609]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [574 640])
+                    ("testing" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [646 693]))                  
+                :type "class")
+                nil [23 695]))          
+    :file "Main.java"
+    :pointmax 697
+    :fsize 696
+    :lastmodtime '(21179 16082 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!marcoscezar!Programming!Java!workspace!JStudy!src!com!marcos!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

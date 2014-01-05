@@ -1,0 +1,1216 @@
+;; Object base/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "base/"
+  :tables (list 
+   (semanticdb-table "GeckoActivity.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("org.mozilla.gecko" package nil nil [207 233])
+            ("android.content.ComponentName" include nil nil [235 272])
+            ("android.content.Intent" include nil nil [273 303])
+            ("android.support.v4.app.FragmentActivity" include nil nil [304 351])
+            ("GeckoActivity" type
+               (:typemodifiers ("public")
+                :interfaces ("GeckoActivityStatus")
+                :superclasses "FragmentActivity"
+                :members 
+                  ( ("mGeckoActivityOpened" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [508 553])
+                    ("onLocaleReady" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("locale" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [769 788]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [743 797])
+                    ("onPause" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [817 1015])
+                    ("onResume" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1035 1278])
+                    ("onCreate" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("savedInstanceState" variable (:type "android.os.Bundle") (reparse-symbol formal_parameters) [1319 1355]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1298 1530])
+                    ("onDestroy" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1550 1709])
+                    ("startActivity" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("intent" variable (:type "Intent") (reparse-symbol formal_parameters) [1755 1768]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1729 1875])
+                    ("startActivityForResult" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("intent" variable (:type "Intent") (reparse-symbol formal_parameters) [1930 1943])
+                            ("request" variable (:type "int") (reparse-symbol formal_parameters) [1945 1956]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1895 2081])
+                    ("checkIfGeckoActivity" function
+                       (:typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("intent" variable (:type "Intent") (reparse-symbol formal_parameters) [2131 2144]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [2087 2591])
+                    ("isGeckoActivityOpened" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [2611 2694])
+                    ("isApplicationInBackground" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [2700 2832])
+                    ("onLowMemory" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2852 2965])
+                    ("onTrimMemory" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("level" variable (:type "int") (reparse-symbol formal_parameters) [3010 3019]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2985 3120]))                  
+                :type "class")
+                nil [353 3122]))          
+    :file "GeckoActivity.java"
+    :pointmax 3123
+    :fsize 3122
+    :lastmodtime '(21192 42470 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "ANRReporter.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("org.mozilla.gecko" package nil nil [287 313])
+            ("org.mozilla.gecko.util.ThreadUtils" include nil nil [315 357])
+            ("org.json.JSONObject" include nil nil [359 386])
+            ("android.content.BroadcastReceiver" include nil nil [388 429])
+            ("android.content.Context" include nil nil [430 461])
+            ("android.content.Intent" include nil nil [462 492])
+            ("android.content.IntentFilter" include nil nil [493 529])
+            ("android.os.Handler" include nil nil [530 556])
+            ("android.os.Looper" include nil nil [557 582])
+            ("android.util.Base64" include nil nil [583 610])
+            ("android.util.Log" include nil nil [611 635])
+            ("java.io.BufferedOutputStream" include nil nil [637 673])
+            ("java.io.BufferedReader" include nil nil [674 704])
+            ("java.io.File" include nil nil [705 725])
+            ("java.io.FileInputStream" include nil nil [726 757])
+            ("java.io.FileOutputStream" include nil nil [758 790])
+            ("java.io.FileReader" include nil nil [791 817])
+            ("java.io.IOException" include nil nil [818 845])
+            ("java.io.InputStreamReader" include nil nil [846 879])
+            ("java.io.OutputStream" include nil nil [880 908])
+            ("java.io.Reader" include nil nil [909 931])
+            ("java.io.StringReader" include nil nil [932 960])
+            ("java.util.UUID" include nil nil [961 983])
+            ("java.util.regex.Pattern" include nil nil [984 1015])
+            ("ANRReporter" type
+               (:typemodifiers ("public" "final")
+                :superclasses "BroadcastReceiver"
+                :members 
+                  ( ("DEBUG" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1080 1123])
+                    ("LOGTAG" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1128 1184])
+                    ("ANR_ACTION" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1190 1259])
+                    ("LINES_TO_IDENTIFY_TRACES" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1343 1398])
+                    ("TRACES_LINE_SIZE" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1546 1594])
+                    ("TRACES_BLOCK_SIZE" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1654 1704])
+                    ("TRACES_CHARSET" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1709 1762])
+                    ("PING_CHARSET" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [1767 1818])
+                    ("sInstance" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "ANRReporter")
+                        (reparse-symbol class_member_declaration) [1824 1887])
+                    ("sRegisteredCount" variable
+                       (:typemodifiers ("private" "static")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [1892 1928])
+                    ("mHandler" variable
+                       (:typemodifiers ("private")
+                        :type "Handler")
+                        (reparse-symbol class_member_declaration) [1933 1958])
+                    ("mPendingANR" variable
+                       (:typemodifiers ("private" "volatile")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [1963 2000])
+                    ("requestNativeStack" function
+                       (:typemodifiers ("private" "static" "native")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [2006 2057])
+                    ("getNativeStack" function
+                       (:typemodifiers ("private" "static" "native")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [2062 2108])
+                    ("releaseNativeStack" function
+                       (:typemodifiers ("private" "static" "native")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2113 2161])
+                    ("register" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("context" variable (:type "Context") (reparse-symbol formal_parameters) [2195 2210]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2167 2356])
+                    ("unregister" function
+                       (:typemodifiers ("public" "static")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2362 2664])
+                    ("start" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("context" variable
+                               (:typemodifiers ("final")
+                                :type "Context")
+                                (reparse-symbol formal_parameters) [2689 2710]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2670 3706])
+                    ("stop" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3712 4457])
+                    ("ANRReporter" function
+                       (:constructor-flag t
+                        :typemodifiers ("private"))
+                        (reparse-symbol class_member_declaration) [4463 4492])
+                    ("getTracesFile" function
+                       (:typemodifiers ("private" "static")
+                        :type "File")
+                        (reparse-symbol class_member_declaration) [4568 6242])
+                    ("getPingFile" function
+                       (:typemodifiers ("private" "static")
+                        :type "File")
+                        (reparse-symbol class_member_declaration) [6248 6878])
+                    ("isGeckoTraces" function
+                       (:typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("pkgName" variable (:type "String") (reparse-symbol formal_parameters) [6986 7000])
+                            ("tracesFile" variable (:type "File") (reparse-symbol formal_parameters) [7002 7017]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [6949 8942])
+                    ("getUptimeMins" function
+                       (:typemodifiers ("private" "static")
+                        :type "long")
+                        (reparse-symbol class_member_declaration) [8948 9427])
+                    ("writePingPayload" function
+                       (:throws ("IOException")
+                        :typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("ping" variable (:type "OutputStream") (reparse-symbol formal_parameters) [10166 10183])
+                            ("payload" variable (:type "String") (reparse-symbol formal_parameters) [10225 10239]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [10130 10376])
+                    ("fillPingHeader" function
+                       (:throws ("IOException")
+                        :typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("ping" variable (:type "OutputStream") (reparse-symbol formal_parameters) [10417 10434])
+                            ("slug" variable (:type "String") (reparse-symbol formal_parameters) [10436 10447]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [10382 12809])
+                    ("getEndPatternIndex" function
+                       (:typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("block" variable (:type "String") (reparse-symbol formal_parameters) [13870 13882])
+                            ("pattern" variable (:type "String") (reparse-symbol formal_parameters) [13884 13898])
+                            ("prevIndex" variable (:type "int") (reparse-symbol formal_parameters) [13900 13913]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [13832 15591])
+                    ("fillPingBlock" function
+                       (:throws ("IOException")
+                        :typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("ping" variable (:type "OutputStream") (reparse-symbol formal_parameters) [15739 15756])
+                            ("reader" variable (:type "Reader") (reparse-symbol formal_parameters) [15795 15808])
+                            ("endPattern" variable (:type "String") (reparse-symbol formal_parameters) [15810 15827]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [15706 16663])
+                    ("fillPingFooter" function
+                       (:throws ("IOException")
+                        :typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("ping" variable (:type "OutputStream") (reparse-symbol formal_parameters) [16704 16721])
+                            ("haveNativeStack" variable (:type "boolean") (reparse-symbol formal_parameters) [16762 16785]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [16669 18482])
+                    ("processTraces" function
+                       (:typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("traces" variable (:type "Reader") (reparse-symbol formal_parameters) [18522 18535])
+                            ("pingFile" variable (:type "File") (reparse-symbol formal_parameters) [18537 18550]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [18488 20085])
+                    ("processTraces" function
+                       (:typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("tracesFile" variable (:type "File") (reparse-symbol formal_parameters) [20125 20140])
+                            ("pingFile" variable (:type "File") (reparse-symbol formal_parameters) [20142 20155]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [20091 20506])
+                    ("onReceive" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("context" variable (:type "Context") (reparse-symbol formal_parameters) [20548 20563])
+                            ("intent" variable (:type "Intent") (reparse-symbol formal_parameters) [20565 20578]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [20526 22382]))                  
+                :type "class")
+                nil [1017 22384]))          
+    :file "ANRReporter.java"
+    :pointmax 22385
+    :fsize 22384
+    :lastmodtime '(21192 42469 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "BrowserApp.java"
+    :major-mode 'java-mode
+    :tags 
+        '( ("org.mozilla.gecko" package nil nil [286 312])
+            ("org.mozilla.gecko.animation.PropertyAnimator" include nil nil [314 366])
+            ("org.mozilla.gecko.animation.ViewHelper" include nil nil [367 413])
+            ("org.mozilla.gecko.db.BrowserContract.Combined" include nil nil [414 467])
+            ("org.mozilla.gecko.db.BrowserDB" include nil nil [468 506])
+            ("org.mozilla.gecko.favicons.Favicons" include nil nil [507 550])
+            ("org.mozilla.gecko.favicons.OnFaviconLoadedListener" include nil nil [551 609])
+            ("org.mozilla.gecko.favicons.LoadFaviconTask" include nil nil [610 660])
+            ("org.mozilla.gecko.gfx.BitmapUtils" include nil nil [661 702])
+            ("org.mozilla.gecko.gfx.GeckoLayerClient" include nil nil [703 749])
+            ("org.mozilla.gecko.gfx.ImmutableViewportMetrics" include nil nil [750 804])
+            ("org.mozilla.gecko.gfx.LayerMarginsAnimator" include nil nil [805 855])
+            ("org.mozilla.gecko.health.BrowserHealthRecorder" include nil nil [856 910])
+            ("org.mozilla.gecko.health.BrowserHealthReporter" include nil nil [911 965])
+            ("org.mozilla.gecko.home.BrowserSearch" include nil nil [966 1010])
+            ("org.mozilla.gecko.home.HomePager" include nil nil [1011 1051])
+            ("org.mozilla.gecko.home.HomePager.OnUrlOpenListener" include nil nil [1052 1110])
+            ("org.mozilla.gecko.home.SearchEngine" include nil nil [1111 1154])
+            ("org.mozilla.gecko.menu.GeckoMenu" include nil nil [1155 1195])
+            ("org.mozilla.gecko.preferences.GeckoPreferences" include nil nil [1196 1250])
+            ("org.mozilla.gecko.prompts.Prompt" include nil nil [1251 1291])
+            ("org.mozilla.gecko.toolbar.AutocompleteHandler" include nil nil [1292 1345])
+            ("org.mozilla.gecko.toolbar.BrowserToolbar" include nil nil [1346 1394])
+            ("org.mozilla.gecko.util.Clipboard" include nil nil [1395 1435])
+            ("org.mozilla.gecko.util.GamepadUtils" include nil nil [1436 1479])
+            ("org.mozilla.gecko.util.HardwareUtils" include nil nil [1480 1524])
+            ("org.mozilla.gecko.util.StringUtils" include nil nil [1525 1567])
+            ("org.mozilla.gecko.util.ThreadUtils" include nil nil [1568 1610])
+            ("org.mozilla.gecko.util.UiAsyncTask" include nil nil [1611 1653])
+            ("org.mozilla.gecko.widget.GeckoActionProvider" include nil nil [1654 1706])
+            ("org.mozilla.gecko.widget.ButtonToast" include nil nil [1707 1751])
+            ("org.json.JSONArray" include nil nil [1753 1779])
+            ("org.json.JSONException" include nil nil [1780 1810])
+            ("org.json.JSONObject" include nil nil [1811 1838])
+            ("android.app.Activity" include nil nil [1840 1868])
+            ("android.app.AlertDialog" include nil nil [1869 1900])
+            ("android.content.DialogInterface" include nil nil [1901 1940])
+            ("android.content.Intent" include nil nil [1941 1971])
+            ("android.content.SharedPreferences" include nil nil [1972 2013])
+            ("android.content.res.Configuration" include nil nil [2014 2055])
+            ("android.content.res.Resources" include nil nil [2056 2093])
+            ("android.database.Cursor" include nil nil [2094 2125])
+            ("android.graphics.Bitmap" include nil nil [2126 2157])
+            ("android.graphics.Rect" include nil nil [2158 2187])
+            ("android.graphics.drawable.BitmapDrawable" include nil nil [2188 2236])
+            ("android.graphics.drawable.Drawable" include nil nil [2237 2279])
+            ("android.net.Uri" include nil nil [2280 2303])
+            ("android.nfc.NdefMessage" include nil nil [2304 2335])
+            ("android.nfc.NdefRecord" include nil nil [2336 2366])
+            ("android.nfc.NfcAdapter" include nil nil [2367 2397])
+            ("android.nfc.NfcEvent" include nil nil [2398 2426])
+            ("android.os.Build" include nil nil [2427 2451])
+            ("android.os.Bundle" include nil nil [2452 2477])
+            ("android.support.v4.app.FragmentManager" include nil nil [2478 2524])
+            ("android.text.TextUtils" include nil nil [2525 2555])
+            ("android.util.Log" include nil nil [2556 2580])
+            ("android.view.InputDevice" include nil nil [2581 2613])
+            ("android.view.KeyEvent" include nil nil [2614 2643])
+            ("android.view.Menu" include nil nil [2644 2669])
+            ("android.view.MenuInflater" include nil nil [2670 2703])
+            ("android.view.MenuItem" include nil nil [2704 2733])
+            ("android.view.MotionEvent" include nil nil [2734 2766])
+            ("android.view.SubMenu" include nil nil [2767 2795])
+            ("android.view.View" include nil nil [2796 2821])
+            ("android.view.ViewGroup" include nil nil [2822 2852])
+            ("android.view.ViewStub" include nil nil [2853 2882])
+            ("android.view.animation.Interpolator" include nil nil [2883 2926])
+            ("android.widget.LinearLayout" include nil nil [2927 2962])
+            ("android.widget.RelativeLayout" include nil nil [2963 3000])
+            ("android.widget.Toast" include nil nil [3001 3029])
+            ("android.widget.ViewFlipper" include nil nil [3030 3064])
+            ("java.io.File" include nil nil [3066 3086])
+            ("java.io.FileNotFoundException" include nil nil [3087 3124])
+            ("java.net.URLEncoder" include nil nil [3125 3152])
+            ("java.util.EnumSet" include nil nil [3153 3178])
+            ("java.util.Vector" include nil nil [3179 3203])
+            ("BrowserApp" type
+               (:typemodifiers ("abstract" "public")
+                :interfaces ("TabsPanel.TabsLayoutChangeListener" "PropertyAnimator.PropertyAnimationListener" "View.OnKeyListener" "GeckoLayerClient.OnMetricsChangedListener" "BrowserSearch.OnSearchListener" "BrowserSearch.OnEditSuggestionListener" "HomePager.OnNewTabsListener" "OnUrlOpenListener" "ActionModeCompat.Presenter")
+                :superclasses "GeckoApp"
+                :members 
+                  ( ("LOGTAG" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [3947 4002])
+                    ("PREF_CHROME_DYNAMICTOOLBAR" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4008 4097])
+                    ("TABS_ANIMATION_DURATION" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4103 4158])
+                    ("READER_ADD_SUCCESS" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4164 4212])
+                    ("READER_ADD_FAILED" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4217 4264])
+                    ("READER_ADD_DUPLICATE" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [4269 4319])
+                    ("ADD_SHORTCUT_TOAST" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4325 4395])
+                    ("GUEST_BROWSING_ARG" variable
+                       (:typemodifiers ("public" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4400 4458])
+                    ("STATE_ABOUT_HOME_TOP_PADDING" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4464 4547])
+                    ("STATE_DYNAMIC_TOOLBAR_ENABLED" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4552 4630])
+                    ("BROWSER_SEARCH_TAG" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [4636 4702])
+                    ("mBrowserSearch" variable
+                       (:typemodifiers ("private")
+                        :type "BrowserSearch")
+                        (reparse-symbol class_member_declaration) [4707 4744])
+                    ("mBrowserSearchContainer" variable
+                       (:typemodifiers ("private")
+                        :type "View")
+                        (reparse-symbol class_member_declaration) [4749 4786])
+                    ("mViewFlipper" variable
+                       (:typemodifiers ("public")
+                        :type "ViewFlipper")
+                        (reparse-symbol class_member_declaration) [4792 4824])
+                    ("mActionBar" variable
+                       (:typemodifiers ("public")
+                        :type "ActionModeCompatView")
+                        (reparse-symbol class_member_declaration) [4829 4868])
+                    ("mBrowserToolbar" variable
+                       (:typemodifiers ("private")
+                        :type "BrowserToolbar")
+                        (reparse-symbol class_member_declaration) [4873 4912])
+                    ("mHomePager" variable
+                       (:typemodifiers ("private")
+                        :type "HomePager")
+                        (reparse-symbol class_member_declaration) [4917 4946])
+                    ("mHomePagerContainer" variable
+                       (:typemodifiers ("private")
+                        :type "View")
+                        (reparse-symbol class_member_declaration) [4951 4984])
+                    ("mAboutHomeStartupTimer" variable
+                       (:typemodifiers ("protected")
+                        :type "Telemetry.Timer")
+                        (reparse-symbol class_member_declaration) [4989 5045])
+                    ("mActionMode" variable
+                       (:typemodifiers ("private")
+                        :type "ActionModeCompat")
+                        (reparse-symbol class_member_declaration) [5050 5087])
+                    ("GECKO_TOOLS_MENU" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [5093 5140])
+                    ("ADDON_MENU_OFFSET" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [5145 5195])
+                    ("MenuItemInfo" type
+                       (:typemodifiers ("private" "static")
+                        :members 
+                          ( ("id" variable
+                               (:typemodifiers ("public")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [5244 5258])
+                            ("label" variable
+                               (:typemodifiers ("public")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5267 5287])
+                            ("icon" variable
+                               (:typemodifiers ("public")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [5296 5315])
+                            ("checkable" variable
+                               (:typemodifiers ("public")
+                                :type "boolean")
+                                (reparse-symbol class_member_declaration) [5324 5357])
+                            ("checked" variable
+                               (:typemodifiers ("public")
+                                :type "boolean")
+                                (reparse-symbol class_member_declaration) [5366 5397])
+                            ("enabled" variable
+                               (:typemodifiers ("public")
+                                :type "boolean")
+                                (reparse-symbol class_member_declaration) [5406 5436])
+                            ("visible" variable
+                               (:typemodifiers ("public")
+                                :type "boolean")
+                                (reparse-symbol class_member_declaration) [5445 5475])
+                            ("parent" variable
+                               (:typemodifiers ("public")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [5484 5502])
+                            ("added" variable
+                               (:typemodifiers ("public")
+                                :type "boolean")
+                                (reparse-symbol class_member_declaration) [5511 5540]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [5200 5592])
+                    ("mMainLayoutAnimator" variable
+                       (:typemodifiers ("private")
+                        :type "PropertyAnimator")
+                        (reparse-symbol class_member_declaration) [5783 5828])
+                    ("sTabsInterpolator" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "Interpolator")
+                        (reparse-symbol class_member_declaration) [5834 6060])
+                    ("mFindInPageBar" variable
+                       (:typemodifiers ("private")
+                        :type "FindInPageBar")
+                        (reparse-symbol class_member_declaration) [6066 6103])
+                    ("mAccessibilityEnabled" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [6109 6155])
+                    ("FEEDBACK_LAUNCH_COUNT" variable
+                       (:typemodifiers ("private" "static" "final")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [6240 6292])
+                    ("mDynamicToolbarEnabled" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [6350 6397])
+                    ("mToolbarHeight" variable
+                       (:typemodifiers ("private")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [6476 6507])
+                    ("mDynamicToolbarCanScroll" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [6606 6655])
+                    ("mPrefObserverId" variable
+                       (:typemodifiers ("private")
+                        :type "Integer")
+                        (reparse-symbol class_member_declaration) [6661 6693])
+                    ("mSharedPreferencesHelper" variable
+                       (:typemodifiers ("private")
+                        :type "SharedPreferencesHelper")
+                        (reparse-symbol class_member_declaration) [6699 6756])
+                    ("mOrderedBroadcastHelper" variable
+                       (:typemodifiers ("private")
+                        :type "OrderedBroadcastHelper")
+                        (reparse-symbol class_member_declaration) [6762 6817])
+                    ("mFirefoxAccountsHelper" variable
+                       (:typemodifiers ("private")
+                        :type "FirefoxAccountsHelper")
+                        (reparse-symbol class_member_declaration) [6823 6876])
+                    ("mBrowserHealthReporter" variable
+                       (:typemodifiers ("private")
+                        :type "BrowserHealthReporter")
+                        (reparse-symbol class_member_declaration) [6882 6935])
+                    ("mTargetTabForEditingMode" variable
+                       (:typemodifiers ("private")
+                        :type "Integer")
+                        (reparse-symbol class_member_declaration) [6993 7041])
+                    ("mHideWebContentOnAnimationEnd" variable
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [7425 7479])
+                    ("onTabChanged" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("tab" variable (:type "Tab") (reparse-symbol formal_parameters) [7524 7531])
+                            ("msg" variable (:type "Tabs.TabEvents") (reparse-symbol formal_parameters) [7533 7551])
+                            ("data" variable (:type "Object") (reparse-symbol formal_parameters) [7553 7564]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [7499 10289])
+                    ("onKey" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("v" variable (:type "View") (reparse-symbol formal_parameters) [10330 10336])
+                            ("keyCode" variable (:type "int") (reparse-symbol formal_parameters) [10338 10349])
+                            ("event" variable (:type "KeyEvent") (reparse-symbol formal_parameters) [10351 10365]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [10309 13451])
+                    ("onKeyDown" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("keyCode" variable (:type "int") (reparse-symbol formal_parameters) [13496 13507])
+                            ("event" variable (:type "KeyEvent") (reparse-symbol formal_parameters) [13509 13523]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [13471 13780])
+                    ("handleReaderListCountRequest" function (:type "void") (reparse-symbol class_member_declaration) [13786 14188])
+                    ("handleReaderListStatusRequest" function
+                       (:arguments 
+                          ( ("url" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [14229 14245]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [14194 14993])
+                    ("handleReaderAdded" function
+                       (:arguments 
+                          ( ("result" variable (:type "int") (reparse-symbol formal_parameters) [15022 15032])
+                            ("title" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [15034 15052])
+                            ("url" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [15054 15070]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [14999 15947])
+                    ("handleReaderRemoved" function
+                       (:arguments 
+                          ( ("url" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [15978 15994]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [15953 16525])
+                    ("onCreate" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("savedInstanceState" variable (:type "Bundle") (reparse-symbol formal_parameters) [16566 16591]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [16545 24038])
+                    ("onBackPressed" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [24058 24508])
+                    ("onResume" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [24528 24635])
+                    ("onPause" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [24655 24853])
+                    ("showBookmarkDialog" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [24859 26321])
+                    ("setDynamicToolbarEnabled" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("enabled" variable (:type "boolean") (reparse-symbol formal_parameters) [26365 26380]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [26327 27112])
+                    ("isDynamicToolbarEnabled" function
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [27118 27232])
+                    ("isAboutHome" function
+                       (:typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("tab" variable
+                               (:typemodifiers ("final")
+                                :type "Tab")
+                                (reparse-symbol formal_parameters) [27273 27286]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [27238 27348])
+                    ("onSearchRequested" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [27368 27459])
+                    ("onContextItemSelected" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("item" variable (:type "MenuItem") (reparse-symbol formal_parameters) [27516 27529]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [27479 30657])
+                    ("setAccessibilityEnabled" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("enabled" variable (:type "boolean") (reparse-symbol formal_parameters) [30713 30728]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [30677 31094])
+                    ("onDestroy" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [31114 32989])
+                    ("initializeChrome" function
+                       (:typemodifiers ("protected")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [33009 33559])
+                    ("shareCurrentUrl" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [33565 34074])
+                    ("loadStartupTab" function
+                       (:typemodifiers ("protected")
+                        :arguments 
+                          ( ("url" variable (:type "String") (reparse-symbol formal_parameters) [34124 34134]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [34094 34350])
+                    ("setToolbarMargin" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("margin" variable (:type "int") (reparse-symbol formal_parameters) [34386 34396]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [34356 34534])
+                    ("onMetricsChanged" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("aMetrics" variable (:type "ImmutableViewportMetrics") (reparse-symbol formal_parameters) [34583 34616]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [34554 35946])
+                    ("onPanZoomStopped" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [35966 36651])
+                    ("refreshToolbarHeight" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [36657 37813])
+                    ("toggleChrome" function
+                       (:arguments 
+                          ( ("aShow" variable
+                               (:typemodifiers ("final")
+                                :type "boolean")
+                                (reparse-symbol formal_parameters) [37851 37870]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [37833 38342])
+                    ("focusChrome" function (:type "void") (reparse-symbol class_member_declaration) [38362 38632])
+                    ("refreshChrome" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [38652 38815])
+                    ("hasTabsSideBar" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [38835 38937])
+                    ("updateSideBarState" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [38943 39750])
+                    ("handleMessage" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("event" variable (:type "String") (reparse-symbol formal_parameters) [39796 39808])
+                            ("message" variable (:type "JSONObject") (reparse-symbol formal_parameters) [39810 39828]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [39770 48199])
+                    ("addTab" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [48219 48380])
+                    ("addPrivateTab" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [48400 48544])
+                    ("showNormalTabs" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [48564 48647])
+                    ("showPrivateTabs" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [48667 48752])
+                    ("showRemoteTabs" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [48772 48855])
+                    ("showTabs" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("panel" variable (:type "TabsPanel.Panel") (reparse-symbol formal_parameters) [48883 48904]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [48861 49021])
+                    ("hideTabs" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [49041 49098])
+                    ("autoHideTabs" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [49118 49266])
+                    ("areTabsShown" function
+                       (:typemodifiers ("public")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [49286 49360])
+                    ("onTabsLayoutChange" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("width" variable (:type "int") (reparse-symbol formal_parameters) [49411 49420])
+                            ("height" variable (:type "int") (reparse-symbol formal_parameters) [49422 49432]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [49380 51051])
+                    ("onPropertyAnimationStart" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [51071 51117])
+                    ("onPropertyAnimationEnd" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [51137 51441])
+                    ("onSaveInstanceState" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("outState" variable (:type "Bundle") (reparse-symbol formal_parameters) [51493 51508]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [51461 51784])
+                    ("maybeSwitchToTab" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("url" variable (:type "String") (reparse-symbol formal_parameters) [51982 51992])
+                            ("" variable (:type "flags") (reparse-symbol formal_parameters) [52027 52032]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [51949 52639])
+                    ("openUrlAndStopEditing" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("url" variable (:type "String") (reparse-symbol formal_parameters) [52680 52690]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [52645 52748])
+                    ("openUrlAndStopEditing" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("url" variable (:type "String") (reparse-symbol formal_parameters) [52789 52799])
+                            ("newTab" variable (:type "boolean") (reparse-symbol formal_parameters) [52801 52815]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [52754 52874])
+                    ("openUrlAndStopEditing" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("url" variable (:type "String") (reparse-symbol formal_parameters) [52915 52925])
+                            ("searchEngine" variable (:type "String") (reparse-symbol formal_parameters) [52927 52946]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [52880 53012])
+                    ("openUrlAndStopEditing" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("url" variable (:type "String") (reparse-symbol formal_parameters) [53053 53063])
+                            ("searchEngine" variable (:type "String") (reparse-symbol formal_parameters) [53065 53084])
+                            ("newTab" variable (:type "boolean") (reparse-symbol formal_parameters) [53086 53100]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [53018 53383])
+                    ("isHomePagerVisible" function
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [53389 53496])
+                    ("sFaviconLoadedListener" variable
+                       (:typemodifiers ("private" "static")
+                        :type "OnFaviconLoadedListener")
+                        (reparse-symbol class_member_declaration) [53527 54000])
+                    ("loadFavicon" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("tab" variable
+                               (:typemodifiers ("final")
+                                :type "Tab")
+                                (reparse-symbol formal_parameters) [54031 54044]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [54006 54793])
+                    ("maybeCancelFaviconLoad" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("tab" variable (:type "Tab") (reparse-symbol formal_parameters) [54835 54842]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [54799 55202])
+                    ("enterEditingMode" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [55446 55913])
+                    ("enterEditingMode" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("url" variable (:type "String") (reparse-symbol formal_parameters) [56084 56094]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [56054 56633])
+                    ("commitEditingMode" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [56639 59303])
+                    ("recordSearch" function
+                       (:typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("engine" variable (:type "SearchEngine") (reparse-symbol formal_parameters) [59649 59668])
+                            ("where" variable (:type "String") (reparse-symbol formal_parameters) [59670 59682]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [59616 60329])
+                    ("dismissEditingMode" function
+                       (:typemodifiers ("private")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [60335 60520])
+                    ("filterEditingMode" function
+                       (:arguments 
+                          ( ("searchTerm" variable (:type "String") (reparse-symbol formal_parameters) [60549 60566])
+                            ("handler" variable (:type "AutocompleteHandler") (reparse-symbol formal_parameters) [60568 60595]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [60526 60798])
+                    ("selectTargetTabForEditingMode" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [61192 61412])
+                    ("updateHomePagerForTab" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("tab" variable (:type "Tab") (reparse-symbol formal_parameters) [61525 61532]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [61490 62077])
+                    ("onLocaleReady" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("locale" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [62123 62142]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [62097 62498])
+                    ("showHomePager" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("pageId" variable (:type "String") (reparse-symbol formal_parameters) [62531 62544]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [62504 62602])
+                    ("showHomePagerWithAnimator" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("animator" variable (:type "PropertyAnimator") (reparse-symbol formal_parameters) [62647 62672]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [62608 62845])
+                    ("showHomePagerWithAnimator" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("pageId" variable (:type "String") (reparse-symbol formal_parameters) [62890 62903])
+                            ("animator" variable (:type "PropertyAnimator") (reparse-symbol formal_parameters) [62905 62930]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [62851 63841])
+                    ("hideWebContentOnPropertyAnimationEnd" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("animator" variable
+                               (:typemodifiers ("final")
+                                :type "PropertyAnimator")
+                                (reparse-symbol formal_parameters) [63897 63928]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [63847 64479])
+                    ("hideWebContent" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [64485 64688])
+                    ("hideHomePager" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [64814 65028])
+                    ("hideHomePager" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("url" variable
+                               (:typemodifiers ("final")
+                                :type "String")
+                                (reparse-symbol formal_parameters) [65213 65229]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [65186 65850])
+                    ("showBrowserSearch" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [65856 66913])
+                    ("hideBrowserSearch" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [66919 67441])
+                    ("HideTabsTouchListener" type
+                       (:typemodifiers ("private")
+                        :interfaces ("TouchEventInterceptor")
+                        :members 
+                          ( ("mIsHidingTabs" variable
+                               (:typemodifiers ("private")
+                                :type "boolean")
+                                (reparse-symbol class_member_declaration) [67526 67564])
+                            ("onInterceptTouchEvent" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("view" variable (:type "View") (reparse-symbol formal_parameters) [67629 67638])
+                                    ("event" variable (:type "MotionEvent") (reparse-symbol formal_parameters) [67640 67657]))                                  
+                                :type "boolean")
+                                (reparse-symbol class_member_declaration) [67592 68697])
+                            ("onTouch" function
+                               (:typemodifiers ("public")
+                                :arguments 
+                                  ( ("view" variable (:type "View") (reparse-symbol formal_parameters) [68748 68757])
+                                    ("event" variable (:type "MotionEvent") (reparse-symbol formal_parameters) [68759 68776]))                                  
+                                :type "boolean")
+                                (reparse-symbol class_member_declaration) [68725 69169]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [67447 69175])
+                    ("findParentMenu" function
+                       (:typemodifiers ("private" "static")
+                        :arguments 
+                          ( ("menu" variable (:type "Menu") (reparse-symbol formal_parameters) [69216 69225])
+                            ("item" variable (:type "MenuItem") (reparse-symbol formal_parameters) [69227 69240]))                          
+                        :type "Menu")
+                        (reparse-symbol class_member_declaration) [69181 69792])
+                    ("addAddonMenuItemToMenu" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("menu" variable
+                               (:typemodifiers ("final")
+                                :type "Menu")
+                                (reparse-symbol formal_parameters) [69942 69957])
+                            ("info" variable
+                               (:typemodifiers ("final")
+                                :type "MenuItemInfo")
+                                (reparse-symbol formal_parameters) [69959 69982]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [69906 72400])
+                    ("addAddonMenuItem" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("info" variable
+                               (:typemodifiers ("final")
+                                :type "MenuItemInfo")
+                                (reparse-symbol formal_parameters) [72436 72459]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [72406 72887])
+                    ("removeAddonMenuItem" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("id" variable (:type "int") (reparse-symbol formal_parameters) [72926 72932]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [72893 73468])
+                    ("updateAddonMenuItem" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("id" variable (:type "int") (reparse-symbol formal_parameters) [73507 73513])
+                            ("options" variable (:type "JSONObject") (reparse-symbol formal_parameters) [73515 73533]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [73474 74893])
+                    ("onCreateOptionsMenu" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("menu" variable (:type "Menu") (reparse-symbol formal_parameters) [74948 74957]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [74913 75943])
+                    ("openOptionsMenu" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [75963 76399])
+                    ("closeOptionsMenu" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [76419 76544])
+                    ("setFullScreen" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("fullscreen" variable
+                               (:typemodifiers ("final")
+                                :type "boolean")
+                                (reparse-symbol formal_parameters) [76590 76614]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [76564 77493])
+                    ("onPrepareOptionsMenu" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("aMenu" variable (:type "Menu") (reparse-symbol formal_parameters) [77549 77559]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [77513 82973])
+                    ("onOptionsItemSelected" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("item" variable (:type "MenuItem") (reparse-symbol formal_parameters) [83030 83043]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [82993 87241])
+                    ("showGuestModeDialog" function
+                       (:typemodifiers ("private")
+                        :arguments 
+                          ( ("type" variable
+                               (:typemodifiers ("final")
+                                :type "GuestModeDialog")
+                                (reparse-symbol formal_parameters) [87280 87306]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [87247 88850])
+                    ("onKeyLongPress" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("keyCode" variable (:type "int") (reparse-symbol formal_parameters) [88998 89009])
+                            ("event" variable (:type "KeyEvent") (reparse-symbol formal_parameters) [89011 89025]))                          
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [88968 89294])
+                    ("onNewIntent" function
+                       (:typemodifiers ("protected")
+                        :arguments 
+                          ( ("intent" variable (:type "Intent") (reparse-symbol formal_parameters) [89551 89564]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [89524 91529])
+                    ("makeNotificationClient" function
+                       (:typemodifiers ("protected")
+                        :type "NotificationClient")
+                        (reparse-symbol class_member_declaration) [91549 91791])
+                    ("resetFeedbackLaunchCount" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [91797 92178])
+                    ("getLastUrl" function
+                       (:typemodifiers ("private")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [92184 93263])
+                    ("onNewTabs" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("urls" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [93340 93353]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [93318 93633])
+                    ("onUrlOpen" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("url" variable (:type "String") (reparse-symbol formal_parameters) [93710 93720])
+                            ("" variable (:type "flags") (reparse-symbol formal_parameters) [93755 93760]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [93688 93864])
+                    ("onSearch" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("engine" variable (:type "SearchEngine") (reparse-symbol formal_parameters) [93943 93962])
+                            ("text" variable (:type "String") (reparse-symbol formal_parameters) [93964 93975]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [93922 94078])
+                    ("onEditSuggestion" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("suggestion" variable (:type "String") (reparse-symbol formal_parameters) [94173 94190]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [94144 94253])
+                    ("getLayout" function
+                       (:typemodifiers ("public")
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [94273 94326])
+                    ("getDefaultProfileName" function
+                       (:typemodifiers ("protected")
+                        :type "String")
+                        (reparse-symbol class_member_declaration) [94346 94514])
+                    ("handleUpdaterLaunch" function
+                       (:typemodifiers ("protected")
+                        :type "boolean")
+                        (reparse-symbol class_member_declaration) [94940 95484])
+                    ("startActionModeCompat" function
+                       (:typemodifiers ("public")
+                        :arguments 
+                          ( ("callback" variable
+                               (:typemodifiers ("final")
+                                :type "ActionModeCompat.Callback")
+                                (reparse-symbol formal_parameters) [95588 95628]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [95554 96719])
+                    ("endActionModeCompat" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [96789 97061]))                  
+                :type "class")
+                nil [3205 97063]))          
+    :file "BrowserApp.java"
+    :pointmax 97064
+    :fsize 97063
+    :lastmodtime '(21192 42470 0 0)
+    :unmatched-syntax '((GT 93753 . 93754) (IDENTIFIER 93722 . 93729) (LT 93729 . 93730) (GT 52025 . 52026) (IDENTIFIER 51994 . 52001) (LT 52001 . 52002) (SEMICOLON 5777 . 5778) (GT 5755 . 5756) (PRIVATE 5645 . 5652) (BRACE_BLOCK 5681 . 5722) (PRIVATE 5728 . 5735) (LT 5742 . 5743))
+    )
+   (semanticdb-table "moz.build"
+    :major-mode 'python-mode
+    :tags 
+        '( ("DIRS" variable nil nil [309 328])
+            ("include" code nil nil [330 366])
+            ("thirdparty_source_dir" code nil nil [368 433])
+            ("mgjar" variable nil nil [435 472])
+            ("mgjar" variable nil nil [473 991])
+            ("mgjar" variable nil nil [992 1072])
+            ("mgjar" variable nil nil [1073 1108])
+            ("wsjar" variable nil nil [1110 1144])
+            ("wsjar" variable nil nil [1145 1323])
+            ("wsjar" variable nil nil [1324 1367])
+            ("gujar" variable nil nil [1369 1403])
+            ("gujar" variable nil nil [1404 2004])
+            ("gujar" variable nil nil [2005 2051])
+            ("gujar" variable nil nil [2052 2100])
+            ("stjar" variable nil nil [2102 2141])
+            ("stjar" variable nil nil [2142 2224])
+            ("stjar" variable nil nil [2225 2260])
+            ("if" code nil nil [2262 3053])
+            ("gbjar" variable nil nil [3054 3091])
+            ("gbjar" variable nil nil [3092 11214])
+            ("gbjar" variable nil nil [11215 11490])
+            ("android_package_dir" variable nil nil [11491 11561])
+            ("gbjar" variable nil nil [11686 11811])
+            ("gbjar" variable nil nil [11812 12330])
+            ("if" code nil nil [12331 12467])
+            ("gbjar" variable nil nil [12468 12500])
+            ("gbjar" variable nil nil [12501 12553])
+            ("gbjar" variable nil nil [12554 12672])
+            ("gbjar" variable nil nil [12673 12734])
+            ("ANDROID_RES_DIRS" variable nil nil [12736 12872])
+            ("ANDROID_GENERATED_RESFILES" variable nil nil [12874 12937])
+            ("for" code nil nil [12939 13047])
+            ("for" code nil nil [13048 13150])
+            ("for" code nil nil [13151 13576])
+            ("DEFINES" variable nil nil [13624 13724])
+            ("DEFINES" variable nil nil [13725 13776])
+            ("if" code nil nil [13778 13904]))          
+    :file "moz.build"
+    :pointmax 13904
+    :fsize 13903
+    :lastmodtime '(21192 51298 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!marcoscezar!Programming!Java!fennec!src!mobile!android!base!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

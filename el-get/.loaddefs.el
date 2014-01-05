@@ -52,11 +52,15 @@ Display a list of packages.
 
 ;;;***
 
-;;;### (autoloads nil nil ("el-get/el-get-autoloads.el" "el-get/el-get-build.el"
-;;;;;;  "el-get/el-get-byte-compile.el" "el-get/el-get-core.el" "el-get/el-get-custom.el"
-;;;;;;  "el-get/el-get-dependencies.el" "el-get/el-get-install.el"
-;;;;;;  "el-get/el-get-methods.el" "el-get/el-get-notify.el" "el-get/el-get-recipes.el"
-;;;;;;  "el-get/el-get-status.el") (21158 61464 755905 0))
+;;;### (autoloads nil nil ("eclim/ac-emacs-eclim-source.el" "eclim/company-emacs-eclim.el"
+;;;;;;  "eclim/eclim-ant.el" "eclim/eclim-completion.el" "eclim/eclim-java.el"
+;;;;;;  "eclim/eclim-maven.el" "eclim/eclim-problems.el" "eclim/eclim-project.el"
+;;;;;;  "eclim/eclim.el" "eclim/eclimd.el" "eclim/emacs-eclim-pkg.el"
+;;;;;;  "el-get/el-get-autoloads.el" "el-get/el-get-build.el" "el-get/el-get-byte-compile.el"
+;;;;;;  "el-get/el-get-core.el" "el-get/el-get-custom.el" "el-get/el-get-dependencies.el"
+;;;;;;  "el-get/el-get-install.el" "el-get/el-get-methods.el" "el-get/el-get-notify.el"
+;;;;;;  "el-get/el-get-recipes.el" "el-get/el-get-status.el") (21178
+;;;;;;  64774 504541 0))
 
 ;;;***
 

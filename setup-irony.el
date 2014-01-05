@@ -1,24 +1,20 @@
-(when (file-exists-p "/usr/lib64/clang/3.2/include/")
-  (setq irony-libclang-additional-flags
-        '("-isystem" "/usr/lib64/clang/3.2/include/")))
+(add-to-list 'load-path (concat vendor-path "irony-mode/elisp/"))
+(require 'irony)
 
-;; Use Ninja (http://martine.github.io/ninja/) instead of classic Makefiles
-(setq irony-cdb-cmake-generator "Ninja")
+;; (irony-enable 'ac)
 
-;; FIXME: Not elegant, find a better way to enable default plugins.
-(autoload 'irony-enable "irony")
-(irony-enable 'ac)
+;; (defun my-c++-hooks ()
+;;   "Enable the hooks in the preferred order: 'yas -> auto-complete -> irony'."
+;;   ;; if yas is not set before (auto-complete-mode 1), overlays may persist after
+;;   ;; an expansion.
+;;   (yas/minor-mode-on)
+;;   (auto-complete-mode 1)
 
-(defun sarcasm-enable-irony-mode ()
-  ;; avoid enabling irony-mode in modes that inherits c-mode, e.g: php-mode
-  (when (member major-mode irony-known-modes)
-    ;; uncomment if other ac-sources are too annoying
-    ;; (setq-default ac-sources nil)
+;;   ;; avoid enabling irony-mode in modes that inherits c-mode, e.g: php-mode
+;;   (when (member major-mode irony-known-modes)
+;;     (irony-mode 1)))
 
-    ;; enable irony-mode
-    (irony-mode 1)))
-
-(add-hook 'c++-mode-hook 'sarcasm-enable-irony-mode)
-(add-hook 'c-mode-hook 'sarcasm-enable-irony-mode)
+;; (add-hook 'c++-mode-hook 'my-c++-hooks)
+;; (add-hook 'c-mode-hook 'my-c++-hooks)
 
 (provide init-irony-mode)

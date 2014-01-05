@@ -9,9 +9,10 @@
 
 (setq package-archives '(("gnu" . "http://elpa.gnu.org/packages/")
                          ("marmalade" . "http://marmalade-repo.org/packages/")
-                         ("melpa" . "http://melpa.milkbox.net/packages/")))
+                         ("melpa" . "http://melpa.milkbox.net/packages/")
+                         ("ELPA"      . "http://tromey.com/elpa/")
+                         ("Org-Mode" . "http://orgmode.org/elpa/")))
 (package-initialize)
-
 
 
 (require 'cl)
@@ -145,8 +146,8 @@
 
 (require 'ido-yes-or-no)
 
-;; (require 'auto-complete-clang)
-;; (global-set-key (kbd "C-x a") 'ac-complete-clang)
+(require 'auto-complete-clang)
+(global-set-key (kbd "C-x a") 'ac-complete-clang)
 
 
 (require 'org-latex)
@@ -177,9 +178,6 @@
 (require 'keybindings)
 
 
-(custom-set-variables
-  '(ac-etags-requires 1))
-
 (eval-after-load "etags"
   '(progn
       (ac-etags-setup)))
@@ -209,4 +207,55 @@
 (require 'includeme)
 (define-key c-mode-base-map (kbd "C-c o") 'includeme)
 
-(add-hook 'after-init-hook 'global-company-mode)
+(require 'setup-company-mode)
+
+(require 'setup-jde)
+
+(require 'ctags-update)
+(ctags-auto-update-mode t)
+
+;; (add-to-list 'load-path (concat vendor-path "clang-completion-mode"))
+;; (load-library "clang-completion-mode")
+
+(eval-after-load 'company
+  '(define-key company-active-map (kbd "C-:") 'helm-company))
+
+;; (defun my-ac-cc-mode-setup ()
+;;   (setq ac-sources (append '(ac-source-clang ac-source-yasnippet) ac-sources)))
+
+;; (add-hook 'c-mode-common-hook 'my-ac-cc-mode-setup)
+(require 'flycheck)
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
+;; (setq sml/theme 'dark)
+;; (sml/setup)
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
+
+;; (require 'setup-irony)
+
+(require 'setup-clang-async)
+
+
+(add-to-list 'semantic-default-submodes 'global-semantic-decoration-mode)
+(add-to-list 'semantic-default-submodes 'global-semantic-idle-local-symbol-highlight-mode)
+(add-to-list 'semantic-default-submodes 'global-semantic-idle-scheduler-mode)
+(add-to-list 'semantic-default-submodes 'global-semantic-idle-completions-mode)
+
+(require 'semantic/ia)
+(require 'semantic/bovine/gcc)
+
+;; ;; if you want to enable support for gnu global
+;; (when (cedet-gnu-global-version-check t)
+;;   (semanticdb-enable-gnu-global-databases 'c-mode)
+;;   (semanticdb-enable-gnu-global-databases 'c++-mode))
+
+;; enable ctags for some languages:
+;;  Unix Shell, Perl, Pascal, Tcl, Fortran, Asm
+;; (when (cedet-ectag-version-check)
+;;   (semantic-load-enable-primary-exuberent-ctags-support))
+
