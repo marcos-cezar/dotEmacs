@@ -1,13 +1,13 @@
 
 ;; ----- smex-history -----
 (
- compile
- count-lines-region
- count-words
- org-mode
- regexp-builder
- package-install
+ flyspell-auto-correct-word
+ flyspell-correct-word
+ flyspell-mode
+ ispell
  find-grep
+ find-tag
+ isearch-forward-regexp
 )
 
 ;; ----- smex-data -----
@@ -15,7 +15,7 @@
  (package-install . 87)
  (package-list-packages . 61)
  (paredit-mode . 8)
- (find-grep . 76)
+ (find-grep . 77)
  (textmate-mode . 8)
  (imenu . 1)
  (find-file-in-project . 1)
@@ -24,7 +24,7 @@
  (set-file-name-coding-system . 3)
  (emacs-version . 4)
  (yas-global-mode . 1)
- (flyspell-mode . 4)
+ (flyspell-mode . 7)
  (calc . 2)
  (calculator . 3)
  (paredit-wrap-sexp . 3)
@@ -44,7 +44,7 @@
  (align-regexp . 4)
  (load-theme . 14)
  (apropos . 2)
- (replace-regexp . 5)
+ (replace-regexp . 6)
  (dired-do-isearch-regexp . 1)
  (TeX-mode . 4)
  (tex-file . 1)
@@ -60,7 +60,7 @@
  (nxml-mode . 2)
  (nxml-complete . 4)
  (info . 1)
- (compile . 109)
+ (compile . 110)
  (helm-projectile . 2)
  (goto-line . 1)
  (rename-file . 1)
@@ -147,7 +147,7 @@
  (comment-box . 1)
  (comment-dwim . 1)
  (sp-comment . 1)
- (find-tag . 2)
+ (find-tag . 3)
  (mc/mark-all-like-this . 1)
  (wgrep-exit . 2)
  (mc/mark-next-like-this . 4)
@@ -204,4 +204,11 @@
  (org-mode . 1)
  (count-words . 1)
  (count-lines-region . 1)
+ (query-replace . 3)
+ (re-builder . 1)
+ (query-replace-regexp . 1)
+ (ispell . 7)
+ (isearch-forward-regexp . 3)
+ (flyspell-correct-word . 2)
+ (flyspell-auto-correct-word . 2)
 )

@@ -261,3 +261,4 @@
 
 (put 'dired-find-alternate-file 'disabled nil)
 
+(require 'setup-latex)

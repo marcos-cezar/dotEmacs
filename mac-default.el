@@ -14,6 +14,7 @@
 (setq ns-pop-up-frames nil)
 
 ;; Use aspell for spell checking: brew install aspell --lang=en
-(setq ispell-program-name "/usr/local/bin/aspell")
+(setq ispell-program-name "/usr/local/Cellar/aspell/0.60.6.1/bin/aspell")
+(setq ispell-dictionary "pt_BR")
 
 (provide 'mac-default)
