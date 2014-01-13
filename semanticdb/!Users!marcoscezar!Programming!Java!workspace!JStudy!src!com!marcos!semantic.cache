@@ -37,6 +37,44 @@
     :lastmodtime '(21179 16082 0 0)
     :unmatched-syntax 'nil
     )
+   (semanticdb-table "Buffer.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("Buffer" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("father" function
+                       (:typemodifiers ("public")
+                        :type "Relative")
+                        (reparse-symbol class_member_declaration) [28 76])
+                    ("mother" function
+                       (:typemodifiers ("public")
+                        :type "Relative")
+                        (reparse-symbol class_member_declaration) [81 129])
+                    ("sister" function
+                       (:typemodifiers ("public")
+                        :type "Relative")
+                        (reparse-symbol class_member_declaration) [134 182])
+                    ("brother" function
+                       (:typemodifiers ("public")
+                        :type "Relative")
+                        (reparse-symbol class_member_declaration) [187 237])
+                    ("auntie" function
+                       (:typemodifiers ("public")
+                        :type "Relative")
+                        (reparse-symbol class_member_declaration) [242 290])
+                    ("uncle" function
+                       (:typemodifiers ("public")
+                        :type "Relative")
+                        (reparse-symbol class_member_declaration) [295 341]))                  
+                :type "class")
+                nil [1 348]))          
+    :file "Buffer.java"
+    :pointmax 349
+    :fsize 348
+    :lastmodtime '(21203 84 0 0)
+    :unmatched-syntax 'nil
+    )
    )
   :file "!Users!marcoscezar!Programming!Java!workspace!JStudy!src!com!marcos!semantic.cache"
   :semantic-tag-version "2.0"

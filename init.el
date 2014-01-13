@@ -259,3 +259,5 @@
 ;; (when (cedet-ectag-version-check)
 ;;   (semantic-load-enable-primary-exuberent-ctags-support))
 
+(put 'dired-find-alternate-file 'disabled nil)
+

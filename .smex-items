@@ -2,10 +2,10 @@
 ;; ----- smex-history -----
 (
  compile
- customize-variable
- customize
- semantic-mode
- magit-git-command
+ count-lines-region
+ count-words
+ org-mode
+ regexp-builder
  package-install
  find-grep
 )
@@ -15,7 +15,7 @@
  (package-install . 87)
  (package-list-packages . 61)
  (paredit-mode . 8)
- (find-grep . 73)
+ (find-grep . 76)
  (textmate-mode . 8)
  (imenu . 1)
  (find-file-in-project . 1)
@@ -44,7 +44,7 @@
  (align-regexp . 4)
  (load-theme . 14)
  (apropos . 2)
- (replace-regexp . 3)
+ (replace-regexp . 5)
  (dired-do-isearch-regexp . 1)
  (TeX-mode . 4)
  (tex-file . 1)
@@ -60,7 +60,7 @@
  (nxml-mode . 2)
  (nxml-complete . 4)
  (info . 1)
- (compile . 101)
+ (compile . 109)
  (helm-projectile . 2)
  (goto-line . 1)
  (rename-file . 1)
@@ -86,7 +86,7 @@
  (projectile-regenerate-tags . 1)
  (ctags-create-tags-table . 4)
  (ctags-update-tags-table . 1)
- (regexp-builder . 6)
+ (regexp-builder . 7)
  (menu-bar-mode . 1)
  (join-line . 5)
  (ruby-electric-mode . 1)
@@ -126,7 +126,7 @@
  (print-buffer . 1)
  (package-refresh-contents . 1)
  (indent-region . 1)
- (magit-pull . 2)
+ (magit-pull . 3)
  (magit-git-command . 4)
  (magit-fetch . 6)
  (transpose-sexps . 2)
@@ -190,7 +190,7 @@
  (gtags-find-tag . 1)
  (create-tags . 2)
  (ctags-auto-update-mode . 1)
- (ctags-update . 1)
+ (ctags-update . 2)
  (visit-tags-table . 2)
  (clang-completion-mode . 4)
  (helm-company . 5)
@@ -199,4 +199,9 @@
  (clang-complete-self-insert . 2)
  (irony-compile-check . 1)
  (customize . 1)
+ (wgrep-finish-edit . 1)
+ (helm-gtags-update-tags . 1)
+ (org-mode . 1)
+ (count-words . 1)
+ (count-lines-region . 1)
 )

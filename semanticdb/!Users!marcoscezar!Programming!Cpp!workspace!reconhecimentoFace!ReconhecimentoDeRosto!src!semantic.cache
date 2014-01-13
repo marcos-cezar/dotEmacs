@@ -49,21 +49,21 @@
                (:arguments 
                   ( ("frame" variable (:type ("Mat" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [1033 1043]))                  
                 :type "void")
-                nil [1011 3304])
-            ("readFromVideo" function (:type "int") nil [3306 4695])
+                nil [1011 3367])
+            ("readFromVideo" function (:type "int") nil [3369 4758])
             ("main" function
                (:arguments 
-                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [4706 4715])
+                  ( ("argc" variable (:type "int") (reparse-symbol arg-sub-list) [4769 4778])
                     ("argv" variable
                        (:pointer 2
                         :type "char")
-                        (reparse-symbol arg-sub-list) [4716 4728]))                  
+                        (reparse-symbol arg-sub-list) [4779 4791]))                  
                 :type "int")
-                nil [4697 5247]))          
+                nil [4760 5310]))          
     :file "main.cpp"
-    :pointmax 5248
-    :fsize 5247
-    :lastmodtime '(21193 28024 0 0)
+    :pointmax 5311
+    :fsize 5309
+    :lastmodtime '(21194 30342 0 0)
     :unmatched-syntax 'nil
     )
    (semanticdb-table "CSVReader.hpp"
