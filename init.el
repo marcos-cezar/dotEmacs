@@ -63,8 +63,8 @@
 
 (require 'setup-flycheck)
 
-(set-face-attribute 'default nil :family "Menlo")
-(set-face-attribute 'default nil :height 140)
+(set-face-attribute 'default nil :family "Inconsolata")
+(set-face-attribute 'default nil :height 160)
 
 
 ;; Visual regexp
@@ -138,7 +138,7 @@
 
 (require 'top-mode)
 
-(load-theme 'base16-default t)
+(load-theme 'solarized-dark t)
 
 (require 'rainbow-mode)
 
@@ -209,7 +209,7 @@
 
 (require 'setup-company-mode)
 
-(require 'setup-jde)
+;; (require 'setup-jde)
 
 (require 'ctags-update)
 (ctags-auto-update-mode t)
@@ -262,3 +262,9 @@
 (put 'dired-find-alternate-file 'disabled nil)
 
 (require 'setup-latex)
+(setq ns-use-srgb-colorspace nil)
+
+(require 'android-mode)
+
+;; (require 'malabar-mode)
+;; (add-to-list 'auto-mode-alist '("\\.java\\'" . malabar-mode))

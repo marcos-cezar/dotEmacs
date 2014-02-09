@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: iten
+# key: iten
+# --
+\textit{$1}

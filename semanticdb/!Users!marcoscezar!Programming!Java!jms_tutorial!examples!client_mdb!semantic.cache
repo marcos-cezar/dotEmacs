@@ -1,0 +1,34 @@
+;; Object client_mdb/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "client_mdb/"
+  :tables (list 
+   (semanticdb-table "SimpleClient.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("javax.jms.*" include nil nil [1818 1837])
+            ("javax.naming.*" include nil nil [1838 1860])
+            ("SimpleClient" type
+               (:typemodifiers ("public")
+                :members 
+                  ( ("main" function
+                       (:typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [2024 2037]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2000 4582]))                  
+                :type "class")
+                nil [1931 4584]))          
+    :file "SimpleClient.java"
+    :pointmax 4585
+    :fsize 4584
+    :lastmodtime '(15492 60861 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!marcoscezar!Programming!Java!jms_tutorial!examples!client_mdb!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

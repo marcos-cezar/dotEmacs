@@ -1,0 +1,89 @@
+;; Object src/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "src/"
+  :tables (list 
+   (semanticdb-table "main.cpp"
+    :major-mode 'c++-mode
+    :tags nil
+    :file "main.cpp"
+    :pointmax 5110
+    :fsize 5109
+    :lastmodtime '(21202 2972 0 0)
+    :unmatched-syntax 'nil
+    )
+   (semanticdb-table "CSVReader.hpp"
+    :major-mode 'c++-mode
+    :tags 
+        '( ("_CSVREADER_H_" variable (:constant-flag t) nil [31 44])
+            ("string" include (:system-flag t) nil [46 63])
+            ("opencv2/core/core.hpp" include (:system-flag t) nil [64 96])
+            ("iostream" include (:system-flag t) nil [97 116])
+            ("std" using (:type ("std" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [118 138])
+            ("cv" using (:type ("cv" type
+                 (:prototype t
+                  :type "namespace")
+                  nil nil)) nil [139 158])
+            ("CSVReader" type
+               (:members 
+                  ( ("private" label nil (reparse-symbol classsubparts) [181 189])
+                    ("absoluteFilename" variable (:type ("string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [194 218])
+                    ("public" label nil (reparse-symbol classsubparts) [224 231])
+                    ("CSVReader" function
+                       (:prototype-flag t
+                        :constructor-flag t
+                        :type ("CSVReader" type (:type "class") nil nil))
+                        (reparse-symbol classsubparts) [237 249])
+                    ("CSVReader" function
+                       (:prototype-flag t
+                        :destructor-flag t
+                        :typemodifiers ("virtual")
+                        :type "void")
+                        (reparse-symbol classsubparts) [254 275])
+                    ("read_csv" function
+                       (:prototype-flag t
+                        :typemodifiers ("static")
+                        :arguments 
+                          ( ("filename" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("string" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [301 324])
+                            ("images" variable
+                               (:reference 1
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("Mat" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [325 345])
+                            ("labels" variable
+                               (:reference 1
+                                :type ("vector" type
+                                     (:template-specifier 
+                                        ( ("int" type nil nil nil))                                        
+                                      :type "class")
+                                      nil nil))
+                                (reparse-symbol arg-sub-list) [346 366])
+                            ("separator" variable (:type "char") (reparse-symbol arg-sub-list) [367 383]))                          
+                        :type "void")
+                        (reparse-symbol classsubparts) [280 389]))                  
+                :type "class")
+                nil [161 393]))          
+    :file "CSVReader.hpp"
+    :pointmax 432
+    :fsize 431
+    :lastmodtime '(21199 54158 0 0)
+    :unmatched-syntax '((string 384 . 387) (punctuation 382 . 383))
+    :lexical-table 
+        '(("_CSVREADER_H_")
+          )
+
+    )
+   )
+  :file "!Users!marcoscezar!Programming!Cpp!workspace!reconhecimentoFace!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

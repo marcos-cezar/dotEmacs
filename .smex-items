@@ -1,21 +1,21 @@
 
 ;; ----- smex-history -----
 (
- flyspell-auto-correct-word
- flyspell-correct-word
- flyspell-mode
- ispell
+ package-list-packages
  find-grep
- find-tag
- isearch-forward-regexp
+ multiple-cursors-mode
+ where-is
+ flyspell-mode
+ flymake-mode
+ jtags-mode
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 87)
- (package-list-packages . 61)
+ (package-install . 91)
+ (package-list-packages . 66)
  (paredit-mode . 8)
- (find-grep . 77)
+ (find-grep . 80)
  (textmate-mode . 8)
  (imenu . 1)
  (find-file-in-project . 1)
@@ -24,7 +24,7 @@
  (set-file-name-coding-system . 3)
  (emacs-version . 4)
  (yas-global-mode . 1)
- (flyspell-mode . 7)
+ (flyspell-mode . 8)
  (calc . 2)
  (calculator . 3)
  (paredit-wrap-sexp . 3)
@@ -32,7 +32,7 @@
  (electric-pair-mode . 4)
  (c-mode . 2)
  (electric-indent-mode . 1)
- (smartparens-mode . 7)
+ (smartparens-mode . 8)
  (split-line . 1)
  (newline . 1)
  (ruby-mode . 5)
@@ -121,7 +121,7 @@
  (exec-path-from-shell-initialize . 1)
  (comment-region . 2)
  (set-buffer-file-coding-system . 5)
- (locate . 6)
+ (locate . 7)
  (helm-buffer-run-ediff . 1)
  (print-buffer . 1)
  (package-refresh-contents . 1)
@@ -143,7 +143,7 @@
  (eval-print-last-sexp . 2)
  (eval-expression . 1)
  (customize-group . 1)
- (ruby-end-mode . 2)
+ (ruby-end-mode . 6)
  (comment-box . 1)
  (comment-dwim . 1)
  (sp-comment . 1)
@@ -202,7 +202,7 @@
  (wgrep-finish-edit . 1)
  (helm-gtags-update-tags . 1)
  (org-mode . 1)
- (count-words . 1)
+ (count-words . 3)
  (count-lines-region . 1)
  (query-replace . 3)
  (re-builder . 1)
@@ -210,5 +210,24 @@
  (ispell . 7)
  (isearch-forward-regexp . 3)
  (flyspell-correct-word . 2)
- (flyspell-auto-correct-word . 2)
+ (flyspell-auto-correct-word . 5)
+ (yas-load-snippet-buffer . 1)
+ (yas/reload-all . 1)
+ (mc/mark-all-dwim . 1)
+ (mc/edit-lines . 2)
+ (ruby-block-mode . 2)
+ (android-mode . 3)
+ (android-ant-clean . 4)
+ (android-build-install . 4)
+ (android-ant-installd . 1)
+ (android-build-clean . 1)
+ (android-ant . 4)
+ (android-ant-debug . 1)
+ (malabar-import-all . 1)
+ (malabar-import-one-class . 1)
+ (jtags-mode . 2)
+ (jtags-menu . 1)
+ (flymake-mode . 1)
+ (where-is . 1)
+ (multiple-cursors-mode . 1)
 )

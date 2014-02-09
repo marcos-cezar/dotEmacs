@@ -1,4 +1,8 @@
-((("setup-latex" .
+((("HADOOP_PATH" .
+   [0 0 0 1 0 0 0 0 0 0 0])
+  ("PATH:" .
+   [2 0 0 0 0])
+  ("setup-latex" .
    [0 0 0 0 0 0 0 0 0 1 0])
   ("flyspell-mode" .
    [0 0 0 0 0 0 0 0 0 0 0 0 1])

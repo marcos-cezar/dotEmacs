@@ -12,7 +12,10 @@
 
 (setq mc/cmds-to-run-once
       '(
+        c-electric-semi&comma
+        c-electric-slash
         paredit-forward-delete
         read-only-mode
+        sp--self-insert-command
         undefined
         ))
