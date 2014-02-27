@@ -1,0 +1,55 @@
+;; Object join/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "join/"
+  :tables (list 
+   (semanticdb-table "JoinDriver.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("br.edu.ifba.join" package nil nil [1 26])
+            ("org.apache.hadoop.conf.Configured" include nil nil [29 70])
+            ("org.apache.hadoop.fs.Path" include nil nil [71 104])
+            ("org.apache.hadoop.io.Text" include nil nil [105 138])
+            ("org.apache.hadoop.mapreduce.Job" include nil nil [139 178])
+            ("org.apache.hadoop.mapreduce.lib.input.MultipleInputs" include nil nil [179 239])
+            ("org.apache.hadoop.mapreduce.lib.input.TextInputFormat" include nil nil [240 301])
+            ("org.apache.hadoop.mapreduce.lib.output.FileOutputFormat" include nil nil [302 365])
+            ("org.apache.hadoop.util.Tool" include nil nil [366 401])
+            ("org.apache.hadoop.util.ToolRunner" include nil nil [402 443])
+            ("JoinDriver" type
+               (:typemodifiers ("public")
+                :interfaces ("Tool")
+                :superclasses "Configured"
+                :members 
+                  ( ("main" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public" "static")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [536 549]))                          
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [512 711])
+                    ("run" function
+                       (:throws ("Exception")
+                        :typemodifiers ("public")
+                        :arguments 
+                          ( ("args" variable
+                               (:dereference 1
+                                :type "String")
+                                (reparse-symbol formal_parameters) [740 753]))                          
+                        :type "int")
+                        (reparse-symbol class_member_declaration) [725 1648]))                  
+                :type "class")
+                nil [445 1650]))          
+    :file "JoinDriver.java"
+    :pointmax 1650
+    :fsize 1649
+    :lastmodtime '(21253 1526 0 0)
+    :unmatched-syntax 'nil
+    )
+   )
+  :file "!Users!marcoscezar!Downloads!join!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

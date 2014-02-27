@@ -1,19 +1,19 @@
 
 ;; ----- smex-history -----
 (
+ dirtree
+ package-install
  package-list-packages
- find-grep
- multiple-cursors-mode
- where-is
- flyspell-mode
- flymake-mode
- jtags-mode
+ locate
+ auto-complete-mode
+ smartparens-mode
+ iedit-mode
 )
 
 ;; ----- smex-data -----
 (
- (package-install . 91)
- (package-list-packages . 66)
+ (package-install . 97)
+ (package-list-packages . 67)
  (paredit-mode . 8)
  (find-grep . 80)
  (textmate-mode . 8)
@@ -32,7 +32,7 @@
  (electric-pair-mode . 4)
  (c-mode . 2)
  (electric-indent-mode . 1)
- (smartparens-mode . 8)
+ (smartparens-mode . 10)
  (split-line . 1)
  (newline . 1)
  (ruby-mode . 5)
@@ -110,8 +110,8 @@
  (org-list-insert-radio-list . 1)
  (magit-status . 2)
  (doctor . 1)
- (jde-import-all . 14)
- (jde-complete . 4)
+ (jde-import-all . 15)
+ (jde-complete . 6)
  (jde-create-new-project . 2)
  (jde-compile . 4)
  (jde-build . 1)
@@ -121,7 +121,7 @@
  (exec-path-from-shell-initialize . 1)
  (comment-region . 2)
  (set-buffer-file-coding-system . 5)
- (locate . 7)
+ (locate . 8)
  (helm-buffer-run-ediff . 1)
  (print-buffer . 1)
  (package-refresh-contents . 1)
@@ -157,7 +157,7 @@
  (irony-restart-process . 3)
  (irony-mode . 9)
  (irony-reload-flags . 2)
- (auto-complete-mode . 2)
+ (auto-complete-mode . 6)
  (ac-clang-syntax-check . 1)
  (semantic-ia-show-variants . 7)
  (ac-complete-semantic . 1)
@@ -209,7 +209,7 @@
  (query-replace-regexp . 1)
  (ispell . 7)
  (isearch-forward-regexp . 3)
- (flyspell-correct-word . 2)
+ (flyspell-correct-word . 8)
  (flyspell-auto-correct-word . 5)
  (yas-load-snippet-buffer . 1)
  (yas/reload-all . 1)
@@ -230,4 +230,9 @@
  (flymake-mode . 1)
  (where-is . 1)
  (multiple-cursors-mode . 1)
+ (iedit-mode . 2)
+ (jde-mode . 1)
+ (jde-set-global-classpath . 1)
+ (jde-wiz-update-class-list . 1)
+ (dirtree . 1)
 )

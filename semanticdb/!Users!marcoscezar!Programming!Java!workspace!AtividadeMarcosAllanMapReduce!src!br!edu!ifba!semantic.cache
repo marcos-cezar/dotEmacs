@@ -1,0 +1,18 @@
+;; Object ifba/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "ifba/"
+  :tables (list 
+   (semanticdb-table "GrepMapper.java"
+    :major-mode 'jde-mode
+    :tags nil
+    :file "GrepMapper.java"
+    :pointmax 466
+    :fsize 465
+    :lastmodtime '(21250 49251 0 0)
+    :unmatched-syntax '((BRACE_BLOCK 76 . 455) (GT 74 . 75) (IDENTIFIER 70 . 74) (COMMA 68 . 69) (IDENTIFIER 56 . 68) (COMMA 54 . 55) (IDENTIFIER 50 . 54) (COMMA 48 . 49) (IDENTIFIER 42 . 48) (LT 41 . 42) (BRACE_BLOCK 76 . 456) (GT 74 . 75) (IDENTIFIER 70 . 74) (COMMA 68 . 69) (IDENTIFIER 56 . 68) (COMMA 54 . 55) (IDENTIFIER 50 . 54) (COMMA 48 . 49) (IDENTIFIER 42 . 48) (LT 41 . 42) (BRACE_BLOCK 76 . 455) (GT 74 . 75) (IDENTIFIER 70 . 74) (COMMA 68 . 69) (IDENTIFIER 56 . 68) (COMMA 54 . 55) (IDENTIFIER 50 . 54) (COMMA 48 . 49) (IDENTIFIER 42 . 48) (LT 41 . 42) (BRACE_BLOCK 76 . 447) (GT 74 . 75) (IDENTIFIER 70 . 74) (COMMA 68 . 69) (IDENTIFIER 56 . 68) (COMMA 54 . 55) (IDENTIFIER 50 . 54) (COMMA 48 . 49) (IDENTIFIER 42 . 48) (LT 41 . 42) (BRACE_BLOCK 76 . 454) (GT 74 . 75) (IDENTIFIER 70 . 74) (COMMA 68 . 69) (IDENTIFIER 56 . 68) (COMMA 54 . 55) (IDENTIFIER 50 . 54) (COMMA 48 . 49) (IDENTIFIER 42 . 48) (LT 41 . 42) (BRACE_BLOCK 76 . 455) (GT 74 . 75) (IDENTIFIER 70 . 74) (COMMA 68 . 69) (IDENTIFIER 56 . 68) (COMMA 54 . 55) (IDENTIFIER 50 . 54) (COMMA 48 . 49) (IDENTIFIER 42 . 48) (LT 41 . 42))
+    )
+   )
+  :file "!Users!marcoscezar!Programming!Java!workspace!AtividadeMarcosAllanMapReduce!src!br!edu!ifba!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

@@ -67,4 +67,31 @@
 (defalias 'yes-or-no-p 'y-or-n-p)
 (setq initial-frame-alist '((top . 10) (left . 40)))
 
+(setq system-uses-terminfo nil)
+(windmove-default-keybindings)
+
+(setq-default indent-tabs-mode nil)
+(setq-default truncate-lines nil)
+(setq-default truncate-partial-width-windows nil)
+
+;; y/n instead of yes/no
+(defalias 'yes-or-no-p 'y-or-n-p)
+
+(defun create-tags (dir-name)
+  "Create tags file."
+  (interactive "DDirectory: ")
+  (shell-command
+   (format "%s -f %s/TAGS -e -R %s" path-to-ctags dir-name dir-name))
+  )
+
+(require 'ansi-color)
+(add-hook 'shell-mode-hook 'ansi-color-for-comint-mode-on)
+(defun colorize-compilation-buffer ()
+  (interactive)
+  (toggle-read-only)
+  (ansi-color-apply-on-region (point-min) (point-max))
+  (toggle-read-only))
+ 
+(add-hook 'compilation-filter-hook 'colorize-compilation-buffer)
+
 (provide 'basic-configurations)

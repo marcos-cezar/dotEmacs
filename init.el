@@ -63,8 +63,8 @@
 
 (require 'setup-flycheck)
 
-(set-face-attribute 'default nil :family "Inconsolata")
-(set-face-attribute 'default nil :height 160)
+(set-face-attribute 'default nil :family "Monaco")
+(set-face-attribute 'default nil :height 120)
 
 
 ;; Visual regexp
@@ -106,8 +106,7 @@
 
 (require 'dired+)
 
-(require 'projectile)
-(global-set-key (kbd "C-c h") 'helm-projectile) 
+(require 'setup-projectile)
 
 (require 'key-chord)
 
@@ -209,7 +208,7 @@
 
 (require 'setup-company-mode)
 
-;; (require 'setup-jde)
+(require 'setup-jde)
 
 (require 'ctags-update)
 (ctags-auto-update-mode t)
@@ -268,3 +267,10 @@
 
 ;; (require 'malabar-mode)
 ;; (add-to-list 'auto-mode-alist '("\\.java\\'" . malabar-mode))
+(require 'ag)
+(require 'dash-at-point)
+(global-set-key "\C-cd" 'dash-at-point)
+(global-set-key "\C-ce" 'dash-at-point-with-docset)
+
+(require 'setup-web-mode)
+(require 'dirtree)
