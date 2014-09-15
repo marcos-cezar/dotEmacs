@@ -1,0 +1,5 @@
+.cask/
+.litable*
+projectile-bookmarks.eld
+saveplace.el
+bookmarks

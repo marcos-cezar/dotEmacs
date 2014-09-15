@@ -1,5 +1,0 @@
-# -*- mode: snippet -*-
-# name: latex-class-options
-# key: ltx_opts
-# --
-#+LaTeX_CLASS_OPTIONS: [${1:a4paper}, ${2:conference}]

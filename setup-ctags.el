@@ -1,5 +1,0 @@
-
-
-(provide 'setup-ctags)
-
-

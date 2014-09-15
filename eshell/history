@@ -1,5 +1,0 @@
-pdflatex artigo.tex
-exit
-latex artigo.tex
-bibtex article
-exit
