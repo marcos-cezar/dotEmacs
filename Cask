@@ -32,3 +32,5 @@
 (depends-on "smex")
 (depends-on "markdown-mode")
 (depends-on "browse-kill-ring")
+(depends-on "shell-command")
+(depends-on "dired+")

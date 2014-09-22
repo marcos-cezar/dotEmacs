@@ -34,5 +34,4 @@
 (require 'mode-mappings)
 (require 'setup-ruby)
 (require 'setup-shell)
-
-
+(require 'dired+)
