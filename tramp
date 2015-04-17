@@ -1,0 +1,49 @@
+;; -*- emacs-lisp -*- <15/04/17 14:39:52 /Users/marcoscezar/.emacs.d/tramp>
+;; Tramp connection history.  Don't change this file.
+;; You can delete it, forcing Tramp to reapply the checks.
+
+((["scp" nil "sudo" nil nil]
+  nil)
+ (["sudo" "root" "localhost" nil nil]
+  ("locale" "LC_ALL=C")
+  ("uname" "Darwin 14.3.0")
+  ("test" "test")
+  ("remote-path"
+   ("/usr/bin" "/bin" "/usr/sbin" "/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("stat" nil)
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("id" "/usr/bin/id")
+  ("gid-string" "wheel")
+  ("readlink" nil)
+  ("gid-integer" 0)
+  ("file-exists" "test -e")
+  ("uid-integer" 0)
+  ("git" "\\git")
+  ("tmpdir" "/sudo:root@localhost:/tmp")
+  ("touch-t" t)
+  ("touch" "\\touch")
+  ("ls" "/bin/ls"))
+ (["scp" "jboss" "sisinventws" nil nil]
+  ("locale" "LC_ALL=en_US.utf8")
+  ("uname" "Linux 2.6.32-131.0.15.el6.x86_64")
+  ("test" "test")
+  ("remote-path"
+   ("/bin" "/usr/bin" "/sbin" "/usr/sbin" "/usr/local/bin" "/usr/local/sbin"))
+  ("remote-shell" "/bin/sh")
+  ("~" "/home/jboss")
+  ("file-exists" "test -e")
+  ("readlink" "\\readlink")
+  ("ls" "/bin/ls --color=never")
+  ("ls-dired" t)
+  ("stat" "\\stat")
+  ("id" "/usr/bin/id")
+  ("gid-integer" 501)
+  ("gid-string" "jboss")
+  ("perl-file-spec" t)
+  ("perl-cwd-realpath" t)
+  ("perl" "\\perl")
+  ("git" "\\git")
+  ("trash" nil)))

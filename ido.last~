@@ -1,0 +1,386 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/webapp/" . "WEB-INF/")
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/" . "webapp/")
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/" . "main/")
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/" . "src/")
+ ("/Users/marcoscezar/Programming/Java/insinuante/" . "sisinventmv-deploy/")
+ ("/Users/marcoscezar/Programming/Java/workspace/" . "spring-data-jdbc-repository/")
+ ("/Users/marcoscezar/modelio/workspace/TCCModelExample/" . "XMI/")
+ ("/Users/marcoscezar/modelio/workspace/testProject/" . "XMI/")
+ ("/Users/marcoscezar/modelio/workspace/" . "TCCModelExample/")
+ ("/Users/marcoscezar/modelio/" . "workspace/")
+ ("/Users/marcoscezar/Programming/Java/eclipse-workspace/" . "TestProject/")
+ ("/Users/marcoscezar/Copy/game-projects/" . "libgdx-demo-superjumper/")
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/br/gov/ba/prodeb/educacao/" . "vistoria/")
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/br/gov/ba/prodeb/" . "educacao/")
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/br/gov/ba/" . "prodeb/")
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/br/gov/" . "ba/")
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/br/" . "gov/")
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/" . "br/")
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/" . "java/")
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/" . "main/")
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/" . "src/")
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/" . "vistoria/")
+ ("/Users/marcoscezar/Library/Preferences/IntelliJIdea14/" . "templates/")
+ ("/Users/marcoscezar/Library/Preferences/" . "IntelliJIdea14/")
+ ("/Users/marcoscezar/.gradle/wrapper/dists/gradle-2.2-all/3qtuormg932jiupng16e79muug/" . "gradle-2.2/")
+ ("/Users/marcoscezar/.gradle/wrapper/dists/gradle-2.2-all/" . "3qtuormg932jiupng16e79muug/")
+ ("/Users/marcoscezar/.gradle/wrapper/dists/" . "gradle-2.2-all/")
+ ("/Users/marcoscezar/.gradle/wrapper/" . "dists/")
+ ("/Users/marcoscezar/.gradle/" . "wrapper/")
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/TCC/implementacao/" . "UMLReader/")
+ ("/Users/marcoscezar/Programming/Android/android-sdk/extras/google/google_play_services/samples/analytics/res/" . "xml/")
+ ("/Users/marcoscezar/Programming/Android/android-sdk/extras/google/google_play_services/samples/analytics/" . "res/")
+ ("/Users/marcoscezar/Library/Caches/IntelliJIdea14/compile-server/eyeonyou_1101aa7/" . "gradle/")
+ ("/Users/marcoscezar/Library/Caches/IntelliJIdea14/compile-server/" . "eyeonyou_1101aa7/")
+ ("/Users/marcoscezar/Library/Caches/IntelliJIdea14/" . "compile-server/")
+ ("/Users/marcoscezar/Library/Caches/" . "IntelliJIdea14/")
+ ("/Users/marcoscezar/Library/" . "Preferences/")
+ ("/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/src/main/java/br/com/interativabr/eyeonyou/app/" . "model/")
+ ("/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/src/main/java/br/com/interativabr/eyeonyou/" . "app/")
+ ("/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/src/main/java/br/com/interativabr/" . "eyeonyou/")
+ ("/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/src/main/java/br/com/" . "razecApps/")
+ ("/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/src/main/java/br/" . "com/")
+ ("/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/src/main/java/" . "br/")
+ ("/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/src/main/" . "java/")
+ ("/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/src/" . "main/")
+ ("/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/" . "src/")
+ ("/Users/marcoscezar/Downloads/grails-petclinic-master/grails-app/" . "views/")
+ ("/Users/marcoscezar/Downloads/grails-petclinic-master/" . "grails-app/")
+ ("/Users/marcoscezar/Downloads/gss-lib-2.2b1/sample/GSS_Client_Android/src/com/" . "prasanta/")
+ ("/Users/marcoscezar/Downloads/gss-lib-2.2b1/sample/GSS_Client_Android/src/" . "com/")
+ ("/Users/marcoscezar/Downloads/gss-lib-2.2b1/sample/GSS_Client_Android/" . "src/")
+ ("/Users/marcoscezar/Downloads/gss-lib-2.2b1/sample/" . "GSS_Client_Android/")
+ ("/Users/marcoscezar/Downloads/gss-lib-2.2b1/" . "sample/")
+ ("/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/tasks-android-sample/src/main/java/com/google/api/services/samples/tasks/" . "android/")
+ ("/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/tasks-android-sample/src/main/java/com/google/api/services/samples/" . "tasks/")
+ ("/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/tasks-android-sample/src/main/java/com/google/api/services/" . "samples/")
+ ("/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/tasks-android-sample/src/main/java/com/google/api/" . "services/")
+ ("/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/tasks-android-sample/src/main/java/com/google/" . "api/")
+ ("/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/tasks-android-sample/src/main/java/com/" . "google/")
+ ("/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/tasks-android-sample/src/main/java/" . "com/")
+ ("/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/tasks-android-sample/src/main/" . "java/")
+ ("/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/tasks-android-sample/src/" . "main/")
+ ("/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/tasks-android-sample/" . "src/")
+ ("/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/" . "tasks-android-sample/")
+ ("/Users/marcoscezar/Copy/Android-projects/android-quickstart/res/" . "drawable-hdpi/")
+ ("/Users/marcoscezar/Copy/Android-projects/android-quickstart/" . "src/")
+ ("/Users/marcoscezar/Copy/Android-projects/" . "vistoriaandroid/")
+ ("/Users/marcoscezar/Copy/socialtime/" . "socialtime-android/")
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/Aspectos Avancados ESW/" . "Artigos/")
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/Sistemas de Tempo Real/" . "artigos/")
+ ("/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/webapps/reportserver/WEB-INF/classes/" . "META-INF/")
+ ("/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/webapps/reportserver/WEB-INF/" . "classes/")
+ ("/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/webapps/reportserver/" . "WEB-INF/")
+ ("/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/webapps/" . "reportserver/")
+ ("/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/" . "webapps/")
+ ("/Users/marcoscezar/Programming/Java/Servers/" . "apache-tomcat-7.0.55/")
+ ("/Users/marcoscezar/.emacs.d/.cask/24.4.50.1/elpa/yasnippet-20140911.312/snippets/" . "latex-mode/")
+ ("/Users/marcoscezar/.emacs.d/.cask/24.4.50.1/elpa/yasnippet-20140911.312/" . "snippets/")
+ ("/Users/marcoscezar/.emacs.d/.cask/24.4.50.1/elpa/" . "yasnippet-20140911.312/")
+ ("/Users/marcoscezar/.emacs.d/.cask/24.4.50.1/" . "elpa/")
+ ("/Users/marcoscezar/.emacs.d/.cask/" . "24.4.50.1/")
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/TCC/" . "implementacao/")
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/Seminarios II/" . "Pre-projeto/")
+ ("/Users/marcoscezar/Downloads/RS2.1.6-5543-reportserver/WEB-INF/classes/" . "META-INF/")
+ ("/Users/marcoscezar/Downloads/RS2.1.6-5543-reportserver/WEB-INF/" . "classes/")
+ ("/Users/marcoscezar/Downloads/RS2.1.6-5543-reportserver/" . "WEB-INF/")
+ ("/Users/marcoscezar/Downloads/" . "grails-petclinic-master/")
+ ("/Users/marcoscezar/Programming/latex/" . "articles/")
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/" . "TCC/")
+ ("/Users/marcoscezar/Copy/" . "IFBA-ECDU/")
+ ("/Applications/SQuirreLSQL.app/Contents/Resources/" . "Java/")
+ ("/Applications/SQuirreLSQL.app/Contents/" . "MacOS/")
+ ("/Applications/SQuirreLSQL.app/" . "Contents/")
+ ("/Applications/" . "SQuirreLSQL.app/")
+ ("/Users/marcoscezar/Programming/Ruby/Rails/redmine/plugins/redmine_theme_changer/config/" . "locales/")
+ ("/Users/marcoscezar/Programming/Ruby/Rails/redmine/plugins/redmine_theme_changer/db/" . "migrate/")
+ ("/Users/marcoscezar/Programming/Ruby/Rails/redmine/plugins/redmine_theme_changer/" . "config/")
+ ("/Users/" . "marcoscezar/")
+ ("/" . "Users/")
+ ("/Users/marcoscezar/Programming/Ruby/Rails/" . "redmine/")
+ ("/Users/marcoscezar/Programming/Ruby/" . "workspace/")
+ ("/Users/marcoscezar/Programming/Java/" . "insinuante/")
+ ("/Users/marcoscezar/Programming/" . "Cpp/")
+ ("/Users/marcoscezar/.emacs.d/" . "lisp/")
+ ("/Users/marcoscezar/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/marcoscezar/.emacs.d/lisp/"
+ "/Users/marcoscezar/.emacs.d/"
+ "/Users/marcoscezar/Programming/Cpp/"
+ "/Users/marcoscezar/Programming/scala/projects/"
+ "/Users/marcoscezar/Programming/Ruby/workspace/"
+ "/Users/marcoscezar/Documents/"
+ "/Users/marcoscezar/Programming/Java/insinuante/sisinventmv-deploy/"
+ "/Users/marcoscezar/Programming/Java/insinuante/sisinventws/"
+ "/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/webapp/WEB-INF/"
+ "/Users/marcoscezar/"
+ "/Users/marcoscezar/Programming/Java/workspace/spring-data-jdbc-repository/"
+ "/Users/marcoscezar/Copy/IFBA-ECDU/TCC/implementacao/UMLReader/"
+ "/Users/marcoscezar/modelio/workspace/TCCModelExample/XMI/"
+ "/Users/marcoscezar/modelio/workspace/testProject/XMI/"
+ "/Users/marcoscezar/Programming/Java/eclipse-workspace/TestProject/"
+ "/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/br/gov/ba/prodeb/educacao/vistoria/"
+ "/Users/marcoscezar/Library/Preferences/IntelliJIdea14/templates/"
+ "/Users/marcoscezar/Programming/SQL/"
+ "/Users/marcoscezar/.gradle/"
+ "/Users/marcoscezar/Programming/Android/android-sdk/extras/google/google_play_services/samples/analytics/res/xml/"
+ "/Users/marcoscezar/Programming/Android/android-sdk/extras/google/google_play_services/samples/analytics/src/com/google/android/gms/analytics/samples/mobileplayground/"
+ "/Users/marcoscezar/Programming/Android/android-sdk/extras/google/google_play_services/samples/analytics/"
+ "/Users/marcoscezar/Downloads/Parse-Todo-Project-1.8.0/ToDoList/src/com/parse/demo/"
+ "/Users/marcoscezar/Library/Caches/IntelliJIdea14/compile-server/eyeonyou_1101aa7/gradle/"
+ "/Users/marcoscezar/Downloads/"
+ "/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/src/main/java/br/com/razecApps/"
+ "/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/src/main/java/br/com/interativabr/eyeonyou/app/model/"
+ "/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/"
+ "/Users/marcoscezar/Copy/IFBA-ECDU/PO/"
+ "/Users/marcoscezar/Copy/soledade/"
+ "/Users/marcoscezar/Copy/Android-projects/EyeOnYou/app/src/main/java/br/com/interativabr/eyeonyou/app/"
+ "/Users/marcoscezar/Downloads/grails-petclinic-master/grails-app/views/"
+ "/Users/marcoscezar/Downloads/gss-lib-2.2b1/sample/GSS_Client_Android/src/com/prasanta/"
+ "/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/tasks-android-sample/src/main/java/com/google/api/services/samples/tasks/android/"
+ "/Users/marcoscezar/Copy/Android-projects/android-quickstart/"
+ "/Users/marcoscezar/Copy/Android-projects/android-quickstart/res/drawable-hdpi/"
+ "/Users/marcoscezar/Copy/IFBA-ECDU/Seminarios II/Pre-projeto/"
+ "/Users/marcoscezar/Copy/IFBA-ECDU/Sistemas de Tempo Real/artigos/"
+ "/Users/marcoscezar/Copy/"
+ "/Users/marcoscezar/Copy/IFBA-ECDU/Sistemas de Tempo Real/artigos/artigo-disciplina/"
+ "/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/webapps/reportserver/WEB-INF/classes/META-INF/"
+ "/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/webapps/reportserver/WEB-INF/classes/"
+ "/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/lib/"
+ "/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/"
+ "/Users/marcoscezar/.emacs.d/.cask/24.4.50.1/elpa/yasnippet-20140911.312/snippets/latex-mode/"
+ "/Users/marcoscezar/Copy/IFBA-ECDU/TCC/rascunho/"
+ "/Users/marcoscezar/Programming/latex/articles/"
+ "/Users/marcoscezar/Downloads/RS2.1.6-5543-reportserver/WEB-INF/classes/META-INF/"
+ "/Users/marcoscezar/Downloads/RS2.1.6-5543-reportserver/WEB-INF/classes/"
+ "/Applications/SQuirreLSQL.app/Contents/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "setup-defaults.el"
+ "init.el"
+ "main.cpp"
+ "Cask"
+ "main.scala"
+ "main.rb"
+ "example.json"
+ "buffer.json"
+ "temp.sql"
+ "SisinventMV.war"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/marcoscezar/.emacs.d/" (21808 59663 0 0) "vendor/" "snippets/" "saveplace.el" "projectile.cache" "projectile-bookmarks.eld" "places" "lisp/" "init.el~" "init.el" "ido.last~" "ido.last" "Cask~" "Cask" "auto-save-list/" "ac-comphist.dat" ".mc-lists.el" ".gitignore" ".git/" ".cask/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Cpp/" (21809 1105 0 0) "main.cpp~" "main.cpp" "../" "./")
+
+ ("/Users/marcoscezar/Programming/" (21808 6465 0 0) "tools/" "SQL/" "Sistemas Operacionais/" "scala/" "Ruby/" "latex/" "Java/" "git-sources/" "ECM/" "desktop-sharing/" "databases/" "Cpp/" "Android/" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/" (21808 59603 0 0) "VirtualBox VMs/" "target/" "Public/" "Programming/" "Pictures/" "Music/" "Movies/" "modelio/" "Library/" "Jogos/" "IdeaProjects/" "Dropbox/" "Downloads/" "Documents/" "Desktop/" "Copy/" "ClionProjects/" "Applications/" ".zshrc~" ".zshrc.pre-oh-my-zsh" ".zshrc-e" ".zshrc" ".zsh_history" ".zsh-update" ".zlogin" ".zcompdump-MacBook Pro de Marcos (2)-5.0.6" ".zcompdump-MacBook Pro de Marcos (2)-5.0.5" ".viminfo" ".Trash/" ".superjumper" ".subversion/" ".ssh/" ".squirrel-sql/" ".sqldeveloper/" ".smex-items" ".scala_history" ".sbt/" ".rvm/" ".robovm/" ".psql_history" ".profile" ".pgpass" ".personal/" ".oh-my-zsh/" ".npm/" ".netbeans-derby/" ".mysql_history" ".modelio/" ".marcos-temp/" ".m2/" ".libgdx/" ".jin/" ".ivy2/" ".irb-history" ".IntelliJIdea14/" ".idea/" ".gradle/" ".gitconfig" ".Genymobile/" ".gem/" ".gbas" ".forge/" ".emacs.d/" ".DS_Store" ".dropbox/" ".cups/" ".config/" ".CFUserTextEncoding" ".cask/" ".cache/" ".bzr.log" ".bashrc~" ".bashrc" ".bash_profile" ".bash_history" ".astah/" ".argouml/" ".android/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/scala/projects/" (21808 6494 0 0) "../" "./")
+
+ ("/Users/marcoscezar/Programming/Android/android-sdk/extras/google/google_play_services/samples/analytics/" (21662 54981 0 0) "src/" "res/" "proguard.flags" "AndroidManifest.xml" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Android/android-sdk/extras/google/google_play_services/samples/analytics/src/com/google/android/gms/analytics/samples/mobileplayground/" (21662 54981 0 0) "TimingFragment.java" "SocialFragment.java" "MobilePlayground.java" "ExceptionFragment.java" "EventFragment.java" "EcommerceFragment.java" "AppviewFragment.java" "AnalyticsSampleApp.java" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Android/android-sdk/extras/google/google_play_services/samples/analytics/res/xml/" (21662 54981 0 0) "global_tracker.xml" "ecommerce_tracker.xml" "../" "./")
+
+ ("/Applications/SQuirreLSQL.app/Contents/MacOS/" (21546 50366 0 0) "squirrel-sql.sh~" "squirrel-sql.sh" "../" "./")
+
+ ("/Applications/SQuirreLSQL.app/Contents/" (21537 37358 0 0) "Resources/" "MacOS/" "Info.plist" "../" "./")
+
+ ("/Users/marcoscezar/Programming/latex/articles/" (21560 30275 0 0) "prv_main.log" "main.tex~" "main.tex" "main.pdf" "main.log" "main.dvi" "main.aux" "auto/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/TCC/rascunho/" (21547 20606 0 0) "../" "./")
+
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/Sistemas de Tempo Real/artigos/artigo-disciplina/" (21556 38997 0 0) "auto/" "Artigo.tex~" "Artigo.tex" "Artigo.pdf" "Artigo.log" "Artigo.fls" "Artigo.fdb_latexmk" "Artigo.blg" "Artigo.bbl" "Artigo.aux" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/android-quickstart/" (21564 37640 0 0) "src/" "res/" "README.md" "proguard-project.txt" "LICENSE" "libs/" "ic_launcher-web.png" "AndroidManifest.xml" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/Copy/soledade/" (21582 43169 0 0) "ponto.org~" "ponto.org" "../" "./")
+
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/PO/" (21598 6114 0 0) "references.bib~" "references.bib.bak" "references.bib" "problema-models.png" "modelsAtRuntime.png" "auto/" "artigos-referencias/" "artigo.tex~" "artigo.tex" "artigo.pdf" "artigo.log" "artigo.dvi" "artigo.blg" "artigo.bbl" "artigo.aux" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/" (21645 59145 0 0) "src/" "LICENSE.txt" "gradle.properties" "build.gradle~" "build.gradle" "build/" ".gradle/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/src/main/java/br/com/interativabr/eyeonyou/app/model/" (21645 59134 0 0) "UserInformations.java" "Tipo.java" "Tema.java" "Profissao.java" "Manifestation.java" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/OrmLiteSchemaGenerator/src/main/java/br/com/razecApps/" (21642 10356 0 0) "OrmLiteDatabaseConfigUtil.java~" "OrmLiteDatabaseConfigUtil.java" "../" "./")
+
+ ("/Users/marcoscezar/Downloads/" (21806 65079 0 0) "Wizards - 2010 - The Black Knight/" "W03BS.rar" "Vivaldi_TP2.1.0.118.19.dmg" "UPDATE-SuperSU-v2.46.zip" "UPDATE-SuperSU-v2.46/" "torrents/" "tfss-af6ac32a-9147-451b-8f52-198048aadfa6-foto" "Teste1.png" "teste.uml" "tela_portrait_default.png" "sync2.png" "sync.png" "suporte-offline-olharCidadao.pdf" "SISINVENTMV_DER_NEW.pdf" "simmbolo.fw_r2_c1.png" "simmbolo.fw_r1_c1.png" "Screenshot_2014-12-15-11-35-49.png" "reset2.png" "reset.png" "relacao-de-empregados-terceirizados-3o-quadrimestre-copia.ods" "PROPOSTA MARCOS CEZAR.pdf" "projects-artifacts/" "Programming in Scala, 2nd edition (Artima, 2011, 0981531644).pdf" "PluralSightAndroidCustomComponentsSWEETI - ThePirateBay.TO.torrent" "pagamento_mercado_bitcoin_marcos.pdf" "OLHAR CIDADA-O - Documento de Visa-o - Desenvolvimento 20141124.doc" "ojdbc14-10.2.0.4.0.jar" "O-Programador-Apaixonado-Construindo-uma-carreira-notavel-em-desenvolvimento-de-software.pdf" "netbeans-8.0.2-javaee-macosx.dmg" "multibit-0.5.18.dmg" "modelsAtRuntime-articles.zip" "modelsAtRuntime-articles/" "Modelio 3.3/" "model.uml" "Learning LibGDX Game Development, 2nd Edition.pdf" "IRPF2015macOS-Xv1.0a.app.tar" "Head First Java, 2nd Edition -ebooksfeed.com.pdf" "GPG_Suite-2015.02-b5-1161.dmg" "gdx-setup.jar" "Ficha Cadastral NEW.xls" "eclipse/" "Diagrama de Componentes.pptx" "bootstrap-3.3.4-dist.zip" "Angra - Secret Garden (2015)/" "android-bootstrap/" "7kljw.Pluralsight..Scala.for.Java.Developers.Syntax.Comparison.rar" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/Library/Caches/IntelliJIdea14/compile-server/eyeonyou_1101aa7/gradle/" (21598 19596 0 0) "configuration.xml" "../" "./")
+
+ ("/Users/marcoscezar/Library/Preferences/IntelliJIdea14/templates/" (21759 12803 0 0) "JavaLog.xml" "idea-live-templates/" "AndroidXML.xml" "AndroidParcelable.xml" "AndroidLog.xml" "AndroidExternal.xml" "AndroidComments.xml" "Android.xml" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/workspace/spring-data-jdbc-repository/" (21758 61120 0 0) "target/" "src/" "README.md" "pom.xml" "checkstyle.xml" ".travis.yml" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/webapp/WEB-INF/" (21797 32189 0 0) "jboss-web.xml" "index.jsp" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/" (21806 56428 0 0) "target/" "src/" "sql/" "sisinventws.iml" "README.md" "produtos.json" "pom.xml" "oauth-test/" "log/" "jboss@sisinventws" "descarregar.json" "carregar-coletor.json" ".idea/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/marcoscezar/.emacs.d/lisp/" (21808 681 0 0) "setup-web.el~" "setup-web.el" "setup-shell.el" "setup-ruby.el~" "setup-ruby.el" "setup-multiple-cursors.el~" "setup-multiple-cursors.el" "setup-latex.el~" "setup-latex.el" "setup-ido.el" "setup-defuns.el" "setup-defaults.el~" "setup-defaults.el" "mode-mappings.el" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Ruby/workspace/" (21808 6448 0 0) "main.rb~" "main.rb" "../" "./")
+
+ ("/Users/marcoscezar/Programming/scala/" (21808 6465 0 0) "../" "./")
+
+ ("/Users/" (21797 7532 0 0) "Shared/" "marcoscezar/" ".localized" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/" (21804 6391 0 0) "sisinventws/" "sisinventmv-deploy/" "java-light-structure/" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/Applications/Chrome Apps.localized/" (21806 43105 0 0) "Icon
+" "Default hmjkmjkepdijhoojdojkdfohbdgmmhki.app/" "Default fahmaaghhglfmonjliepjlchgpgfmobi.app/" ".localized/" "../" "./")
+
+ ("/Users/marcoscezar/Applications/" (21740 26172 0 0) "Chrome Apps.localized/" ".localized" "../" "./")
+
+ ("/Users/marcoscezar/.IntelliJIdea14/" (21596 9762 0 0) "restart/" "../" "./")
+
+ ("/Users/marcoscezar/Documents/" (21806 18926 0 0) "workspace/" "VPProjects/" "teste-gdocs.xlsx" "teste-gdocs.ods" "temp.sql~" "temp.sql" "system-model.xmi~" "system-model.xmi" "socopa_fichaCadastral.pdf" "sisinventmv.sql~" "sisinventmv.sql" "RS - 2013-08-23-reportserver-evaluationguide.pdf" "RS - 2013-08-12-reportserver-configguide.pdf" "report-server-config.pdf" "RDP0029-planejamento-de-carreira-e-metas-pessoais-de-vida.xlsx" "PDF Configuração VPN.pdf" "pagamento_vivo_01_2015.pdf" "NIVEA_CANGASOL_APP_20141001.xlsx" "modelsAtRuntimeArch.asta" "main.json~" "main.json" "license" "imagens/" "formulário-startup-soledade.pdf" "example.json" "Documentos_Cadastro.pdf" "deploymentDiagramModels.asta" "data.csv~" "data.csv" "Concurso Publico 2013 - Convocacoes realizadas 19.09.2014.pdf" "buffer2.json" "buffer.json~" "buffer.json" "aula4.pdf" "aula3.pdf" "audito-fiscal.pdf" "App-Telas.zip" "App-Telas/" ".localized" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/Programming/SQL/" (21769 46618 0 0) "temp.sql~" "temp.sql" "squirrel-sessions/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventmv-deploy/" (21803 47400 0 0) "SisinventMV.war" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/webapp/" (21758 57265 0 0) "WEB-INF/" "META-INF/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/resources/" (21785 34247 0 0) "log4j.properties" "application.properties" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/java/br/com/mvti/sisinventws/repository/" (21781 37138 0 0) "SubGrupoProdutoRepository.java" "ProdutoVolumeRepository.java" "ProdutoRepository.java" "LojaRepository.java" "InventarioRepository.java" "InfoProdutoRepository.java" "GrupoProdutoRepository.java" "GrupoEstoqueRepository.java" "FuncionarioRepository.java" "FornecedorRepository.java" "EmpresaRepository.java" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/" (21780 15851 0 0) "workspace/" "tools/" "temp-workspace/" "Servers/" "insinuante/" "git-projects/" "eclipse-workspace/" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/" (21758 57265 0 0) "main/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/" (21758 57265 0 0) "webapp/" "resources/" "java/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/java/" (21758 57265 0 0) "br/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/java/br/" (21758 57265 0 0) "com/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/java/br/com/" (21758 57265 0 0) "mvti/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/java/br/com/mvti/" (21758 57265 0 0) "sisinventws/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/insinuante/sisinventws/src/main/java/br/com/mvti/sisinventws/" (21758 57265 0 0) "service/" "repository/" "model/" "json/" "exception/" "domain/" "controller/" "config/" "Application.java" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/workspace/" (21758 60438 0 0) "spring-data-jdbc-repository/" "RS2.2.0_pre2-5572-2014-08-23-13-32-44-src-reportserver.zip" "RS2.2.0_pre2-5572-2014-08-23-13-32-44-src-reportserver/" "Main.java~" "Main.java" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/TCC/implementation-study/" (21633 35732 0 0) "osgi-ipojo-training/" "osgi-book-examples/" "org.apache.felix.ipojo.distribution.quickstart-1.12.0.zip" "ipojo-distribution-1.12.0/" ".gradle/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/TCC/" (21755 1999 0 0) "XMI/" "UsingArchitectureModelsforRuntimeAdaptability.pdf" "UsingArchitecturalModelsatRuntime.pdf" "TheRoleofModelsandMegamodelsatRuntime.pdf" "study-projects/" "review-models-at-runtime.pdf" "rascunho/" "planejamento/" "paper_13.pdf" "Morin09f.pdf" "Morin08e.pdf" "modelsSI2012.pdf" "MODELS@RUN.TIME.pdf" "Metodologia/" "implementation-study/" "implementacao/" "fse_eliassen.pdf" "Ferramentas/" "Estudo/" "DISTCOMP02.pdf" "c3-selfadaptive.pdf" "Artigos/" "Artefatos/" "2010-MRT.pdf" "06730834.pdf" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/modelio/workspace/TCCModelExample/XMI/" (21752 20272 0 0) "tccmodelexample.uml" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Ruby/" (21546 48536 0 0) "workspace/" "redmine-plugins/" "Rails/" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/.emacs.d/vendor/" (21531 7377 0 0) "org-mode/" "../" "./")
+
+ ("/Users/marcoscezar/modelio/workspace/TCCModelExample/" (21752 17825 0 0) "XMI/" "project.conf" "data/" ".runtime/" "../" "./")
+
+ ("/Users/marcoscezar/modelio/workspace/" (21752 16982 0 0) "TCCModelExample/" "../" "./")
+
+ ("/Users/marcoscezar/modelio/workspace/testProject/XMI/" (21751 20584 0 0) "testproject.xmi" "testproject.uml" "../" "./")
+
+ ("/Users/marcoscezar/modelio/workspace/testProject/" (21751 20415 0 0) "XMI/" "project.conf" "data/" ".runtime/" "../" "./")
+
+ ("/Users/marcoscezar/modelio/" (21751 20164 0 0) "workspace/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/eclipse-workspace/TestProject/" (21744 48581 0 0) "model.uml" "model.notation" "model.di" ".project" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/eclipse-workspace/" (21744 48580 0 0) "TestProject/" ".metadata/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/TCC/implementacao/UMLReader/" (21743 26529 0 0) "UMLReader.iml" "temp.uml~" "temp.uml" "target/" "src/" "pom.xml" "model.uml~" "model.uml" "libs/" "association.uml~" "association.uml" ".idea/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/game-projects/libgdx-demo-superjumper/" (21741 50328 0 0) "versions.json" "settings.gradle" "README.md" "ios/" "html/" "gradlew.bat" "gradlew" "gradle/" "desktop/" "core/" "build.gradle" "android/" ".gradle/" ".gitignore" ".git/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/game-projects/" (21741 4195 0 0) "studygdx/" "sprites-database/" "resources-forGems/" "razecRunner/" "martianrun/" "libgdx-nightly-latest.zip" "libgdx-nightly-latest/" "libgdx-example/" "libgdx-demo-superjumper/" "libgdx/" "Learning Libgdx Game Development.zip" "Learning Libgdx Game Development/" "Gradle Plugin User Guide - Android Tools Project Site_files/" "Gradle Plugin User Guide - Android Tools Project Site.html" "gdx-setup.jar" "GameStudy/" "game-images/" "freegemas-gdx/" "cocos2d-android.jar.zip" "cocos2d-android.jar" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/Copy/" (21711 31931 0 0) "soledade/" "socialtimeApp/" "socialtime.zip" "socialtime/" "ReferenceCardForMac.pdf" "Projetos/" "Programming-guidelines/" "Mestrado-UFBA/" "megaradar/" "Mapas Mentais/" "Mac os files/" "kindle/" "IFBA-ECDU/" "Icon
+" "game-projects/" "Estudo/" "Emacs-tips/" "Emacs-study/" "Emacs-config.zip" "Emacs-config/" "Documentos pessoais/" "diaristas.org" "Concurso/" "carro/" "Books/" "bamda-runnerApp.zip" "Backup/" "archive.zip" "archive/" "anotacoes/" "Android-projects/" ".user_info" ".copy.cache/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/" (21693 34203 0 0) "Vistoria.iml" "vistoria/" "settings.gradle" "pDFWriter/" "ormlitecontentproviderlibrary/" "local.properties" "import-summary.txt" "gradlew.bat" "gradlew" "gradle/" "croutonLib/" "build.gradle" "build/" ".idea/" ".gradle/" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/Library/Preferences/" (21693 43851 0 0) "xcodebuild.plist" "widget-com.apple.widget.weather.plist" "widget-com.apple.widget.calendar.plist" "TeXShop.plist" "TeXShop.LSSharedFileList.plist" "QuickTime Preferences" "pgadmin3 Preferences" "org.virtualbox.app.VirtualBox.plist" "org.videolan.vlc.plist" "org.videolan.vlc.LSSharedFileList.plist" "org.videolan.vlc/" "org.mozilla.firefox.plist" "org.libreoffice.script.plist" "org.libreoffice.script.LSSharedFileList.plist" "org.gnu.Emacs.plist" "org.cups.PrintingPrefs.plist" "net.sourceforge.sqlitebrowser.plist" "net.sourceforge.skim-app.skim.plist" "net.sourceforge.skim-app.skim.LSSharedFileList.plist" "net.sourceforge.skim-app.skim.bookmarks.plist" "net.sf.jabref.plist" "MobileMeAccounts.plist" "Macromedia/" "loginwindow.plist" "jp.co.esm.plist" "jetbrains.communicator.core.plist" "IntelliJIdea14/" "IntelliJIdea13/" "eu.time4popcorn.Popcorn Time.plist" "com.trolltech.plist" "com.teamviewer.teamviewer9.plist" "com.teamviewer.teamviewer9.Machine.plist" "com.teamviewer.TeamViewer.plist" "com.sqlitebrowser.sqlitebrowser.plist" "com.spotify.client.plist" "com.soggywaffles.Paintbrush.plist" "com.soggywaffles.Paintbrush.LSSharedFileList.plist" "com.skype.skypewifi.plist" "com.skype.skype.plist" "com.runningwithcrayons.Alfred-Preferences.plist" "com.runningwithcrayons.Alfred-2.plist" "com.postgresapp.Postgres.plist" "com.oracle.mysql.workbench.plist" "com.oracle.javadeployment.plist" "com.oracle.java.JavaAppletPlugin.plist" "com.oracle.java.Java-Updater.plist" "com.operasoftware.Opera.plist" "com.kapeli.dash.plist" "com.jetbrains.intellij.plist" "com.intel.nw.plist" "com.googlecode.iterm2.plist" "com.google.Keystone.Agent.plist" "com.google.Chrome.plist" "com.google.android.studio.plist" "com.genymobile.Genymotion.plist" "com.freemacsoft.AppCleaner.plist" "com.evernote.EvernoteHelper.plist" "com.evernote.Evernote.plist" "com.change-vision.astah.community.plist" "com.blacktree.Quicksilver.plist" "com.bittorrent.uTorrent.plist" "com.bittorrent.uTorrent-Installer.plist" "com.bitrock.appinstaller.plist" "com.barracuda-networks-inc.Copy.plist" "com.apple.xpc.activity2.plist" "com.apple.xpc.activity.plist" "com.apple.wifi.keychain-format.plist" "com.apple.UserAccountUpdater.plist" "com.apple.universalaccess.plist" "com.apple.ubd.plist" "com.apple.TMHelperAgent.plist" "com.apple.TextEdit.LSSharedFileList.plist" "com.apple.Terminal.plist" "com.apple.TelephonyUtilities.plist" "com.apple.systemuiserver.plist" "com.apple.SystemProfiler.plist" "com.apple.systempreferences.plist" "com.apple.syncserver.plist" "com.apple.symbolichotkeys.plist" "com.apple.storeagent.plist" "com.apple.Spotlight.plist" "com.apple.spaces.plist" "com.apple.sidebarlists.plist" "com.apple.SetupAssistant.plist" "com.apple.ServicesMenu.Services.plist" "com.apple.security.logging.plist" "com.apple.security.KCN.plist" "com.apple.security.cloudkeychainproxy3.keysToRegister.plist" "com.apple.screensaver.plist" "com.apple.scheduler.plist" "com.apple.Safari.plist" "com.apple.registration.plist" "com.apple.recentitems.plist" "com.apple.quicktime.plugin.preferences.plist" "com.apple.QuickLookDaemon.plist" "com.apple.quicklookconfig.plist" "com.apple.PubSubAgent.plist" "com.apple.ProblemReporter.plist" "com.apple.print.PrinterProxy.plist" "com.apple.print.custompresets.forprinter.HP_LaserJet_CM1415fnw__2F24A3_.plist" "com.apple.print.custompresets.forprinter.Deskjet_5520_series__9D31F3_.plist" "com.apple.print.add.plist" "com.apple.Preview.LSSharedFileList.plist" "com.apple.preferences.extensions.ShareMenu.plist" "com.apple.preferences.extensions.ServicesWithUI.plist" "com.apple.preference.general.plist" "com.apple.notificationcenterui.plist" "com.apple.NotesMigratorService.plist" "com.apple.mmcs.plist" "com.apple.metadata.SpotlightNetHelper.plist" "com.apple.messaging.expire.plist" "com.apple.MessagesHistoryImporter.plist" "com.apple.menuextra.clock.plist" "com.apple.MassStorageCamera.plist" "com.apple.mail-shared.plist" "com.apple.loginwindow.plist" "com.apple.loginitems.plist" "com.apple.LaunchServices.QuarantineEventsV2" "com.apple.LaunchServices.plist" "com.apple.LaunchServices/" "com.apple.KeyboardViewer.plist" "com.apple.java.util.prefs.plist" "com.apple.java.applet.plist" "com.apple.JapaneseAnalysis/" "com.apple.iTunesHelper.plist" "com.apple.iTunes.plist" "com.apple.iTunes.eq.plist" "com.apple.iPod.plist" "com.apple.internetconnect.plist" "com.apple.internetaccounts.plist" "com.apple.InputMethodKit.UserDictionary.plist" "com.apple.imservice.ids.iMessage.plist" "com.apple.imservice.ids.FaceTime.plist" "com.apple.imessage.bag.plist" "com.apple.imagent.plist" "com.apple.Image_Capture.plist" "com.apple.ids.service.com.apple.private.alloy.sms.plist" "com.apple.ids.service.com.apple.private.alloy.screensharing.plist" "com.apple.ids.service.com.apple.private.alloy.phonecontinuity.plist" "com.apple.ids.service.com.apple.private.alloy.multiplex1.plist" "com.apple.ids.service.com.apple.private.alloy.maps.plist" "com.apple.ids.service.com.apple.private.alloy.idsremoteurlconnection.plist" "com.apple.ids.service.com.apple.private.alloy.icloudpairing.plist" "com.apple.ids.service.com.apple.private.alloy.continuity.tethering.plist" "com.apple.ids.service.com.apple.private.alloy.continuity.encryption.plist" "com.apple.ids.service.com.apple.private.alloy.continuity.auth.plist" "com.apple.ids.service.com.apple.private.alloy.continuity.activity.public.plist" "com.apple.ids.service.com.apple.private.alloy.continuity.activity.plist" "com.apple.ids.service.com.apple.private.alloy.callhistorysync.plist" "com.apple.ids.service.com.apple.private.ac.plist" "com.apple.ids.service.com.apple.madrid.plist" "com.apple.ids.service.com.apple.ess.plist" "com.apple.identityservicesd.plist" "com.apple.icloud.fmfd.plist" "com.apple.iChat.Yahoo.plist" "com.apple.iChat.StatusMessages.plist" "com.apple.iChat.plist" "com.apple.iChat.LSSharedFileList.plist" "com.apple.iChat.Jabber.plist" "com.apple.iChat.AIM.plist" "com.apple.icbaccountsd.plist" "com.apple.iCal.plist" "com.apple.ibooks.plist" "com.apple.iApps.plist" "com.apple.HIToolbox.plist" "com.apple.helpviewer.plist" "com.apple.helpd.plist" "com.apple.help.plist" "com.apple.GEO.plist" "com.apple.gamed.plist" "com.apple.frameworks.diskimages.diuiagent.plist" "com.apple.finder.plist" "com.apple.FileStatsAgent.plist" "com.apple.facetime.plist" "com.apple.facetime.bag.plist" "com.apple.dt.Xcode.plist" "com.apple.driver.AppleHIDMouse.plist" "com.apple.driver.AppleBluetoothMultitouch.trackpad.plist" "com.apple.driver.AppleBluetoothMultitouch.mouse.plist" "com.apple.dock.plist" "com.apple.DiskUtility.plist" "com.apple.diskimages.fsck" "com.apple.dashboard.plist" "com.apple.dashboard.client.plist" "com.apple.coreservices.uiagent.plist" "com.apple.CoreGraphics.plist" "com.apple.commerce.plist" "com.apple.commerce.knownclients.plist" "com.apple.ColorSyncUtility.plist" "com.apple.ColorSyncUtility.LSSharedFileList.plist" "com.apple.ColorSyncCalibrator.plist" "com.apple.CharacterPicker.plist" "com.apple.CallHistorySyncHelper.plist" "com.apple.calculateframework.plist" "com.apple.bookstoreagent.plist" "com.apple.bird.plist" "com.apple.BezelServices.plist" "com.apple.ATS.plist" "com.apple.assistant.plist" "com.apple.archiveutility.plist" "com.apple.appstore.plist" "com.apple.AppleMultitouchTrackpad.plist" "com.apple.AddressBook.plist" "com.apple.ActivityMonitor.plist" "com.apple.accountsd.plist" "clion10/" "callservicesd.plist" "ByHost/" "AndroidStudio/" ".GlobalPreferences.plist" "../" "./")
+
+ ("/Users/marcoscezar/Library/Preferences/IntelliJIdea14/" (21635 41274 0 0) "VSS/" "tools/" "templates/" "tasks/" "remoteTools/" "quicklists/" "port" "options/" "keymaps/" "inspection/" "ideTalk/" "idea14.key" "idea13.key" "idea.vmoptions" "filetypes/" "fileTemplates/" "disabled_update.txt" "disabled_plugins.txt" "componentVersions/" "colors/" "codestyles/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/google-api-java-client.samples/tasks-android-sample/src/main/java/com/google/api/services/samples/tasks/android/" (21561 46590 0 0) "Utils.java" "TasksSample.java" "CommonAsyncTask.java" "AsyncLoadTasks.java" "../" "./")
+
+ ("/Users/marcoscezar/.emacs.d/.cask/24.4.50.1/elpa/yasnippet-20140911.312/snippets/latex-mode/" (21549 18086 0 0) "usepackage" "textit" "textbf" "subsec" "subfigure" "subf" "section" "question" "python" "note" "newglossaryentry" "newcommand" "movie" "listing" "label" "itemize" "item" "includegraphics" "if" "glspl" "gls" "frame" "frac" "figure" "emph" "columns" "code" "cite" "caption" "capgls" "block" "begin" "alg" "alertblock" "acronym" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/" (21549 33627 0 0) "work/" "webapps/" "tomcat-juli-7.0.16.jar" "temp/" "RUNNING.txt" "RELEASE-NOTES" "NOTICE" "logs/" "LICENSE" "lib/" "hibernate.log" "conf/" "bin/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/lib/" (21549 25595 0 0) "websocket-api.jar" "tomcat7-websocket.jar" "tomcat-util.jar" "tomcat-jdbc.jar" "tomcat-i18n-ja.jar" "tomcat-i18n-fr.jar" "tomcat-i18n-es.jar" "tomcat-dbcp.jar" "tomcat-coyote.jar" "tomcat-api.jar" "servlet-api.jar" "log4j.properties~" "log4j.properties" "log4j-1.2-api-2.0.2.jar" "juli-adapters-6.0.41.jar" "jsp-api.jar" "jasper.jar" "jasper-el.jar" "el-api.jar" "ecj-4.4.jar" "catalina.jar" "catalina-tribes.jar" "catalina-ha.jar" "catalina-ant.jar" "annotations-api.jar" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/webapps/reportserver/WEB-INF/classes/" (21550 39116 0 0) "rsversion.properties" "resources/" "reportserver.properties" "persistence.xml~" "persistence.xml" "net/" "META-INF/" "log4j.properties~" "log4j.properties" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Java/Servers/apache-tomcat-7.0.55/webapps/reportserver/WEB-INF/classes/META-INF/" (21550 42192 0 0) "persistence.xml~" "persistence.xml.skeletton" "persistence.xml" "../" "./")
+
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/Sistemas de Tempo Real/artigos/" (21556 27997 0 0) "MPSurveyv5.0.pdf" "artigo-disciplina/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/Seminarios II/Pre-projeto/" (21556 27936 0 0) "references.log" "references.bib.bak" "references.bib" "metodologia-projeto.png" "auto/" "artigo.tex~" "artigo.tex" "artigo.pdf" "artigo.log" "artigo.fls" "artigo.fdb_latexmk" "artigo.dvi" "artigo.blg" "artigo.bbl" "artigo.aux" "anotacoes.org" "#anotacoes (1).org#" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/android-quickstart/res/drawable-hdpi/" (21561 20390 0 0) "ic_launcher.png" "../" "./")
+
+ ("/Users/marcoscezar/.gradle/" (21689 30580 0 0) "wrapper/" "native/" "init.gradle~" "init.gradle" "daemon/" "caches/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/br/gov/ba/prodeb/educacao/vistoria/" (21689 30719 0 0) "VistoriasTabListener.java" "VistoriaListFragment_.java" "VistoriaListFragment.java" "VistoriaListActivity_.java" "VistoriaListActivity.java" "VistoriaDetailFragmentServicos_.java" "VistoriaDetailFragmentServicos.java" "VistoriaDetailFragmentFotos_.java" "VistoriaDetailFragmentFotos.java" "VistoriaDetailFragmentComentarios_.java" "VistoriaDetailFragmentComentarios.java" "VistoriaDetailActivity_.java" "VistoriaDetailActivity.java" "VistoriaAtual_.java" "VistoriaAtual.java" "VistoriaApplication_.java" "VistoriaApplication.java" "ThreadPreconditions.java" "syncadapter/" "RelatoriosListActivity_.java" "RelatoriosListActivity.java" "RelatorioListFragment_.java" "RelatorioListFragment.java" "RelatorioDetailFragment_.java" "RelatorioDetailFragment.java" "RelatorioDetailActivity_.java" "RelatorioDetailActivity.java" "Relatorio_.java" "Relatorio.java" "OnRelatorioInteractionListener.java" "ObraListFragment_.java" "ObraListFragment.java" "ObraListActivity_.java" "ObraListActivity.java" "ObraDetailFragment_.java" "ObraDetailFragment.java" "ObraDetailActivity_.java" "ObraDetailActivity.java" "model/" "helper/" "FullScreenViewActivity_.java" "FullScreenViewActivity.java" "contentprovider/" "ConfigActivity_.java" "ConfigActivity.java" "adapter/" "../" "./")
+
+ ("/Users/marcoscezar/.gradle/wrapper/dists/gradle-2.2-all/3qtuormg932jiupng16e79muug/gradle-2.2/" (21672 223 0 0) "src/" "samples/" "NOTICE" "media/" "LICENSE" "lib/" "init.d/" "getting-started.html" "docs/" "changelog.txt" "bin/" "../" "./")
+
+ ("/Users/marcoscezar/.gradle/wrapper/dists/gradle-2.2-all/3qtuormg932jiupng16e79muug/" (21672 223 0 0) "gradle-2.2-all.zip.ok" "gradle-2.2-all.zip.lck" "gradle-2.2-all.zip" "gradle-2.2/" "../" "./")
+
+ ("/Users/marcoscezar/.gradle/wrapper/dists/gradle-2.2-all/" (21672 68 0 0) "vk5dmipuddvq5mpa6rlusql2u/" "3qtuormg932jiupng16e79muug/" "../" "./")
+
+ ("/Users/marcoscezar/.gradle/wrapper/dists/" (21662 58977 0 0) "gradle-2.2-all/" "gradle-2.1-bin/" "gradle-2.1-all/" "gradle-2.0-bin/" "gradle-1.12-all/" "gradle-1.10-all/" "../" "./")
+
+ ("/Users/marcoscezar/.gradle/wrapper/" (21545 36728 0 0) "dists/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/res/drawable-xxhdpi/" (21688 55085 0 0) "ic_launcher.png" "ic_action_save.png" "ic_action_remove_bl.png" "ic_action_remove.png" "ic_action_new.png" "ic_action_good.png" "ic_action_event_bl.png" "ic_action_event.png" "ic_action_email_bl.png" "ic_action_email.png" "ic_action_edit.png" "ic_action_discard.png" "ic_action_collection.png" "ic_action_cancel.png" "ic_action_camera.png" "ic_action_accept.png" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/res/" (21688 55085 0 0) "xml/" "values-sw720dp-land/" "values-sw600dp-land/" "values-large-land/" "values/" "menu-sw600dp-land/" "menu-large-land/" "menu/" "layout-sw600dp-land/" "layout-large-land/" "layout/" "drawable-xxhdpi/" "drawable-xhdpi/" "drawable-mdpi/" "drawable-hdpi/" "drawable/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/res/drawable/" (21688 56956 0 0) "tab_indicator_ab_vistoria.xml" "spinner_background_ab_vistoria.xml" "selectable_background_vistoria.xml" "progress_horizontal_vistoria.xml" "pressed_background_vistoria.xml" "listitem_background.xml" "list_selectors.xml" "button_background.xml" "btn_cab_done_vistoria.xml" "ab_background_textured_vistoria.xml" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/" (21688 55085 0 0) "vistoria.iml" "src/" "lint.xml" "libs/" "crashlytics.properties" "build.gradle" "build/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/" (21688 55085 0 0) "main/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/" (21688 55085 0 0) "res/" "java/" "assets/" "AndroidManifest.xml" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/" (21688 55085 0 0) "br/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/br/" (21688 55085 0 0) "gov/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/br/gov/" (21688 55085 0 0) "ba/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/br/gov/ba/" (21688 55085 0 0) "prodeb/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/br/gov/ba/prodeb/" (21688 55085 0 0) "educacao/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/vistoriaandroid/vistoria/src/main/java/br/gov/ba/prodeb/educacao/" (21688 55085 0 0) "vistoria/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/Android-projects/" (21688 54922 0 0) "vistoriaandroid/" "Sunshine/" "OrmLiteSchemaGenerator/" "google-api-java-client.samples/" "EyeonYou.zip" "EyeOnYou/" "DriveExample/" "android-quickstart/" "android-google-spreadsheets-api/" "android-demos/" ".gradletasknamecache" ".gradle/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/TCC/implementacao/" (21675 6720 0 0) "UMLReader/" "../" "./")
+
+ ("/Users/marcoscezar/Copy/IFBA-ECDU/" (21554 56410 0 0) "VPN/" "TCC/" "Sistemas Distribuídos/" "Sistemas de Tempo Real/" "Seminarios II/" "Seminarios/" "possibilidades_projetos_2013.pdf" "PO/" "ESSD/" "Engenharia de Sistema Ubíquos/" "Edeyson/" "Computação Ubíqua/" "Aspectos Avancados Redes/" "Aspectos Avancados ESW/" "Aspectos Avancados DS/" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Android/" (21637 63715 0 0) "databases/" "android-sdk_r23.0.2-macosx.zip" "android-sdk/" ".DS_Store" "../" "./")
+
+ ("/Users/marcoscezar/Programming/Android/android-sdk/" (21662 53498 0 0) "tools/" "temp/" "system-images/" "sources/" "SDK Readme.txt" "samples/" "platforms/" "platform-tools/" "extras/" "docs/" "build-tools/" "add-ons/" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
