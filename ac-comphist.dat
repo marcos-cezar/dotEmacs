@@ -1,380 +1,380 @@
-((("setup-shell" .
-   [0 0 0 0 0 0 0 0 0 1 0])
-  ("setup-ruby" .
-   [0 0 0 0 0 0 0 0 1 0])
-  ("mode-mappings" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("indent-mode" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("-1" .
-   [1 0])
-  ("for" .
-   [1 0 0])
-  ("a" .
-   [1])
-  ("the" .
-   [2 0 0])
-  ("logger" .
-   [1 0 0 0 0 0])
-  ("function" .
-   [1 0 0 0 2 0 0 0])
-  ("server-start" .
-   [1 0 0 0 0 0 0 0 0 0 0 1])
-  ("words" .
-   [1 0 0 0 0])
-  ("wordsInDictionary" .
-   [1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("work" .
-   [1 0 0 0])
-  ("setup-icicles" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("sqrt" .
-   [0 0 1 0])
-  ("vlf-integrate" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("vlf" .
-   [2 0 0])
-  ("previous-line" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("newline" .
-   [0 0 0 0 0 1 0])
-  ("beginning-of-line" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("cd" .
-   [2 0])
-  ("powerline-active1" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("number" .
-   [1 0 0 0 0 0])
-  ("file" .
-   [1 0 0 0])
-  ("HADOOP_PATH" .
-   [0 0 0 1 0 0 0 0 0 0 1])
-  ("PATH:" .
-   [5 0 0 0 0])
-  ("setup-latex" .
-   [0 0 0 0 0 0 0 0 0 1 0])
-  ("flyspell-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("latex-mode-hook" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("ispell-dictionary" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("open" .
-   [1 0 0 1])
-  ("EXIT_FAILURE" .
+((("setup-defuns" .
    [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("EXIT_SUCCESS" .
-   [0 0 0 0 1 0 0 0 0 0 0 2])
-  ("de" .
-   [1 0])
-  ("s" .
-   [1])
-  ("tl" .
-   [0 2])
-  ("(size_type __new_size" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("resize" .
-   [0 0 0 0 0 3])
-  ("end" .
-   [0 0 1])
-  ("empty" .
-   [0 0 0 0 2])
-  ("frame_gray" .
-   [1 0 0 0 0 0 1 1 0 1])
-  ("frame" .
-   [4 0 0 0 0])
-  ("cap" .
-   [6 0 0])
-  ("ctags-auto-update-mode" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("ctags-update" .
-   [0 0 0 0 0 0 0 0 0 1 0 0])
-  ("eclimd" .
-   [1 0 0 0 0 0])
-  ("global-eclim-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("eclim" .
-   [1 0 0 0 0])
-  ("LIBCLANG_LIBRARY_PATH" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("LIBCLANG_INCLUDE_PATH" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("model" .
-   [4 0 0 0 0])
-  ("mat" .
-   [1 0 0])
-  ("irony" .
-   [0 0 1 0 0])
-  ("vendor-path" .
-   [1 0 0 0 0 0 2 2 2 1 2])
-  ("expand-file-name" .
-   [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0])
-  ("/usr/lib/llvm-3.3/include" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("member-function" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("c-set-style" .
-   [0 0 0 0 0 0 0 0 0 0 1])
-  ("ahg" .
-   [1 0 0])
-  ("/bin" .
+  ("setup-ido" .
+   [1 0 0 0 0 0 0 0 0])
+  ("user-emacs-directory" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("projectile-global-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("this" .
    [1 0 0 0])
-  ("JAVA_HOME" .
-   [1 0 0 1 0 0 0 0 0])
-  ("lambda" .
-   [3 0 0 0 0 0])
-  ("ruby-mode" .
-   [0 0 0 0 0 0 0 0 2])
-  ("keybindings" .
-   [0 0 0 0 0 0 1 0 0 0 0])
-  ("wgrep" .
-   [1 0 0 0 0])
-  ("dired-mode-hook" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("v" .
-   [3])
-  ("l" .
-   [2])
-  ("yearCal" .
+  ("version" .
    [2 0 0 0 0 0 0])
-  ("rainbow-mode" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("load-theme" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("autoload" .
-   [0 0 0 0 0 0 0 1])
-  ("zoom-frm" .
-   [1 0 0 0 1 0 0 0])
-  ("require" .
-   [36 0 1 1 1 2 0])
-  ("undo-tree-redo" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("undo-tree-undo" .
-   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("undo-tree" .
-   [0 0 0 0 0 0 1 0 0])
-  ("redo" .
-   [1 0 0 0])
-  ("add-hook" .
-   [0 0 0 0 0 1 2 1])
-  ("ruby-mode-hook" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 3 1])
-  ("ruby-end-mode" .
-   [0 0 0 0 0 0 0 1 1 1 0 0 1])
-  ("smartparens" .
-   [1 0 0 0 1 0 0 1 0 0 0])
-  ("concat" .
-   [11 0 0 0 0 1])
-  ("emacs-home" .
-   [2 0 0 0 0 1 0 1 1 0])
-  ("ido-yes-or-no" .
-   [0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("and" .
-   [2 0 0])
-  ("all" .
-   [1 0 0])
-  ("auto-complete-clang" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("getYear" .
-   [1 0 0 0 0 0 0])
-  ("()" .
-   [0 6])
-  ("org-latex" .
-   [1 0 0 0 0 0 0 0 0])
-  ("inc" .
-   [5 0 0])
-  ("main" .
-   [1 0 0 0])
-  ("c" .
-   [4])
-  ("js2-refactor" .
-   [0 0 0 0 0 0 0 1 0 0 0 0])
-  ("ruby-block" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("setq" .
-   [6 0 0 0])
-  ("c-default-style" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("ascope" .
-   [0 0 0 0 1 0])
-  ("add-to-list" .
-   [0 0 0 0 0 0 2 0 1 3 6])
-  ("load-path" .
-   [1 0 0 0 0 0 7 3 1])
-  ("auto-complete-clang-async" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
-  ("semantic-mode" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("provide" .
-   [7 0 0 0 0 0 2])
-  ("setup-company-mode" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("load" .
-   [4 0 0 0])
-  ("concatenate" .
-   [0 0 0 0 0 1 0 2 0 0 0])
-  ("String" .
-   [5 0 0 0 0 1])
-  ("Main" .
-   [0 0 0 2])
-  ("nomePM : String - AccessInfo" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("length() : int - String" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("private" .
-   [1 0 2 0 0 0 1])
-  ("ArrayList - java.util" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("ajoke" .
-   [1 0 0 1 0])
-  ("jde-import-all" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("ctags" .
-   [1 0 0 0 0])
-  ("load-library" .
-   [0 0 0 0 0 0 0 0 1 0 0 0])
-  ("clang-completion-mode" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("flycheck" .
-   [0 0 0 0 0 0 1 0])
-  ("setup-irony" .
-   [1 0 0 0 0 0 0 0 0 0 0])
-  ("box_text" .
-   [0 0 0 0 0 1 0 0])
-  ("at" .
-   [0 1])
-  ("(size_type __n)" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("CSVReader" .
-   [1 0 0 0 1 0 1 0 2])
-  ("M2_HOME" .
-   [0 0 0 0 1 0 0])
-  ("setup-projectile" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("setup-java" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("~/Programming/Java/tools/apache-ant-1.9.3" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("GRADLE_HOME" .
-   [0 0 0 0 0 1 0 0 0 0 0])
-  ("powerline" .
-   [1 0 0 0 0 0 0 0 0])
-  ("set" .
-   [1 0 0])
-  ("backup" .
+  ("in" .
+   [1 0])
+  ("new" .
+   [3 0 0])
+  ("/usr/local/man:" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("string" .
    [1 0 0 0 0 0])
-  ("backup-files" .
-   [0 0 0 0 0 0 0 0 1 0 0 1])
-  ("nil" .
-   [6 0 1])
-  ("defun" .
-   [8 0 0 0 0])
-  ("interactive" .
-   [0 0 0 0 0 0 3 2 0 0 0])
-  ("end-of-line" .
-   [0 0 0 0 0 0 0 0 0 1 0])
-  ("push-mark" .
-   [0 0 0 0 0 0 0 0 1])
-  ("line-beginning-position" .
-   [0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("m" .
-   [1])
-  ("move-beginning-of-line" .
-   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("newline-and-indent" .
-   [0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0])
-  ("forward-line" .
-   [0 0 0 0 0 0 0 0 0 0 0 1])
-  ("indent-according-to-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("if" .
-   [4 0])
-  ("region-active-p" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("kill-region" .
-   [0 0 0 0 0 0 0 0 1 1 0])
-  ("region-beginning" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("region-end" .
-   [0 0 0 0 0 0 0 0 1 0])
-  ("beginning-of-visual-line" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0])
-  ("global-key-binding" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
-  ("kbd" .
-   [1 0 0])
-  ("duplicate-current-line-or-region" .
-   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("global-set-key" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
-  ("testcover" .
-   [0 0 0 0 1 0 0 0 0])
-  ("count" .
-   [12 0 0 0 0])
-  ("word" .
-   [5 0 0 0])
-  ("t" .
-   [1])
-  ("pluralize-one" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("null" .
-   [1 0 0 0])
-  ("plural" .
-   [2 0 0 0 0 0])
-  ("pluralize-one-word" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("how-many" .
-   [0 0 0 1 0 0 0 1])
-  ("condition-case" .
-   [0 0 0 0 2 1 0 0 0 0 0 0 0 0])
-  ("zerop" .
-   [2 0 0 0 0])
-  ("cond" .
-   [2 0 0 0])
-  ("ninth" .
-   [0 0 1 0 0])
-  ("CASK" .
-   [1 0 0 0])
-  ("ido-everywhere" .
-   [0 0 0 0 0 0 0 0 2 0 0 0 0 0])
-  ("ido" .
-   [2 0 0])
-  ("ido-use-virtual-buffers" .
-   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("message" .
-   [1 0 0 0 0 0 0])
-  ("setText" .
-   [1 0 0 0 0 0 0])
-  ("cout" .
-   [1 0 0 0])
-  ("Test" .
-   [1 0 0 0])
-  ("value" .
+  ("public" .
+   [0 0 0 1 0 0])
+  ("emacs" .
    [1 0 0 0 0])
   ("cls" .
    [1 0 0])
-  ("emacs" .
+  ("value" .
    [1 0 0 0 0])
-  ("public" .
-   [0 0 0 1 0 0])
-  ("string" .
-   [1 0 0 0 0 0])
-  ("/usr/local/man:" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("new" .
-   [3 0 0])
-  ("in" .
-   [1 0])
-  ("version" .
-   [2 0 0 0 0 0 0])
-  ("this" .
+  ("Test" .
    [1 0 0 0])
-  ("projectile-global-mode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
-  ("user-emacs-directory" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
-  ("setup-ido" .
+  ("cout" .
+   [1 0 0 0])
+  ("setText" .
+   [1 0 0 0 0 0 0])
+  ("message" .
+   [1 0 0 0 0 0 0])
+  ("ido-use-virtual-buffers" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ido" .
+   [2 0 0])
+  ("ido-everywhere" .
+   [0 0 0 0 0 0 0 0 2 0 0 0 0 0])
+  ("CASK" .
+   [1 0 0 0])
+  ("ninth" .
+   [0 0 1 0 0])
+  ("cond" .
+   [2 0 0 0])
+  ("zerop" .
+   [2 0 0 0 0])
+  ("condition-case" .
+   [0 0 0 0 2 1 0 0 0 0 0 0 0 0])
+  ("how-many" .
+   [0 0 0 1 0 0 0 1])
+  ("pluralize-one-word" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("plural" .
+   [2 0 0 0 0 0])
+  ("null" .
+   [1 0 0 0])
+  ("pluralize-one" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("t" .
+   [1])
+  ("word" .
+   [5 0 0 0])
+  ("count" .
+   [12 0 0 0 0])
+  ("testcover" .
+   [0 0 0 0 1 0 0 0 0])
+  ("global-set-key" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("duplicate-current-line-or-region" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("kbd" .
+   [1 0 0])
+  ("global-key-binding" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("beginning-of-visual-line" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0])
+  ("region-end" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("region-beginning" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("kill-region" .
+   [0 0 0 0 0 0 0 0 1 1 0])
+  ("region-active-p" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("if" .
+   [4 0])
+  ("indent-according-to-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("forward-line" .
+   [0 0 0 0 0 0 0 0 0 0 0 1])
+  ("newline-and-indent" .
+   [0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0])
+  ("move-beginning-of-line" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("m" .
+   [1])
+  ("line-beginning-position" .
+   [0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("push-mark" .
+   [0 0 0 0 0 0 0 0 1])
+  ("end-of-line" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("interactive" .
+   [0 0 0 0 0 0 3 2 0 0 0])
+  ("defun" .
+   [8 0 0 0 0])
+  ("nil" .
+   [6 0 1])
+  ("backup-files" .
+   [0 0 0 0 0 0 0 0 1 0 0 1])
+  ("backup" .
+   [1 0 0 0 0 0])
+  ("set" .
+   [1 0 0])
+  ("powerline" .
    [1 0 0 0 0 0 0 0 0])
-  ("setup-defuns" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])))
+  ("GRADLE_HOME" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("~/Programming/Java/tools/apache-ant-1.9.3" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("setup-java" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("setup-projectile" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("M2_HOME" .
+   [0 0 0 0 1 0 0])
+  ("CSVReader" .
+   [1 0 0 0 1 0 1 0 2])
+  ("(size_type __n)" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("at" .
+   [0 1])
+  ("box_text" .
+   [0 0 0 0 0 1 0 0])
+  ("setup-irony" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("flycheck" .
+   [0 0 0 0 0 0 1 0])
+  ("clang-completion-mode" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("load-library" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("ctags" .
+   [1 0 0 0 0])
+  ("jde-import-all" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("ajoke" .
+   [1 0 0 1 0])
+  ("ArrayList - java.util" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("private" .
+   [1 0 2 0 0 0 1])
+  ("length() : int - String" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("nomePM : String - AccessInfo" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Main" .
+   [0 0 0 2])
+  ("String" .
+   [5 0 0 0 0 1])
+  ("concatenate" .
+   [0 0 0 0 0 1 0 2 0 0 0])
+  ("load" .
+   [4 0 0 0])
+  ("setup-company-mode" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("provide" .
+   [7 0 0 0 0 0 2])
+  ("semantic-mode" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("auto-complete-clang-async" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("load-path" .
+   [1 0 0 0 0 0 7 3 1])
+  ("add-to-list" .
+   [0 0 0 0 0 0 2 0 1 3 6])
+  ("ascope" .
+   [0 0 0 0 1 0])
+  ("c-default-style" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("setq" .
+   [6 0 0 0])
+  ("ruby-block" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("js2-refactor" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("c" .
+   [4])
+  ("main" .
+   [1 0 0 0])
+  ("inc" .
+   [5 0 0])
+  ("org-latex" .
+   [1 0 0 0 0 0 0 0 0])
+  ("()" .
+   [0 6])
+  ("getYear" .
+   [1 0 0 0 0 0 0])
+  ("auto-complete-clang" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("all" .
+   [1 0 0])
+  ("and" .
+   [2 0 0])
+  ("ido-yes-or-no" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("emacs-home" .
+   [2 0 0 0 0 1 0 1 1 0])
+  ("concat" .
+   [11 0 0 0 0 1])
+  ("smartparens" .
+   [1 0 0 0 1 0 0 1 0 0 0])
+  ("ruby-end-mode" .
+   [0 0 0 0 0 0 0 1 1 1 0 0 1])
+  ("ruby-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 3 1])
+  ("add-hook" .
+   [0 0 0 0 0 1 2 1])
+  ("redo" .
+   [1 0 0 0])
+  ("undo-tree" .
+   [0 0 0 0 0 0 1 0 0])
+  ("undo-tree-undo" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("undo-tree-redo" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("require" .
+   [36 0 1 1 1 2 0])
+  ("zoom-frm" .
+   [1 0 0 0 1 0 0 0])
+  ("autoload" .
+   [0 0 0 0 0 0 0 1])
+  ("load-theme" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("rainbow-mode" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("yearCal" .
+   [2 0 0 0 0 0 0])
+  ("l" .
+   [2])
+  ("v" .
+   [3])
+  ("dired-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("wgrep" .
+   [1 0 0 0 0])
+  ("keybindings" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("ruby-mode" .
+   [0 0 0 0 0 0 0 0 2])
+  ("lambda" .
+   [3 0 0 0 0 0])
+  ("JAVA_HOME" .
+   [1 0 0 1 0 0 0 0 0])
+  ("/bin" .
+   [1 0 0 0])
+  ("ahg" .
+   [1 0 0])
+  ("c-set-style" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("member-function" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("/usr/lib/llvm-3.3/include" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("expand-file-name" .
+   [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0])
+  ("vendor-path" .
+   [1 0 0 0 0 0 2 2 2 1 2])
+  ("irony" .
+   [0 0 1 0 0])
+  ("mat" .
+   [1 0 0])
+  ("model" .
+   [4 0 0 0 0])
+  ("LIBCLANG_INCLUDE_PATH" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("LIBCLANG_LIBRARY_PATH" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("eclim" .
+   [1 0 0 0 0])
+  ("global-eclim-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("eclimd" .
+   [1 0 0 0 0 0])
+  ("ctags-update" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("ctags-auto-update-mode" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("cap" .
+   [6 0 0])
+  ("frame" .
+   [4 0 0 0 0])
+  ("frame_gray" .
+   [1 0 0 0 0 0 1 1 0 1])
+  ("empty" .
+   [0 0 0 0 2])
+  ("end" .
+   [0 0 1])
+  ("resize" .
+   [0 0 0 0 0 3])
+  ("(size_type __new_size" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("tl" .
+   [0 2])
+  ("s" .
+   [1])
+  ("de" .
+   [1 0])
+  ("EXIT_SUCCESS" .
+   [0 0 0 0 1 0 0 0 0 0 0 2])
+  ("EXIT_FAILURE" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("open" .
+   [1 0 0 1])
+  ("ispell-dictionary" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("latex-mode-hook" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("flyspell-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("setup-latex" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("PATH:" .
+   [5 0 0 0 0])
+  ("HADOOP_PATH" .
+   [0 0 0 1 0 0 0 0 0 0 1])
+  ("file" .
+   [1 0 0 0])
+  ("number" .
+   [1 0 0 0 0 0])
+  ("powerline-active1" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("cd" .
+   [2 0])
+  ("beginning-of-line" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("newline" .
+   [0 0 0 0 0 1 0])
+  ("previous-line" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("vlf" .
+   [2 0 0])
+  ("vlf-integrate" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("sqrt" .
+   [0 0 1 0])
+  ("setup-icicles" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("work" .
+   [1 0 0 0])
+  ("wordsInDictionary" .
+   [1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("words" .
+   [1 0 0 0 0])
+  ("server-start" .
+   [1 0 0 0 0 0 0 0 0 0 0 1])
+  ("function" .
+   [1 0 0 0 2 0 0 0])
+  ("logger" .
+   [1 0 0 0 0 0])
+  ("the" .
+   [2 0 0])
+  ("a" .
+   [1])
+  ("for" .
+   [1 0 0])
+  ("-1" .
+   [1 0])
+  ("indent-mode" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("mode-mappings" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("setup-ruby" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("setup-shell" .
+   [0 0 0 0 0 0 0 0 0 1 0])))

@@ -3,7 +3,7 @@
       color-theme-is-global t
       truncate-partial-width-windows nil)
 
-(set-frame-font "Source Code Pro for Powerline-14")
+(set-frame-font "Inconsolata-g-14")
 (when (window-system)
   (tool-bar-mode -1)
   (scroll-bar-mode -1))
@@ -68,5 +68,13 @@
 
 (smartparens-global-mode t)
 (global-set-key (kbd "M-x") 'smex)
+
+;;; Nice size for the default window
+(defun get-default-height ()
+       (/ (- (display-pixel-height) 120)
+          (frame-char-height)))
+
+(add-to-list 'default-frame-alist '(width . 140))
+(add-to-list 'default-frame-alist (cons 'height (get-default-height)))
 
 (provide 'setup-defaults)
