@@ -77,4 +77,7 @@
 (add-to-list 'default-frame-alist '(width . 140))
 (add-to-list 'default-frame-alist (cons 'height (get-default-height)))
 
+(column-number-mode t)
+(setq make-backup-files nil)
+
 (provide 'setup-defaults)

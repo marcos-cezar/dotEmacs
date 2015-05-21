@@ -34,3 +34,9 @@
 (depends-on "browse-kill-ring")
 (depends-on "shell-command")
 (depends-on "dired+")
+(depends-on "vlf")
+(depends-on "scala-mode2")
+(depends-on "sbt-mode")
+(depends-on "quickrun")
+(depends-on "scala-outline-popup")
+
