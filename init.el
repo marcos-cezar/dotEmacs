@@ -58,3 +58,5 @@
 (put 'upcase-region 'disabled nil)
 
 (require 'scala-mode2)
+
+(put 'dired-find-alternate-file 'disabled nil)

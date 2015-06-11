@@ -39,4 +39,8 @@
 (depends-on "sbt-mode")
 (depends-on "quickrun")
 (depends-on "scala-outline-popup")
-
+(depends-on "dash-at-point")
+(depends-on "web-mode")
+(depends-on "undo-tree")
+(depends-on "ggtags")
+(depends-on "helm-gtags")
