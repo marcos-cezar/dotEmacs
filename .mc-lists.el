@@ -3,11 +3,26 @@
 
 (setq mc/cmds-to-run-for-all
       '(
-        c-electric-slash
-        paredit-forward-delete
-        paredit-newline
-        ))
+	abort-recursive-edit
+	beginning-of-visual-line
+	c-electric-brace
+	c-electric-delete-forward
+	c-electric-paren
+	c-electric-semi&comma
+	c-electric-slash
+	c-electric-star
+	end-of-visual-line
+	ido-switch-buffer
+	kill-region
+	kill-visual-line
+	org-ctrl-c-minus
+	org-delete-char
+	paredit-forward-delete
+	paredit-newline
+	smex
+	yas-expand
+	))
 
 (setq mc/cmds-to-run-once
       '(
-        ))
+	))

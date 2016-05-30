@@ -3,7 +3,9 @@
       color-theme-is-global t
       truncate-partial-width-windows nil)
 
-(set-frame-font "Inconsolata-g-14")
+;; (set-frame-font "Ubuntu Mono-14")
+(set-frame-font "Hack:pixelsize=18")
+(setq-default line-spacing 1)
 (when (window-system)
   (tool-bar-mode -1)
   (scroll-bar-mode -1))
@@ -34,7 +36,7 @@
  ;; If there is more than one, they won't work right.
  )
 
-;; UTF-8 please
+;; UTF-8 
 (setq locale-coding-system 'utf-8) ; pretty
 (set-terminal-coding-system 'utf-8) ; pretty
 (set-keyboard-coding-system 'utf-8) ; pretty
@@ -56,7 +58,8 @@
 
 (when is-mac
   (require 'exec-path-from-shell)
-  (exec-path-from-shell-initialize))
+  (exec-path-from-shell-initialize)
+  (setq insert-directory-program (executable-find "gls")))
 
 
 ;; guide-key
@@ -74,20 +77,18 @@
        (/ (- (display-pixel-height) 120)
           (frame-char-height)))
 
-(add-to-list 'default-frame-alist '(width . 140))
+(add-to-list 'default-frame-alist '(width . 164))
 (add-to-list 'default-frame-alist (cons 'height (get-default-height)))
 
 (column-number-mode t)
 (setq make-backup-files nil)
 
-(setq insert-directory-program (executable-find "gls"))
 
-(global-set-key "\C-cd" 'dash-at-point)
-(global-set-key "\C-ce" 'dash-at-point-with-docset)
 
-(global-set-key (kbd "C->") 'mc/mark-next-like-this)
-(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
-(global-set-key (kbd "C-c C-<") 'mc/mark-all-like-this)
+;; (global-set-key "\C-cd" 'dash-at-point)
+;; (global-set-key "\C-ce" 'dash-at-point-with-docset)
+
+(require 'setup-multiple-cursors)
 
 (setq make-backup-files nil)
 
@@ -100,4 +101,30 @@
 (add-to-list 'auto-mode-alist '("\\.mustache\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.djhtml\\'" . web-mode))
 
+(set-fringe-mode 0)
+
+(setq projectile-tags-command "ctags-exuberant -Re -f \"%s\" %s")
+
+(require 'ensime)
+(add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
+
+;; (require 'o-blog)
+
+(global-set-key (kbd "M-n") (lambda () (interactive) (join-line -1)))
+(require 'org)
+
+(require 'gradle-mode)
+(gradle-mode 1)
+
+(require 'wgrep)
+(require 'pt)
+
+
+(setq dired-dwim-target t)
+
+
+(require 'spaceline-config)
+(spaceline-spacemacs-theme)
 (provide 'setup-defaults)
+
+(require 'peep-dired)

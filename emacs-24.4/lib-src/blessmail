@@ -1,0 +1,3 @@
+#!/bin/sh
+chgrp 8 $* && chmod g+s $*
+echo mail directory = /var/mail

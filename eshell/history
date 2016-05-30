@@ -1,0 +1,11 @@
+l
+cd ..
+cd ..
+adb logcat
+adb devices
+adb device
+adb kill-server
+adb start-server
+adb logcat 
+l
+exit
