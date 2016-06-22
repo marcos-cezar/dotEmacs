@@ -8,3 +8,9 @@ smex-items
 tramp
 ac-comphist.dat
 auto-save-list/
+session.*
+image-dired/
+.mc-lists.el
+\#*
+lisp/\#*
+*.cache

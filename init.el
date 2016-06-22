@@ -6,6 +6,7 @@
 ;; You may delete these explanatory comments.
 (package-initialize)
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
+			 ("melpa" . "http://melpa.milkbox.net/packages/") 
                          ("marmalade" . "https://marmalade-repo.org/packages/")
                          ("melpa" . "https://melpa.org/packages/")))
 
@@ -65,7 +66,9 @@
  )
 (put 'upcase-region 'disabled nil)
 
-(require 'scala-mode2)
+(use-package scala-mode
+  :interpreter
+  ("scala" . scala-mode))
 
 (put 'dired-find-alternate-file 'disabled nil)
 
@@ -96,3 +99,4 @@
   :bind ("M-;" . smart-comment))
 
 (use-package ace-window :bind ("M-p" . ace-window))
+(dired-async-mode 1)

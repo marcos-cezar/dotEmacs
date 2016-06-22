@@ -74,7 +74,7 @@
 
 ;;; Nice size for the default window
 (defun get-default-height ()
-       (/ (- (display-pixel-height) 120)
+       (/ (- (display-pixel-height) 100)
           (frame-char-height)))
 
 (add-to-list 'default-frame-alist '(width . 164))
