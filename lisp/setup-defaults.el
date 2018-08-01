@@ -52,11 +52,11 @@
 ;; (add-to-list 'default-frame-alist '(width . 155))
 (blink-cursor-mode -1)
 
-(setq is-mac (equal system-type 'darwin))
+(setq is-linux (equal system-type 'gnu/linux))
 
 (require 'dash)
 
-(when is-mac
+(when is-linux
   (require 'exec-path-from-shell)
   (exec-path-from-shell-initialize)
   (setq insert-directory-program (executable-find "gls")))
@@ -128,3 +128,9 @@
 (provide 'setup-defaults)
 
 (require 'peep-dired)
+
+(setq key-chord-two-keys-delay 0.1)
+(setq-default indent-tabs-mode nil)
+(setq-default tab-width 4)
+
+(require 'setup-quickrun)

@@ -14,7 +14,6 @@
 (cask-initialize)
 
 (add-to-list 'load-path (concat user-emacs-directory "vendor/org-mode/lisp"))
-(add-to-list 'load-path (concat user-emacs-directory "vendor/kotlin-mode"))
 (add-to-list 'load-path (concat user-emacs-directory "lisp"))
 (add-to-list 'load-path (concat user-emacs-directory "lisp/custom-functions"))
 
@@ -86,13 +85,8 @@
 (require 'setup-indentation)
 ;; (require 'setup-icicles)
 
-;;(require 'kotlin-mode)		   
-
-(require 'setup-kotlin)
-(require 'kotlin-mode)
 (require 'setup-clojure)
 
-;;(require 'setup-kotlin)
 (require 'use-package)
 (require 'setup-ensime)
 (use-package smart-comment
@@ -100,3 +94,5 @@
 
 (use-package ace-window :bind ("M-p" . ace-window))
 (dired-async-mode 1)
+(require 'setup-key-chord)
+(put 'scroll-left 'disabled nil)
