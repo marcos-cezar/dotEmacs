@@ -10,7 +10,7 @@
 (depends-on "yasnippet")
 (depends-on "projectile")
 (depends-on "helm-projectile")
-(depends-on "ido-ubiquitous")
+(depends-on "ido-completing-read+")
 (depends-on "ido-vertical-mode")
 (depends-on "multiple-cursors")
 (depends-on "smartparens")
@@ -32,7 +32,7 @@
 (depends-on "markdown-mode")
 (depends-on "browse-kill-ring")
 (depends-on "shell-command")
-(depends-on "dired+")
+
 (depends-on "vlf")
 (depends-on "scala-mode")
 (depends-on "sbt-mode")
@@ -53,7 +53,6 @@
 (depends-on "gradle-mode")
 (depends-on "wgrep")
 (depends-on "pt")
-(depends-on "icicles")
 (depends-on "o-blog")
 (depends-on "cider")
 (depends-on "clojure-mode")
@@ -64,3 +63,6 @@
 (depends-on "groovy-mode")
 (depends-on "smart-comment")
 (depends-on "ace-window")
+(depends-on "ob-dart")
+
+(depends-on "flycheck")

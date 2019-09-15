@@ -11,11 +11,14 @@
                          ("melpa" . "https://melpa.org/packages/")))
 
 (require 'cask "~/.cask/cask.el")
+;; (require 'Dired+ "~/.emacs.d/vendor/Dired+.el")
 (cask-initialize)
 
 (add-to-list 'load-path (concat user-emacs-directory "vendor/org-mode/lisp"))
 (add-to-list 'load-path (concat user-emacs-directory "lisp"))
 (add-to-list 'load-path (concat user-emacs-directory "lisp/custom-functions"))
+
+;; (require 'Dired+)
 
 (require 'setup-defaults)
 
@@ -45,24 +48,10 @@
 (require 'mode-mappings)
 (require 'setup-ruby)
 (require 'setup-shell)
-(require 'dired+)
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(custom-enabled-themes (quote (sanityinc-tomorrow-eighties)))
- '(custom-safe-themes
-   (quote
-    ("3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "628278136f88aa1a151bb2d6c8a86bf2b7631fbea5f0f76cba2a0079cd910f7d" default)))
- '(package-selected-packages (quote (package-build shut-up epl git commander f dash s))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+
+(load-theme 'base16-default-dark t)
+
 (put 'upcase-region 'disabled nil)
 
 (use-package scala-mode
@@ -94,5 +83,21 @@
 
 (use-package ace-window :bind ("M-p" . ace-window))
 (dired-async-mode 1)
-(require 'setup-key-chord)
+;; (require 'setup-key-chord)
 (put 'scroll-left 'disabled nil)
+
+(require 'setup-web)
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (prettier-js add-node-modules-path whitespace-cleanup-mode wgrep web-mode vlf use-package undo-tree tern spaceline smex smartparens smart-mode-line smart-comment simple-httpd shell-command restclient quickrun pt peep-dired o-blog markdown-mode magit js2-refactor ido-vertical-mode ido-completing-read+ ido-at-point helm-projectile helm-gtags guide-key groovy-mode gradle-mode ggtags flycheck flx-ido expand-region exec-path-from-shell ensime emmet-mode elisp-slime-nav dash-at-point css-eldoc company-quickhelp color-theme-sanityinc-tomorrow cider cask browse-kill-ring beacon base16-theme aggressive-indent ag ace-window ace-jump-mode))))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
