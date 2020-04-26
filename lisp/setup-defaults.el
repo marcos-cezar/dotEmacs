@@ -44,7 +44,7 @@
 (when is-linux
   (require 'exec-path-from-shell)
   (exec-path-from-shell-initialize)
-  (setq insert-directory-program (executable-find "gls")))
+  (setq insert-directory-program (executable-find "ls")))
 
 
 ;; guide-key
@@ -90,9 +90,6 @@
 
 (setq projectile-tags-command "ctags-exuberant -Re -f \"%s\" %s")
 
-(require 'ensime)
-(add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
-
 ;; (require 'o-blog)
 
 (global-set-key (kbd "M-n") (lambda () (interactive) (join-line -1)))
@@ -117,5 +114,11 @@
 (setq key-chord-two-keys-delay 0.1)
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
+
+(require 'visual-regexp)
+(define-key global-map (kbd "C-c r") 'vr/replace)
+(define-key global-map (kbd "C-c q") 'vr/query-replace)
+;; if you use multiple-cursors, this is for you:
+(define-key global-map (kbd "C-c m") 'vr/mc-mark)
 
 ;; (require 'setup-quickrun)
