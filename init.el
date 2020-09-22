@@ -4,11 +4,6 @@
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
-(package-initialize)
-(setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/")
-			 ("melpa" . "http://melpa.milkbox.net/packages/") 
-                         ("marmalade" . "https://marmalade-repo.org/packages/")
-                         ("melpa" . "https://melpa.org/packages/")))
 
 (require 'cask "~/.cask/cask.el")
 ;; (require 'Dired+ "~/.emacs.d/vendor/Dired+.el")
