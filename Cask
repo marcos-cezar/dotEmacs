@@ -43,7 +43,6 @@
 (depends-on "undo-tree")
 (depends-on "ggtags")
 (depends-on "helm-gtags")
-(depends-on "ensime")
 (depends-on "company")
 (depends-on "company-quickhelp")
 (depends-on "avy")
