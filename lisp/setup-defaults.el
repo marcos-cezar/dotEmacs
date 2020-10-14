@@ -1,14 +1,20 @@
 
 (setq font-lock-maximum-decoration t
-      color-theme-is-global t
+      ;; color-theme-is-global t
       truncate-partial-width-windows nil)
 
 ;; (set-frame-font "Ubuntu Mono-14")
-(set-frame-font "Hack:pixelsize=18")
+(set-frame-font "Hack Nerd Font:pixelsize=18")
 (setq-default line-spacing 1)
 (when (window-system)
   (tool-bar-mode -1)
   (scroll-bar-mode -1))
+
+(require 'doom-modeline)
+(doom-modeline-mode 1)
+
+(setq ns-use-srgb-colorspace nil)
+
 
 (global-visual-line-mode t)
 (delete-selection-mode t)
@@ -19,6 +25,27 @@
 (setq auto-save-default nil)
 (setq inhibit-startup-message t)
 (fset 'yes-or-no-p 'y-or-n-p)
+
+
+(defun set-frame-size-according-to-resolution ()
+  (interactive)
+  (if window-system
+  (progn
+    ;; use 120 char wide window for largeish displays
+    ;; and smaller 80 column windows for smaller displays
+    ;; pick whatever numbers make sense for you
+    (if (> (x-display-pixel-width) 1280)
+           (add-to-list 'default-frame-alist (cons 'width 120))
+           (add-to-list 'default-frame-alist (cons 'width 80)))
+    ;; for the height, subtract a couple hundred pixels
+    ;; from the screen height (for panels, menubars and
+    ;; whatnot), then divide by the height of a char to
+    ;; get the height we want
+    (add-to-list 'default-frame-alist 
+         (cons 'height (/ (- (x-display-pixel-height) 200)
+                             (frame-char-height)))))))
+
+(set-frame-size-according-to-resolution)
 
 
 ;; UTF-8 
@@ -56,14 +83,6 @@
 
 (smartparens-global-mode t)
 (global-set-key (kbd "M-x") 'smex)
-
-;;; Nice size for the default window
-(defun get-default-height ()
-       (/ (- (display-pixel-height) 100)
-          (frame-char-height)))
-
-(add-to-list 'default-frame-alist '(width . 164))
-(add-to-list 'default-frame-alist (cons 'height (get-default-height)))
 
 (column-number-mode t)
 (setq make-backup-files nil)
@@ -104,11 +123,6 @@
 
 (setq dired-dwim-target t)
 
-
-(require 'spaceline-config)
-(spaceline-spacemacs-theme)
-(provide 'setup-defaults)
-
 (require 'peep-dired)
 
 (setq key-chord-two-keys-delay 0.1)
@@ -121,4 +135,8 @@
 ;; if you use multiple-cursors, this is for you:
 (define-key global-map (kbd "C-c m") 'vr/mc-mark)
 
+(setq-default frame-title-format '("%f [%m]"))
+(when (string= system-type "darwin")       
+  (setq dired-use-ls-dired nil))
 ;; (require 'setup-quickrun)
+(provide 'setup-defaults)

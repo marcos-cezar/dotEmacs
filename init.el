@@ -5,10 +5,15 @@
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
 
+;; (setq package-enable-at-startup nil)
+;; 
+
+;;(require 'Dired+ "~/.emacs.d/vendor/Dired+.el")
 (require 'cask "~/.cask/cask.el")
-;; (require 'Dired+ "~/.emacs.d/vendor/Dired+.el")
 (cask-initialize)
 
+(setq warning-minimum-level :emergency)
+(add-to-list 'load-path (concat user-emacs-directory "vendor"))
 (add-to-list 'load-path (concat user-emacs-directory "vendor/org-mode/lisp"))
 (add-to-list 'load-path (concat user-emacs-directory "lisp"))
 (add-to-list 'load-path (concat user-emacs-directory "lisp/custom-functions"))
@@ -82,17 +87,4 @@
 (put 'scroll-left 'disabled nil)
 
 (require 'setup-web)
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(package-selected-packages
-   (quote
-    (prettier-js add-node-modules-path whitespace-cleanup-mode wgrep web-mode vlf use-package undo-tree tern spaceline smex smartparens smart-mode-line smart-comment simple-httpd shell-command restclient quickrun pt peep-dired o-blog markdown-mode magit js2-refactor ido-vertical-mode ido-completing-read+ ido-at-point helm-projectile helm-gtags guide-key groovy-mode gradle-mode ggtags flycheck flx-ido expand-region exec-path-from-shell ensime emmet-mode elisp-slime-nav dash-at-point css-eldoc company-quickhelp color-theme-sanityinc-tomorrow cider cask browse-kill-ring beacon base16-theme aggressive-indent ag ace-window ace-jump-mode))))
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- )
+(require 'setup-magit)			
