@@ -73,3 +73,4 @@
 (depends-on "base16-theme")
 (depends-on "add-node-modules-path")
 (depends-on "visual-regexp")
+(depends-on "bufler")

@@ -139,4 +139,7 @@
 (when (string= system-type "darwin")       
   (setq dired-use-ls-dired nil))
 ;; (require 'setup-quickrun)
+
+(require 'bufler)
+
 (provide 'setup-defaults)
