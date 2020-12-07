@@ -4,7 +4,7 @@
       truncate-partial-width-windows nil)
 
 ;; (set-frame-font "Ubuntu Mono-14")
-(set-frame-font "Hack Nerd Font:pixelsize=18")
+(set-frame-font "Hack Nerd Font Mono:pixelsize=18")
 (setq-default line-spacing 1)
 (when (window-system)
   (tool-bar-mode -1)
