@@ -1,6 +1,6 @@
 (source gnu)
 (source melpa)
-(depends-on "cask")
+;;(depends-on "cask")
 (depends-on "all-the-icons")
 (depends-on "kotlin-mode")
 (depends-on "color-theme-sanityinc-tomorrow")
@@ -33,7 +33,7 @@
 (depends-on "smex")
 (depends-on "markdown-mode")
 (depends-on "browse-kill-ring")
-(depends-on "shell-command")
+;;(depends-on "shell-command")
 
 (depends-on "vlf")
 (depends-on "scala-mode")

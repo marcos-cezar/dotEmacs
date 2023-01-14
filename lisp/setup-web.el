@@ -7,7 +7,8 @@
   (setq web-mode-markup-indent-offset 4))
   
 (add-hook 'web-mode-hook  'web-mode-init-hook)
-(require 'flycheck)
+(use-package flycheck
+  :ensure t)
 
 (setq-default flycheck-disabled-checkers
               (append flycheck-disabled-checkers

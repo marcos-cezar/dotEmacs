@@ -10,8 +10,11 @@
   (tool-bar-mode -1)
   (scroll-bar-mode -1))
 
-(require 'doom-modeline)
-(doom-modeline-mode 1)
+(use-package doom-modeline
+  :ensure t
+  :init
+  (doom-modeline-mode 1))
+
 
 (setq ns-use-srgb-colorspace nil)
 
@@ -66,7 +69,8 @@
 
 (setq is-linux (equal system-type 'gnu/linux))
 
-(require 'dash)
+(use-package dash
+  :ensure t)
 
 (when is-linux
   (require 'exec-path-from-shell)
@@ -75,14 +79,16 @@
 
 
 ;; guide-key
-(require 'guide-key)
+(use-package guide-key
+  :ensure t)
+
 (setq guide-key/guide-key-sequence '("C-x r" "C-x 4" "C-x v" "C-x 8" "C-x +"))
 (guide-key-mode 1)
 (setq guide-key/recursive-key-sequence-flag t)
 (setq guide-key/popup-window-position 'bottom)
 
 (smartparens-global-mode t)
-(global-set-key (kbd "M-x") 'smex)
+;;(global-set-key (kbd "M-x") 'smex)
 
 (column-number-mode t)
 (setq make-backup-files nil)
@@ -92,11 +98,13 @@
 ;; (global-set-key "\C-cd" 'dash-at-point)
 ;; (global-set-key "\C-ce" 'dash-at-point-with-docset)
 
-(require 'setup-multiple-cursors)
+(use-package multiple-cursors
+  :ensure t)
 
 (setq make-backup-files nil)
 
-(require 'web-mode)
+(use-package web-mode
+  :ensure t)
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.[agj]sp\\'" . web-mode))
@@ -112,24 +120,30 @@
 ;; (require 'o-blog)
 
 (global-set-key (kbd "M-n") (lambda () (interactive) (join-line -1)))
-(require 'org)
+(use-package org
+  :ensure t)
 
-(require 'gradle-mode)
+(use-package gradle-mode
+  :ensure t)
 (gradle-mode 1)
 
-(require 'wgrep)
-(require 'pt)
+(use-package wgrep
+  :ensure t)
+
+(use-package pt
+  :ensure t)
 
 
 (setq dired-dwim-target t)
 
-(require 'peep-dired)
 
 (setq key-chord-two-keys-delay 0.1)
 (setq-default indent-tabs-mode nil)
 (setq-default tab-width 4)
 
-(require 'visual-regexp)
+(use-package visual-regexp
+  :ensure t)
+
 (define-key global-map (kbd "C-c r") 'vr/replace)
 (define-key global-map (kbd "C-c q") 'vr/query-replace)
 ;; if you use multiple-cursors, this is for you:
@@ -140,6 +154,7 @@
   (setq dired-use-ls-dired nil))
 ;; (require 'setup-quickrun)
 
-(require 'bufler)
+(use-package bufler
+  :ensure t)
 
 (provide 'setup-defaults)
